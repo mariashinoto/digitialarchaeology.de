@@ -6,18 +6,18 @@ book:
   subtitle: "Werkzeuge und Konzepte im Wandel"
   author:
     - name: Maria Shinoto
-      orcid: 0000-0001-6089-4526
-      affiliations:
-        - name: Universität Heidelberg
-          department: Philosophische Fakultät, Zentrum für Altertumswissenschaften
-          city: Heidelberg
-          country: Germany
-          url: https://www.uni-heidelberg.de/fakultaeten/philosophie/zaw/ufg/mitarbeiter/shinoto_maria.html
-        - name: 別府大学 (Beppu University)
-          department: 文化財科学科
-          city: 別府
-          country: Japan
-      note: https://ac.shinoto.net (Alternative URL)
+      # orcid: 0000-0001-6089-4526
+      # affiliations:
+      #   - name: Universität Heidelberg
+      #     department: Philosophische Fakultät, Zentrum für Altertumswissenschaften
+      #     city: Heidelberg
+      #     country: Germany
+      #     url: https://www.uni-heidelberg.de/fakultaeten/philosophie/zaw/ufg/mitarbeiter/shinoto_maria.html
+      #   - name: 別府大学 (Beppu University)
+      #     department: 文化財科学科
+      #     city: 別府
+      #     country: Japan
+      # note: https://ac.shinoto.net (Alternative URL)
   date: "2023-09-11"
   date-format: long
   chapters:
@@ -31,7 +31,7 @@ bibliography: references.bib
 
 format:
   html:
-    theme: flatly
+    theme: zephyr
   pdf:
     documentclass: scrreprt
 
