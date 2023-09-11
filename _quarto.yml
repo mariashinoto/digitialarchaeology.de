@@ -26,6 +26,7 @@ book:
     - summary.qmd
     - references.qmd
 lang: de
+cover-image: cover.jpg
 bibliography: references.bib
 
 format:
