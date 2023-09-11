@@ -2,9 +2,9 @@ project:
   type: book
 
 book:
-  title: "digitial-archaeology-de"
-  author: "Jane Doe"
-  date: "9/11/2023"
+  title: "Digitale Archäologie"
+  subtitle: "Orientierung in ständigem Wandel"
+  author: "Maria Shinoto"
   chapters:
     - index.qmd
     - intro.qmd
@@ -15,7 +15,7 @@ bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: flatly
   pdf:
     documentclass: scrreprt
 
