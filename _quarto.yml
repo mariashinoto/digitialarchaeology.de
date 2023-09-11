@@ -31,7 +31,9 @@ bibliography: references.bib
 
 format:
   html:
-    theme: zephyr
+    theme:
+      light: flatly
+      dark: darkly
   pdf:
     documentclass: scrreprt
 
