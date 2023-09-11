@@ -25,6 +25,8 @@ book:
     - intro.qmd
     - summary.qmd
     - references.qmd
+  sidebar:
+    - logo: cover.jpg
 lang: de
 cover-image: cover.jpg
 bibliography: references.bib
