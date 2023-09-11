@@ -1,9 +1,9 @@
-# Preface {.unnumbered}
+# Über dieses Buch {.unnumbered}
 
-This is a Quarto book.
+## Anlass
 
-To learn more about Quarto books visit <https://quarto.org/docs/books>.
+## Versionen
 
-```{r}
-1 + 1
-```
+## Bibliographische Hinweise
+
+# Über die Autorin
