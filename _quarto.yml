@@ -23,7 +23,30 @@ book:
   chapters:
     - index.qmd
     - intro.qmd
-    - references.qmd
+    - part: archaeology.qmd
+      chapters:
+        - historical-stages.qmd
+        - actual-situation.qmd
+        - outlook-discussion.qmd
+    - part: computational-basics.qmd
+      chapters:
+        - hardware.qmd
+        - software.qmd
+        - community.qmd
+        - methods.qmd
+        - standards-qualifications.qmd
+    - part: levels-for-teaching.qmd
+      chapters:
+        - foundations.qmd
+        - applications.qmd
+    - part: implementations-examples.qmd
+      chapters:
+        - datamodeling.qmd
+        - writing.qmd
+        - cooperation.qmd
+    - part: appendix.qmd
+      chapters:
+        - references.qmd
   sidebar:
     - logo: cover.jpg
 lang: de
