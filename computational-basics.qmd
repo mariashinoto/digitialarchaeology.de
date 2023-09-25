@@ -2,101 +2,11 @@
 
 > Kenntnis von Grundlagen ermöglicht Orientierung auch in schnell wechselnder Umwelt.
 
-1. Hardware
-2. Software
-3. Community
-4. Methoden
-5. Standards
-
-## Hardware
-
-- Traditionelle Hardware
-	- Binär, Basis "Byte"
-	- Große Betriebssysteme (Mac, Windows) produzieren heute mit identischen Programmen identische Daten in offenen Formaten (eingeschränkt Linux)
-	- Wechsel in Quantencomputer nicht absehbar
-- Mobile Devices
-	- Prinzipiell wie traditionelle Hardware, Programme meist nicht kompatibel
-	- Entwicklung und Möglichkeiten
-		- Integrierte Systeme sind möglich und schon mit Hardware entwickelt: 
-			- GPS
-			- Vermessung ("Lidar")
-			- Photo
-			- Video
-			- 3D
-			- Sprachverarbeitung
-			- Ton
-			- Koppeln mit spezialisierten Werkzeugen (UAV, ...)
-		- Traditionelle Anwendungen?
-			- GIS, Statistik, Schreiben, "Games"
-
-
-## Software
-
-### Mit Hardware verknüpft
-
-- Encoding: ASCII etc. -> Unicode (UTF8)
-- Verarbeitung von Schrift, Farben, Ton
-- Betriebssysteme kompatibler
-- Traditionelle Hardware
-	- traditionellere Konzepte
-	- weniger Integration 
-- Mobile Devices
-	- Auseinanderdriften der Anwendungen -- vollkommene Austauschbarkeit mit traditioneller Software oder Entwicklung neuer Programme mit neuem Bedienkonzept?
-	- Nutzen der Integrationsmöglichkeiten durch zusätzliche Ausstattung
-	- Nutzen der Mobilität
-	- (Ausgrabungsdokumentation Hodder...)
-
-
-### Programmgrundlagen
-
-- Konzepte bleiben
-	- Module, Libraries, Handler, Methoden...
-	- Entscheidungen nach Konditionen, Schleifen, ...
-	- Variablen und Konstanten
-	- Pseudo-Code
-	- Problemlösungen; Programmdesign
-- Frage: Was muss davon vermittelt werden? 
-- Neu: Austausch, OpenSource, Dependencies, offene Wissensvermittlung
-
-
-### Dateiformate
-
-- Entwicklung von proprietär über proprietär und öffentlich dokumentiert bis zu offenen Standards --> extrem flexibel und integrierbar
-
-
-### Grundlegende Gruppen von Programmen und Daten
-
-- Textverarbeitung
-- Bild- (Photo-) Verarbeitung
-- Zeichnung
-- CAD
-- 3D vektorbasiert und pixelbasiert (auf Basis von Bild und Zeichnung)
-- Datenverarbeitung
-	- Datenmodelle, SQL, XML, ... (von traditionell zu heute und Zukunft)
-- Tonverarbeitung
-- Video als Kombination von Photo und Ton
-- GIS als Kombination von Zeichnung, Bild, Daten, (+ Code, +Geographie)
-- Sonstiges?
-
-
-### Software-"Klassiker" und moderne Alternativen
-
-- Text: Word -> Markdown + Pandoc (Quarto)
-- Photo / Bild: -> Zahlreiche Alternativen
-	- TODO -- GIMP als OpenSource und plattformübergreifend wenig erfolgreich
-	- kostenpflichtige Programme mit proprietären Speicherformaten (für die Verarbeitung) und Export in Standardformate (TIFF, JPEG, HEIC etc.)
-- Zeichnung: Wie bei Bildern; SVG mit Einschränkungen für Vektor-, CAD, GIS
-- Zeichnung mit Datenbank und Massstab (Richtung GIS, ohne Geologie)
+1.  Hardware
+2.  Software
+3.  Community
+4.  Methoden
+5.  Standards
 
 
 
-### Integration klassisch getrennter Aufgaben
-
-- Seit langem: Bild und Text
-	- auch: Medien und Text; also Video, Ton, etc.
-- "Literate Programming": Code und Text
-- Texteditoren / Textverarbeitungsprogramme, die wie Code agieren
-	- LaTEX
-	- Markdown
-	- Pandoc -> RMarkdown -> Quarto
-	- Andere Gruppe: Jupyter Notebooks

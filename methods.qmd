@@ -1,0 +1,8 @@
+# Prinzipien der Softwareentwicklung
+
+## Code
+
+## Design
+
+...
+
