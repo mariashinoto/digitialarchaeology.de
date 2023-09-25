@@ -1,0 +1,21 @@
+# Beispiele der Implementierung
+
+## Datenmodelle
+
+(Unterricht HD im WiSe)
+
+- Modellieren auf Papier
+- Modellieren mit Zeichenprogrammen oder UML
+- Implementation in verschiedene Sprachen (v.s. SQL) und Datenbanken (Text- oder Excel-Tabellen; Postgres, MySQL, MariaDB, SQLight)
+- Alternativen als starre Lösungen in Tabellen oder ausgezeichnete Datensätze in generischen Tabellen oder neu: generische Lösung und Alternativen spontan kodieren (nachvollziehbar mit Literate Programming).
+
+
+## Integriertes Schreiben
+
+Literate Programming mit Quarto; Datenmodellierung, Analysen, Graphik, alles in einem Text.
+
+
+## Kooperation
+
+- Versionskontrolle mit Branches: github, gitlab, bitbucket etc. 
+- Schreiben - Analysieren - Visualisieren - ...

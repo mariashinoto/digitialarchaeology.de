@@ -1,0 +1,116 @@
+# Archäologische und andere Tätigkeiten
+
+## Drei Stadien und Ausblick in nähere Zukunft
+
+### 1970er - 1990er Jahre
+
+#### Charakteristika
+
+- Individuell entwickelte **Software**
+- **Experten**
+- Mainframe - Teure PC-**Hardware**
+- **Archäologischer Fragestellung, rechnerische Lösung**: Klassifikation, Formbestimmung, ...
+- Ergebnisse nicht **übertragbar / kompatibel**
+	- Freiheit in der Lösungsfindung
+- **Andere Arbeiten analog** (Publikation - Ausstellung).
+
+
+#### Probleme
+
+- Programmierkenntnisse
+- Zugang zu Computern
+- Ergebnisse sind Insellösungen
+	- Damals als selbstverständlich empfunden?
+
+
+
+### 1990er - 2000er Jahre (bis heute?)
+
+#### Charakteristika
+
+- **Hardware** verbreitet (Quasi-Monopole)
+- **Software** zugänglicher
+	- keine spezialisierten Entwicklungen
+	- teuer (akademische Programme)
+	- GUI (= bedienbar)
+	- "Experten" im Umfeld können helfen
+- Ergebnisse als **proprietäres Datenformat**
+	- eingeschränkt austauschbar
+	- kein aktiver Austausch von Daten, nur Ergebnisse
+- **Kombination mit bisher analogen Arbeiten** (Publikation - Ausstellung) beginnt
+	- **keine Integration** archäologischer und anderer Tätigkeiten
+
+#### Probleme
+
+- Halbinformiertes "Basteln" oder Expertentum
+	- methodisch einwandfreies Vorgehen?
+- Teure Programme (Statistik, GIS, CAD, Graphik) 
+- Ergebnisse keine Insellösungen, aber Daten sind proprietär, nur eingeschränkt austauschbar
+- Festlegen auf einen Konzern (Microsoft, Adobe, ...)
+
+
+### 2010er Jahre bis heute
+
+#### Charakteristika
+
+- **Hardware** leistungsfähig und preiswert, allgemein zugänglich
+- **Software** zunehmend OpenSource, kostenlos, allgemein zugänglich, Standards
+	- hervorragende Schulungen kostenlos im Internet
+	- jeder kann Expert:in werden; aber: rasante Entwicklung der Software (Imposter Syndrom auch bei professionellen Programmier:innen)
+- Ergebnisse folgen **offenen Standards**, 
+	- vollkommene **Austauschbarkeit** zwischen Studien
+	- **Zukunftssicherheit**
+- Zunehmend **Offenheit aller Arbeitsschritte** (Datensammlung, Analyse, Schreiben: github etc.), nicht nur der Ergebnisse
+- Standards und Offenheit ermöglichen **Verknüpfung von Forschungen**
+- **Integration von Forschung und Veröffentlichung** (Literate Programming mit RMarkdown, Quarto, Jupiter Notebooks; 3D Modelle und Präsentation; Shiny Apps etc.)
+- **Fließende Forschungsergebnisse** (z.B. Zenodo und Versionskontrolle)
+- Unübersichtliche Vielfalt von Versuchen, beginnendes Chaos mit Programmen, Initiativen, Standards etc. zu bändigen
+- **Ehemals vorherrschende proprietäre Lösungen** schlagen sich weiter erfolgreich
+	- Praktischer Zwang aufgrund der vorliegenden Arbeiten und Erfahrungen
+	- Bequemlichkeit
+	- Nutzungsprobleme von OpenSource Software
+		- nicht durchweg nutzerfreundlich programmiert
+		- nicht durchweg dokumentiert
+		- ABER solche Probleme sind fast bedeutungslos geworden
+
+
+#### Probleme
+
+Neu aufgetretende Probleme weisen in die Zukunft; sie werden wohl bedeutender werden.
+
+- Unübersichtlichkeit der Möglichkeiten
+	- Publikationen
+	- Austausch (persönlich und aktiv; indirekt)
+	- Datenangebote (dataverse, Zenodo, OpenData Zeitschriften, Fulcrum, ...)
+	- Software
+	- Schulungen und Dokumentationen im Internet
+- ständige Weiterentwicklung von Software benötigt ständiges Lernen (Impostersyndrom)
+- **Informiert bleiben:** Arbeit, um mit den Möglichkeiten Schritt zu halten und die beste (zumindest zukunftssichere) Lösung zu finden, überwiegt archäologische Arbeit
+	- Rückkehr der Experten?
+	- Künstliche Beschränkungen (sinnvoll oder nicht)
+		- Zugehörigkeit zu Gruppen (dataverse badges in Heidelberg!)
+		- Qualitätsgarantien (Travis)
+		- konkurrierende Standards
+
+
+### Blick in die Zukunft
+
+- Setzen sich bestimmte Lösungen durch?
+- Welche Standards setzen sich durch? 
+- Bestimmt künftig kreatives Chaos (github-Zenodo) oder kuratiertes Arbeiten (geförderte Initiativen für Standards, Guidelines, Repos etc.) die Forschung?
+- Ermöglicht OpenSource, OpenAccess künftig fachlich uninformiertes "Forschen" durch interessierte Laien?
+- Bieten die Möglichkeiten der Verknüpfungen Ansätze für neue Ansätze und Kombinationen?
+- Was gibt Orientierung und garantiert solide Forschung und Lehre?
+	- Setzen sich Interessengruppen durch?
+
+## Andere Tätigkeite
+
+### Schreiben - Publizieren
+
+- Schreibvorgang
+- Publikationsvorgang
+
+### Öffentlichkeitsarbeit
+
+- Museumsarbeit
+- anderes
