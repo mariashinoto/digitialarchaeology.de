@@ -27,6 +27,7 @@ book:
       chapters:
         - historical-stages.qmd
         - actual-situation.qmd
+        - non-research-work.qmd
         - outlook-discussion.qmd
     - part: computational-basics.qmd
       chapters:

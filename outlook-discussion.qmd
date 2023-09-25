@@ -1,0 +1,9 @@
+## Blick in die Zukunft
+
+-   Setzen sich bestimmte Lösungen durch?
+-   Welche Standards setzen sich durch?
+-   Bestimmt künftig kreatives Chaos (github-Zenodo) oder kuratiertes Arbeiten (geförderte Initiativen für Standards, Guidelines, Repos etc.) die Forschung?
+-   Ermöglicht OpenSource, OpenAccess künftig fachlich uninformiertes "Forschen" durch interessierte Laien?
+-   Bieten die Möglichkeiten der Verknüpfungen Ansätze für neue Ansätze und Kombinationen?
+-   Was gibt Orientierung und garantiert solide Forschung und Lehre?
+    -   Setzen sich Interessengruppen durch?
