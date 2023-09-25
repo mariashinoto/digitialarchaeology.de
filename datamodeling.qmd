@@ -1,0 +1,7 @@
+## Datenmodelle
+
+
+-   Modellieren auf Papier
+-   Modellieren mit Zeichenprogrammen oder UML
+-   Implementation in verschiedene Sprachen (v.s. SQL) und Datenbanken (Text- oder Excel-Tabellen; Postgres, MySQL, MariaDB, SQLight)
+-   Alternativen als starre Lösungen in Tabellen oder ausgezeichnete Datensätze in generischen Tabellen oder neu: generische Lösung und Alternativen spontan kodieren (nachvollziehbar mit Literate Programming).
