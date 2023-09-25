@@ -1,1 +1,10 @@
 # Zu Beginn
+
+Digital Humanities und digitale Anwendungen in den archäologischen Fächern sind im ständigen Umbruch begriffen -- es ist schwer, hier eine Übersicht zu behalten und auf aktuellem Stand zu bleiben. Dieses Buch soll Konstanten herausarbeiten, damit es leichter fällt, in Neuem das grundsätzlich Gültige wiederzuerkennen und sich ohne Umwege so weit anzupassen wie notwendig.
+
+## Vier Aspekte
+
+1.  Archäologische und andere Tätigkeiten
+2.  Grundlagen und Entwicklung von Hardware, Software und Community
+3.  Unterricht auf verschiedenen Ebenen
+4.  Zwei Beispiele
