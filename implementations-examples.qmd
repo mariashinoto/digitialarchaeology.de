@@ -1,4 +1,1 @@
 # Beispiele der Implementierung
-
-
-

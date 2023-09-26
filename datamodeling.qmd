@@ -1,5 +1,4 @@
-## Datenmodelle
-
+# Datenmodelle
 
 -   Modellieren auf Papier
 -   Modellieren mit Zeichenprogrammen oder UML

@@ -1,4 +1,4 @@
-## Hardware
+# Hardware
 
 -   Traditionelle Hardware
     -   Binär, Basis "Byte"

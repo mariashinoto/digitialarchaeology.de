@@ -6,16 +6,13 @@ Digital Humanities und digitale Anwendungen in den archäologischen Fächern sin
 
 ## Versionen
 
-- Begonnen September 2023, Outline.
-
+-   Begonnen September 2023, Outline.
 
 ## Links und Zitierweise
 
+Maria Shinoto. (2023). Digitale Archäologie - Werkzeuge und Konzepte im Wandel. \[https://mariashinoto.github.com/digitialarchaeology.de\]. https://doi.org/10.5281/zenodo.8342718
 
-Maria Shinoto. (2023). Digitale Archäologie - Werkzeuge und Konzepte im Wandel. [https://mariashinoto.github.com/digitialarchaeology.de]. https://doi.org/10.5281/zenodo.8342718
-
-
-```
+```         
 # Bibtex:
 
 @book{maria_shinoto_2023_8342718,
@@ -33,13 +30,13 @@ Maria Shinoto. (2023). Digitale Archäologie - Werkzeuge und Konzepte im Wandel.
 
 ## Über die Autorin
 
-- Privatdozentin am Institut für Ur- und Frühgeschichte und Vorderasiatische Archäologie, Zentrum für Altertumswissenschaften, Universität Heidelberg.
-  - Korrespondierendes Mitglied am Deutschen Archäologischen Institut
-  - Gastprofessorin an der Beppu University, Japan
-- Webseiten: 
-  - [Institutsseite](https://www.uni-heidelberg.de/fakultaeten/philosophie/zaw/ufg/mitarbeiter/shinoto_maria.html)
-  - [Eigene Webseite](https://ac.shinoto.net)
-- Arbeitsschwerpunkte: 
-  - Japanische Archäologie
-  - Keramik
-  - Digitale Anwendungen, insbesondere Statistik und Klassifikation
+-   Privatdozentin am Institut für Ur- und Frühgeschichte und Vorderasiatische Archäologie, Zentrum für Altertumswissenschaften, Universität Heidelberg.
+    -   Korrespondierendes Mitglied am Deutschen Archäologischen Institut
+    -   Gastprofessorin an der Beppu University, Japan
+-   Webseiten:
+    -   [Institutsseite](https://www.uni-heidelberg.de/fakultaeten/philosophie/zaw/ufg/mitarbeiter/shinoto_maria.html)
+    -   [Eigene Webseite](https://ac.shinoto.net)
+-   Arbeitsschwerpunkte:
+    -   Japanische Archäologie
+    -   Keramik
+    -   Digitale Anwendungen, insbesondere Statistik und Klassifikation

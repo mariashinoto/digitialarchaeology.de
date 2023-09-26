@@ -1,6 +1,6 @@
-## Software
+# Software
 
-### Mit Hardware verknüpft
+## Mit Hardware verknüpft
 
 -   Encoding: ASCII etc. -\> Unicode (UTF8)
 -   Verarbeitung von Schrift, Farben, Ton
@@ -14,7 +14,7 @@
     -   Nutzen der Mobilität
     -   (Ausgrabungsdokumentation Hodder...)
 
-### Programmgrundlagen
+## Programmgrundlagen
 
 -   Konzepte bleiben
     -   Module, Libraries, Handler, Methoden...
@@ -25,11 +25,11 @@
 -   Frage: Was muss davon vermittelt werden?
 -   Neu: Austausch, OpenSource, Dependencies, offene Wissensvermittlung
 
-### Dateiformate
+## Dateiformate
 
 -   Entwicklung von proprietär über proprietär und öffentlich dokumentiert bis zu offenen Standards --\> extrem flexibel und integrierbar
 
-### Grundlegende Gruppen von Programmen und Daten
+## Grundlegende Gruppen von Programmen und Daten
 
 -   Textverarbeitung
 -   Bild- (Photo-) Verarbeitung
@@ -43,7 +43,7 @@
 -   GIS als Kombination von Zeichnung, Bild, Daten, (+ Code, +Geographie)
 -   Sonstiges?
 
-### Software-"Klassiker" und moderne Alternativen
+## Software-"Klassiker" und moderne Alternativen
 
 -   Text: Word -\> Markdown + Pandoc (Quarto)
 -   Photo / Bild: -\> Zahlreiche Alternativen
@@ -52,7 +52,7 @@
 -   Zeichnung: Wie bei Bildern; SVG mit Einschränkungen für Vektor-, CAD, GIS
 -   Zeichnung mit Datenbank und Massstab (Richtung GIS, ohne Geologie)
 
-### Integration klassisch getrennter Aufgaben
+## Integration klassisch getrennter Aufgaben
 
 -   Seit langem: Bild und Text
     -   auch: Medien und Text; also Video, Ton, etc.
