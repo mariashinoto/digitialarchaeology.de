@@ -1,10 +1,11 @@
 # ZU BEGINN
 
-Digital Humanities und digitale Anwendungen in den archäologischen Fächern sind im ständigen Umbruch begriffen -- es ist schwer, hier eine Übersicht zu behalten und auf aktuellem Stand zu bleiben. Dieses Buch soll Konstanten herausarbeiten, damit es leichter fällt, in Neuem das grundsätzlich Gültige wiederzuerkennen und sich ohne Umwege so weit anzupassen wie notwendig.
+Archäologie ist, wenn man an Ausgrabungen und den Umgang mit Funden denkt, die denkbar dinglichste, analoge Wissenschaft überhaupt. Aber "Digital Humanities" und digitale Anwendungen in der Archäologie haben das Fach extrem gewandelt und sind in ständigem Umbruch begriffen -- es ist schwer, hier eine Übersicht zu behalten und auf aktuellem Stand zu bleiben.
 
-## Vier Aspekte
+Seit fast 30 Jahren unterrichte ich digitale Anwendungen in den archäologischen Fächern, habe digitale Werkzeuge für meine archäologische Forschung benutzt und auch bei der Entwicklung im Bereich 3D Dokumentation und LiDAR mitgewirkt. In dieser Zeit konnte ich fast die gesamte Entwicklung -- angefangen mit den damals oft zitierten Arbeiten der älteren Generation aus den 1960er bis 1980er Jahren über die in vielen Fällen fragwürdige Popularisierung in den 1990er Jahren bis hin zur momentanen Professionalisierung -- direkt miterleben. 
 
-1.  Archäologische und andere Tätigkeiten
-2.  Grundlagen und Entwicklung von Hardware, Software und Community
-3.  Unterricht auf verschiedenen Ebenen
-4.  Zwei Beispiele
+In den letzten Jahren habe ich öfter versucht, diese Erfahrungen zu erfassen, zu systematisieren und daraus etwas Hilfreiches zu gestalten. Nun  ist mit dem Projekt ["Digitale Kompetenzen in der Archäologie"](TODO LINK) ein richtiger Ansporn geschaffen, Erfahrungen und Überlegungen zusammenzufassen und vielleicht ein paar Hilfen zur Orientierung im immer unübersichtlicheren Ozean an Angeboten, Vorgaben und Möglichkeiten im Bereich digitaler Werkzeuge und Digital Humanities zu geben. 
+
+Beppu, 26. September 2023
+
+
