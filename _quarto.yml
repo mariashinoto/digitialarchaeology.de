@@ -8,10 +8,11 @@ book:
     - name: Maria Shinoto
   date: "2023-09-26"
   date-format: long
-  page-navigation: true
   chapters:
     - index.qmd
-    - intro.qmd
+    - part: intro.qmd
+      chapters: 
+        - overview.qmd
     - part: archaeology.qmd
       chapters:
         - historical-stages.qmd
@@ -34,19 +35,14 @@ book:
         - datamodeling.qmd
         - writing.qmd
         - cooperation.qmd
-    - part: appendix.qmd
-      chapters:
-        - references.qmd
-  sidebar:
-    - logo: cover.jpg
+    - references.qmd
+  appendices:
+    - list.qmd
 lang: de
-image: cover.jpg
 bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: cosmo  
   pdf:
     documentclass: scrreprt
-
-
