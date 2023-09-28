@@ -1,8 +1,31 @@
 # Übersicht
 
-## Vier Aspekte
+- Analogie der Fotografie
+    - Technik kennen, dann anwenden
+    - heute: ohne technische Kenntnisse, aber korrekt?
+    - Verhältnis Fotografie - Zeichnung - verbale Beschreibung
+- Übertragung auf verschiedene digitale Werkzeuge heute
 
-1.  Archäologische und andere Tätigkeiten
-2.  Grundlagen und Entwicklung von Hardware, Software und Community
-3.  Unterricht auf verschiedenen Ebenen
-4.  Zwei Beispiele
+Fragen: Welche technischen Kenntnisse sind notwendig? Werden sie so einfach wie digitale Fotografie? Was geben wir auf, wenn wir der Oberfläche vertrauen und uns für eine Lösung entscheiden?
+
+Um Konstanten zu erkennen, müssen wir erst einmal die Geschichte verstehen und dort Konstanten bis heute herausarbeiten. 
+
+In zwei historischen Abschnitten werden Konstanten herausgearbeitet und heutige Zustände untersucht, um einen Ausblick in die Zukunft zu gewinnen. 
+
+In Teil 1 "Archäologie" TODO, wird die Geschichte digitaler Anwendungen in der Archäologischen Arbeit vorgestellt: Ausgrabung, Dokumentation, Klassifikation, Analysen, sowie damit verbundene Arbeiten wie Publizieren, Ausstellungen -- sowohl alleine als auch in Kooperation. 
+
+In Teil 2 "Computer" TODO werden Grundlagen zu Hard- und Software sowie der Softwareentwicklung (Design, Coding) vorgestellt, soweit sie das Verständnis für Konstanten, die über einzelne Anwendungen und Versionen von Software über Jahrzehnte erhalten bleiben, fördern. Bei der Softwareentwicklung ist ein wichtiger, von Laien wenig beachteter Aspekt neben dem eigentlichen Programm der, das sie auf Grundlagen aufbaut, die unabhängig von der Ausführung in digitalen Anwendungen schon immer bestanden haben. In einem geographischen Informationssystem gehören hierzu zum Beispiel Kenntnisse zu Geokoordinaten und Projektionen, oder in der Datenspeicherung das Design von Relationalen oder Hierarchischen Modellen. Diese Prinzipien werden hier nur kurz angesprochen und im archäologischen Zusammenhang im Kapitel "Abstrakte Grundlagen" TODO im Abschnitt zu vorgeschlagenen Unterrichtsthemen in verschiedenen Layern näher diskutiert. 
+
+Ganz wichtig im Zusammenhang mit Computern und Digitalem sind aber zwei neuen Entwicklungen, die das Potenzial haben, weitere bedeutsame Konstanten zu werden: Die Community und die Explosion von Standards und Lizenzen. Die rasanten Entwicklungen vor allem der letzten zehn bis 15 Jahre sind vor allem der OpenSource Bewegung und dem kooperativen Austausch im Internet zu verdanken; beidem ist das Kapitel "Rolle der Community" TODO gewidmet. Eine andere bedeutsame Entwicklung ist die akutelle Schwemme von Lizenzen und Standards beziehungsweise Regeln. Was sind tatsächlich Standards, die beachtet werden sollten? Welche Regeln sind hilfreich oder wichtig? Was ist aktuell, was ist nur eine Mode, was kann ich getrost außer Acht lassen? Auch das sind Fragen, die ohne Orientierung schwer zu beantworten sind und Lebenszeit auf Nebenschauplätzen kosten kann. 
+
+Teil 3 zum "Unterricht" TODO behandelt die Frage, was im Unterricht an archäologischen Instituten angeboten werden sollte. Hier wird ein Aufbau in verschiedenen Graden der Komplexität und Abhängigkeit von konkreter Software beziehungsweise konkreten Systemen vorgeschlagen. 
+
+Das Kapitel zu den abstrakten Grundlagen TODO stellt unverändliche Konstanten vor, die man auch dann kennen sollte, wenn man selber kaum digitale Anwendungen nutzt und bei Bedarf auf Fachleute zurückgreifen kann. Gerade für die Dialoge und die Kooperation mit Fachleuten sind einige Grundkenntnisse hilfreich, die eine echte Kommunikation erst ermöglichen. 
+
+Im folgenden Kapitel zu Anwendungen TODO werden die wichtigsten konkreten Anwendungen und Software angesprochen, die im Rahmen archäologischer Arbeit bedeutsam werden können. Es gibt hier seit "Ewigkeiten" bestehende proprietäre Lösungen für einfache Fragen wie Microsoft's Office Pakete für Datenspeicherung mit Access oder Excel, Analysen mit Excel, Vorbereitung von Publikationen und Vorträgen mit Word und Powerpoint, die mit Sicherheit noch lange eine Rolle spielen werden, da sie vor allem in der Wirtschaft nicht mehr wegzudenken sind. 
+
+Direkt konkurrierende Produkte sie LibreOffice sind eine nicht immer ebenbürtige Alternative, aber die tatsächlichen Alternativen sind in Entwicklungen der letzten knapp 20 Jahre im OpenSource-Bereich zu suchen, und die Ablösung der Arbeit mit Office Paketen ist ein erster Schritt in die produktive und zeitgemäße Nutzung digitaler Anwendungen. Dies gilt für das Schreiben und Datenspeichern in reinen Textformaten, die nahtlos in verschiedene professionelle Analyse-Anwendungen aus dem OpenSource-Bereich führen. Das gilt aber auch für die Ablösung von proprietären Statistik- und GIS-Programmen sowie 3D Anwendungen durch professionalle und bedienbare Lösungen aus dem OpenSource-Bereich, die ihre kommerzielle Konkurrenz zum Teil schon hinter sich gelassen haben. 
+
+Die Diskussion dieser Problematik und konkreter Software oder Systeme ist einer der Kernpunkte dieses Buchs. Es wird sicher der Bereich sein, der am ehesten veraltet, denn die Entwicklung im OpenSource Bereich ist atemberaubend. Daher sollen hier immer Versionsnummern, Links und Daten genannt werden, damit die Aktualität und Gültigkeit der Aussagen überprüft werden kann. Trotzdem: Anhand der Diskussion und Beispiele sollen Prinzipien und Konstanten diskutiert werden, es handelt sich nicht um Tutorials für den Umgang mit konkreter Software. -- Eine gewisse "Haltbarkeit" der Aussagen sollte also erwartet werden. 
+
+Der letzte Teil bringt drei Beispiele für Probleme, die in verschiedenen Layern unterrichtet werden können: (1) Prinzipien von Datenmodellen - Datenmodellierung für statische Datenbanken - Datenmanipulation und Ändern von Modellen in statistischer Software; (2) das Schreiben alleine oder im Team mit Textverarbeitungen und Tracking - Schreiben im Textformat mit variablem Output - Schreiben mit Versionskontrolle - Schreiben mit Versionskontrolle im Team - integriertes Forschen und Schreiben (Literate Programming); (3) Kooperation und Integrations verschiedener Ansätze. -- Mit diesen Themen wird nur ein Ausschnitt digitaler Anwendungen in der Archäologie besprochen, immer unter dem Aspekt der Konstanten und des "Wiedererkennungswerts"; weitere Anwendungen wie 3D Vermessungen und Rekonstruktionen, Prospektionen mit unterschiedlichen Methoden und Geräten u.a. sollte aktuellen Tutorien vorbehalten bleiben. TODO Link zu DiKopA. 
