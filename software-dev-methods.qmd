@@ -1,0 +1,7 @@
+# Prinzipien der Softwareentwicklung {#sec-software-dev-methods}
+
+## Code {#sec-software-dev-methods-code}
+
+## Design {#sec-software-dev-methods-design}
+
+...

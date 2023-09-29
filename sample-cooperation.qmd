@@ -1,0 +1,4 @@
+# Kooperation {#sec-sample-cooperation}
+
+-   Versionskontrolle mit Branches: github, gitlab, bitbucket etc.
+-   Schreiben - Analysieren - Visualisieren - ...

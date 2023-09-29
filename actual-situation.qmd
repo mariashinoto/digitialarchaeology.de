@@ -1,0 +1,43 @@
+# 2010er Jahre bis heute {#sec-actual-situation}
+
+(Wiederholung im vorigen Kapitel -- trennen)
+
+## Charakteristika {#sec-actual-situation-characteristics}
+
+-   **Hardware** leistungsfähig und preiswert, allgemein zugänglich
+-   **Software** zunehmend OpenSource, kostenlos, allgemein zugänglich, Standards
+    -   hervorragende Schulungen kostenlos im Internet
+    -   jeder kann Expert:in werden; aber: rasante Entwicklung der Software (Imposter Syndrom auch bei professionellen Programmier:innen)
+-   Ergebnisse folgen **offenen Standards**,
+    -   vollkommene **Austauschbarkeit** zwischen Studien
+    -   **Zukunftssicherheit**
+-   Zunehmend **Offenheit aller Arbeitsschritte** (Datensammlung, Analyse, Schreiben: github etc.), nicht nur der Ergebnisse
+-   Standards und Offenheit ermöglichen **Verknüpfung von Forschungen**
+-   **Integration von Forschung und Veröffentlichung** (Literate Programming mit RMarkdown, Quarto, Jupiter Notebooks; 3D Modelle und Präsentation; Shiny Apps etc.)
+-   **Fließende Forschungsergebnisse** (z.B. Zenodo und Versionskontrolle)
+-   Unübersichtliche Vielfalt von Versuchen, beginnendes Chaos mit Programmen, Initiativen, Standards etc. zu bändigen
+-   **Ehemals vorherrschende proprietäre Lösungen** schlagen sich weiter erfolgreich
+    -   Praktischer Zwang aufgrund der vorliegenden Arbeiten und Erfahrungen
+    -   Bequemlichkeit
+    -   Nutzungsprobleme von OpenSource Software
+        -   nicht durchweg nutzerfreundlich programmiert
+        -   nicht durchweg dokumentiert
+        -   ABER solche Probleme sind fast bedeutungslos geworden
+
+## Probleme {#sec-actual-situation-problems}
+
+Neu aufgetretende Probleme weisen in die Zukunft; sie werden wohl bedeutender werden.
+
+-   Unübersichtlichkeit der Möglichkeiten
+    -   Publikationen
+    -   Austausch (persönlich und aktiv; indirekt)
+    -   Datenangebote (dataverse, Zenodo, OpenData Zeitschriften, Fulcrum, ...)
+    -   Software
+    -   Schulungen und Dokumentationen im Internet
+-   ständige Weiterentwicklung von Software benötigt ständiges Lernen (Impostersyndrom)
+-   **Informiert bleiben:** Arbeit, um mit den Möglichkeiten Schritt zu halten und die beste (zumindest zukunftssichere) Lösung zu finden, überwiegt archäologische Arbeit
+    -   Rückkehr der Experten?
+    -   Künstliche Beschränkungen (sinnvoll oder nicht)
+        -   Zugehörigkeit zu Gruppen (dataverse badges in Heidelberg!)
+        -   Qualitätsgarantien (Travis)
+        -   konkurrierende Standards

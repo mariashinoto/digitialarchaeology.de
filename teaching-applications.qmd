@@ -1,0 +1,22 @@
+# Anwendungen {#sec-teaching-foundations-applications}
+
+## Stabiles Minimum {#sec-teaching-foundations-applications-lowlevel}
+
+-   Was sind "minimale Probleme", die mit Digital Humanities gelöst werden?
+-   Was sind stabile digitale Formate?
+    -   Programme
+    -   Programmiersprachen
+    -   Standards
+    -   Communities - Übereinkünfte
+
+## Engagiert, kontinuierlich {#sec-teaching-foundations-applications-highlevel}
+
+-   Grundlagen und neuester Stand bestimmter Anwendungen
+    -   Software und integrierte Lösungen
+    -   Communities
+    -   Suchen und Problemlösung als Vorbereitung auf künftige Entwicklungen
+-   Fähigkeit, Communities zu finden, zu gründen, zu gestalten
+
+## Imposter Syndrom {#sec-teaching-foundations-applications-imposter}
+
+Kontinuierlich und engagiert bedeutet: Ständig fragen, Suchen im Internet, Lösungen kopieren, wissen, wie wenig man weiß (TODO: fig).

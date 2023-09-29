@@ -1,0 +1,9 @@
+# COMPUTER
+
+> Kenntnis von Grundlagen ermöglicht Orientierung auch in schnell wechselnder Umwelt.
+
+1.  Hardware
+2.  Software
+3.  Community
+4.  Methoden
+5.  Standards

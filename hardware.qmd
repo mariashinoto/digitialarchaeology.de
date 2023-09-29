@@ -1,0 +1,20 @@
+# Hardware {#sec-hardware}
+
+-   Traditionelle Hardware
+    -   Binär, Basis "Byte"
+    -   Große Betriebssysteme (Mac, Windows) produzieren heute mit identischen Programmen identische Daten in offenen Formaten (eingeschränkt Linux)
+    -   Wechsel in Quantencomputer nicht absehbar
+-   Mobile Devices
+    -   Prinzipiell wie traditionelle Hardware, Programme meist nicht kompatibel
+    -   Entwicklung und Möglichkeiten
+        -   Integrierte Systeme sind möglich und schon mit Hardware entwickelt:
+            -   GPS
+            -   Vermessung ("Lidar")
+            -   Photo
+            -   Video
+            -   3D
+            -   Sprachverarbeitung
+            -   Ton
+            -   Koppeln mit spezialisierten Werkzeugen (UAV, ...)
+        -   Traditionelle Anwendungen?
+            -   GIS, Statistik, Schreiben, "Games"
