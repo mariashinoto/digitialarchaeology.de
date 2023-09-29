@@ -24,17 +24,17 @@ book:
         - hardware.qmd
         - software.qmd
         - community.qmd
-        - methods.qmd
+        - software-dev-methods.qmd
         - standards-qualifications.qmd
     - part: levels-for-teaching.qmd
       chapters:
-        - foundations.qmd
-        - applications.qmd
+        - teaching-foundations.qmd
+        - teaching-applications.qmd
     - part: implementations-examples.qmd
       chapters:
-        - datamodeling.qmd
-        - writing.qmd
-        - cooperation.qmd
+        - sample-datamodeling.qmd
+        - sample-writing.qmd
+        - sample-cooperation.qmd
     - references.qmd
   appendices:
     - list.qmd

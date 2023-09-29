@@ -1,4 +1,0 @@
-# Abstrakte Grundlagen
-
--   Computertechnische Konzepte (s.o.)
--   Methodische Konzepte (s.o.)

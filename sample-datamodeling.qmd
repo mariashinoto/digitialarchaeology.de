@@ -1,4 +1,4 @@
-# Datenmodelle
+# Datenmodelle {#sec-sample-datamodels}
 
 -   Modellieren auf Papier
 -   Modellieren mit Zeichenprogrammen oder UML

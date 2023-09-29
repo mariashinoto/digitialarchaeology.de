@@ -1,4 +1,4 @@
-# Hardware
+# Hardware {#sec-hardware}
 
 -   Traditionelle Hardware
     -   Binär, Basis "Byte"

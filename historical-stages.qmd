@@ -1,8 +1,8 @@
-# Drei Stadien und Ausblick in nähere Zukunft
+# Drei Stadien und Ausblick in nähere Zukunft {#sec-historical-stages}
 
-## 1970er - 1990er Jahre
+## 1970er - 1990er Jahre {#sec-historical-stages-early-years}
 
-### Charakteristika
+### Charakteristika {#sec-historical-stages-early-years-characteristics}
 
 -   Individuell entwickelte **Software**
 -   **Experten**
@@ -12,16 +12,16 @@
     -   Freiheit in der Lösungsfindung
 -   **Andere Arbeiten analog** (Publikation - Ausstellung).
 
-### Probleme
+### Probleme {#sec-historical-stages-early-years-problems}
 
 -   Programmierkenntnisse
 -   Zugang zu Computern
 -   Ergebnisse sind Insellösungen
     -   Damals als selbstverständlich empfunden?
 
-## 1990er - 2000er Jahre (bis heute?)
+## 1990er - 2000er Jahre (bis heute?) {#sec-historical-stages-ninetees}
 
-### Charakteristika
+### Charakteristika {#sec-historical-stages-ninetees-characteristics}
 
 -   **Hardware** verbreitet (Quasi-Monopole)
 -   **Software** zugänglicher
@@ -35,7 +35,7 @@
 -   **Kombination mit bisher analogen Arbeiten** (Publikation - Ausstellung) beginnt
     -   **keine Integration** archäologischer und anderer Tätigkeiten
 
-### Probleme
+### Probleme {#sec-historical-stages-ninetees-problems}
 
 -   Halbinformiertes "Basteln" oder Expertentum
     -   methodisch einwandfreies Vorgehen?
@@ -43,11 +43,11 @@
 -   Ergebnisse keine Insellösungen, aber Daten sind proprietär, nur eingeschränkt austauschbar
 -   Festlegen auf einen Konzern (Microsoft, Adobe, ...)
 
-## 2010er Jahre bis heute
+## 2010er Jahre bis heute {#sec-historical-stages-2010s}
 
 (Wiederholung im nächsten Kapitel -- trennen)
 
-### Charakteristika
+### Charakteristika {#sec-historical-stages-2010s-characteristics}
 
 -   **Hardware** leistungsfähig und preiswert, allgemein zugänglich
 -   **Software** zunehmend OpenSource, kostenlos, allgemein zugänglich, Standards
@@ -69,7 +69,7 @@
         -   nicht durchweg dokumentiert
         -   ABER solche Probleme sind fast bedeutungslos geworden
 
-### Probleme
+### Probleme {#sec-historical-stages-2010s-problems}
 
 Neu aufgetretende Probleme weisen in die Zukunft; sie werden wohl bedeutender werden.
 

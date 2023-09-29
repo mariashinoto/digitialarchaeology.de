@@ -1,8 +1,8 @@
-## 2010er Jahre bis heute
+# 2010er Jahre bis heute {#sec-actual-situation}
 
 (Wiederholung im vorigen Kapitel -- trennen)
 
-### Charakteristika
+## Charakteristika {#sec-actual-situation-characteristics}
 
 -   **Hardware** leistungsfähig und preiswert, allgemein zugänglich
 -   **Software** zunehmend OpenSource, kostenlos, allgemein zugänglich, Standards
@@ -24,7 +24,7 @@
         -   nicht durchweg dokumentiert
         -   ABER solche Probleme sind fast bedeutungslos geworden
 
-### Probleme
+## Probleme {#sec-actual-situation-problems}
 
 Neu aufgetretende Probleme weisen in die Zukunft; sie werden wohl bedeutender werden.
 
