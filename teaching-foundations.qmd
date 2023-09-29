@@ -1,0 +1,11 @@
+# Abstrakte Grundlagen {#sec-teaching-foundations}
+
+## Computer technology {#sec-teaching-foundations-computer}
+
+-   Computertechnische Konzepte (s.o.)
+
+
+## Methodology {#sec-teaching-foundations-methods}
+
+
+-   Methodische Konzepte (s.o.)
