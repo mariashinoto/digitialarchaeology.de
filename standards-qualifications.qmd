@@ -1,4 +1,4 @@
-# Standards und Lizenzen {#sec-standardsqualifications}
+# Standards und Qualifikationen {#sec-standardsqualifications}
 
 - Orientierungshilfen oder Gatekeeper?
 
