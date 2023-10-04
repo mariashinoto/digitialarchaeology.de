@@ -1,6 +1,11 @@
-# Drei Stadien und Ausblick in nähere Zukunft {#sec-historical-stages}
+# Drei Stadien der Digitalisierung archäologischer Forschung {#sec-historical-stages}
 
-## 1970er - 1990er Jahre {#sec-historical-stages-early-years}
+Die Entwicklung, die man selber als Kontinuum miterlebt, wird für gewöhnlich im Nachhinein in Phasen oder Epochen eingeteilt mit verschiedenen Charakteristika, die sich aber in den vorherigen Stufen schon angekündigt haben und bis in die nachfolgenden Stufen wirken. So sind die Charakteristika kein exclusives Kriterium, und auch die hier gesetzten Grenzen in Jahreszahlen sind natürlich willkürlich gesetzt -- nicht ganz korrekt, aber auch nicht vollkommen sinnlos. Persönlich ist es für mich interessant zu sehen, wie ich noch die letzten Auswirkungen der ersten Stufe miterleben und dann in den folgenden Stadien aktiv mitgearbeitet habe, ohne damals zu verstehen, wo ich mich gerade befinde. Der historische Rückblick soll das Verständnis für den heutigen Zustand und die künftigen Möglichkeiten (s. @sec-actual-situation) vertiefen. 
+
+
+## 1960er - 1990 {#sec-historical-stages-early-years}
+
+
 
 ### Charakteristika {#sec-historical-stages-early-years-characteristics}
 
@@ -19,7 +24,7 @@
 -   Ergebnisse sind Insellösungen
     -   Damals als selbstverständlich empfunden?
 
-## 1990er - 2000er Jahre (bis heute?) {#sec-historical-stages-ninetees}
+## 1990 - 2010 {#sec-historical-stages-ninetees}
 
 ### Charakteristika {#sec-historical-stages-ninetees-characteristics}
 
@@ -43,11 +48,15 @@
 -   Ergebnisse keine Insellösungen, aber Daten sind proprietär, nur eingeschränkt austauschbar
 -   Festlegen auf einen Konzern (Microsoft, Adobe, ...)
 
-## 2010er Jahre bis heute {#sec-historical-stages-2010s}
+## 2000 - 2020 {#sec-historical-stages-2000s}
 
 (Wiederholung im nächsten Kapitel -- trennen)
 
-### Charakteristika {#sec-historical-stages-2010s-characteristics}
+Langlebigkeit von Programmen und Daten wird allgemein als bedeutsam erkannt (neben proprietär); rein proprietäre, vom Aussterben bedrohte Lösungen gibt es nicht mehr. 
+
+- Grundlegende Standards: ---
+
+### Charakteristika {#sec-historical-stages-2000s-characteristics}
 
 -   **Hardware** leistungsfähig und preiswert, allgemein zugänglich
 -   **Software** zunehmend OpenSource, kostenlos, allgemein zugänglich, Standards
@@ -69,7 +78,7 @@
         -   nicht durchweg dokumentiert
         -   ABER solche Probleme sind fast bedeutungslos geworden
 
-### Probleme {#sec-historical-stages-2010s-problems}
+### Probleme {#sec-historical-stages-2000s-problems}
 
 Neu aufgetretende Probleme weisen in die Zukunft; sie werden wohl bedeutender werden.
 
@@ -86,3 +95,7 @@ Neu aufgetretende Probleme weisen in die Zukunft; sie werden wohl bedeutender we
         -   Zugehörigkeit zu Gruppen (dataverse badges in Heidelberg!)
         -   Qualitätsgarantien (Travis)
         -   konkurrierende Standards
+
+
+---
+TODO tabellarische Aufstellung?
