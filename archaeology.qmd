@@ -1,1 +1,22 @@
 # ARCHÄOLOGIE
+
+Die Archäologie hat seit frühester Zeit externe Werkzeuge übernommen, die dann für archäologische Zwecke und Fragestellungen adaptiert wurden und deren Weg in die Digitalisierung mitgemacht haben. 
+
+Hierzu zählt zum Beispiel die Fotografie, die schon sehr früh als zusätzliches Dokumentationswerkzeug zu Zeichnung und verbaler Beschreibung hinzugenommen wurde; die zu Beginn noch ein analoges Instrument war, nun aber vollkommen digital benutzt wird. Digitales CAD oder Datenbanken für die Befundaufnahme sind mittlerweile selbstverständliche Anwendungen, die keiner weiteren Diskussionen bedürfen, aber auch die zunehmende Integration von LiDAR in die archäologische Prospektion mit zunehmend angepassten Werkzeugen (TODO Lit) zählen in diesen Bereich. Prinzipiell handelt es sich aber um archäologische Nutzung allgemeiner digitaler Anwendungen. Das bedeutet, dass die oft komplexen Anwendungen manchmal sinnvoller disziplin-übergreifend genutzt werden sollten -- ein Beispiel hierfür sind GIS-Anwendungen und _geospatial analyses_.
+
+Ein weiterer Bereich ist die direkte Entwicklung von Programmen ausschließlich für die Archäologie. Hierzu zählen frühe Versuche der automatisierten Formbestimmung von Keramik (TODO Lit) oder Klassifikationsversuche (TODO Lit). Hier wurden Programme von Archäologen (auch hier können wir Archäologinnen noch aus unserer Vorstellung ausklammern) oft zusammen mit Fachleuten aus anderen Disziplinen entwickelt (TODO Lit). 
+
+Ein letzter Bereich ist weder wissenschaftlich noch archäologisch besonders, er betrifft die Arbeit an Publikationen mit Software, die in der Wirtschaft und im privaten Bereich weit verbreitet ist: Tabellenkalkulation, Textverarbeitung, Fotobearbeitung, Zeichnung -- um die Hauptanwendungsbereiche zu nennen. Nach wie vor sind hier die Platzhirsche aus den 1990er Jahren die wohl am weitesten verbreitete Software, aber es gibt andere Möglichkeiten, die eine Integration aller archäologischen Prozesse ermöglichen und den Anforderungen moderner wissenschaftlicher Arbeit genügen. Aus diesem Grunde soll auch dieser etwas "profane" Bereich in dieses Buch aufgenommen werden, denn die Modernisierung unserer Werkzeuge mit modernen Methoden (Markdown/Pandoc/Quarto, Git, literate programming u.a., s. @sec-non-research-work, @sec-sample-writing, @sec-sec-sample-cooperation) ist meiner Ansicht nach der Weg, in den geisteswissenschaftliche Forschung in Zukunft ohnehin geht. 
+
+Den historischen Ablauf, den die Digitalisierung archäologischer Forschung in den letzten gut 60 Jahren genommen hat, möchte ich in den folgenden Kapiteln vorstellen und dabei folgende Stufen unterscheiden: 
+
+1. 1960 - 1990 Isolierte Expertensysteme (@sec-historical-stages-early-years)
+2. 1990 - 2010 Popularisierung proprietärer Anwendungen (@sec-sec-historical-stages-ninetees)
+3. 2000 - 2020 Auftreten von Open Source und zunehmende Transparenz (@sec-historical-stages-2010s)
+4. Ab 2015 Open Source, Standardisierung, Transparenz, Integration, Austausch (@sec-actual-situation)
+
+Die Stichworte in den jeweiligen Perioden können genauso für die Entwicklung digitaler Anwendungen in anderen akademischen oder privatwirtschaftlichen Bereichen angeführt werden, sie sind der Entwicklung der Computertechnologie inhärent. Daher werden die Stichworte erst im Abschnitt zu computertechnischen Grundlagen "COMPUTER" definiert und diskutiert. Die nächsten Kapitel beschreiben den Ablauf in den archäologischen Fächern. 
+
+
+---
+TODO Lit: keramische Formbestimmung, Klassifikationen, Sokal & Sneath, Zimmermann, Doneus
