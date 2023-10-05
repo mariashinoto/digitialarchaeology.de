@@ -47,3 +47,4 @@ format:
     theme: cosmo  
   pdf:
     documentclass: scrreprt
+    cite-method: biblatex
