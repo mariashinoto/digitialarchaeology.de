@@ -4,6 +4,8 @@ Die Entwicklung, die man selber als Kontinuum miterlebt, wird für gewöhnlich i
 
 ## 1960 - 1990 {#sec-historical-stages-early-years}
 
+### Akademische Nutzung
+
 Die Entwicklung des Computers nahm während des Zweiten Weltkriegs an Fahrt auf, die 1950er Jahre brachten die ersten wichtigen Fortschritte hin zu kommerziell initiierter Produktion, aber insgesamt blieben Computer weitestgehend nicht nutzbar, da teuer und selten; "Rechenzeit" musste angemeldet und effizient genutzt werden. In der Wissenschaft wurden rechenintensive Leistungen zunächst von mathematisch orientierten Disziplinen in Anspruch genommen. Hierzu gehört die Statistik.
 
 Da vor allem in der englischsprachigen Archäologie seit längerem im Rahmen der Keramikklassifikation versucht worden war, statistische Ansätze an die Stelle subjektiver, erfahrungsgeleiteter Typologie treten zu lassen [@vossen1970], verwundert es nicht, dass auch die frühesten Versuche der Umsetzung archäologischer Forschung mit dem Computer in der Klassifikation zu suchen sind. Die frühen Anwendungen werden angeführt bei Leblanc [@leblanc1975], ebenfalls seit den Anfangsjahren und über Jahrzehnte war der Autor der "Analytical Archaeology", David L. Clarke ; er hatte schon 1962 für den Computer geeignete Keramikanalysen erstellt [@clarke1962]. Allgemein wurde die statistisch begründete Klassifikation als "numerical taxonomy" bezeichnet, ein Begriff, den man aus der Biologie übernommen hatte -- denn die Biologie war und ist die normative Disziplin für archäologische Klassifikation [@vossen1970]. So verwundert es nicht, das 1966 ein heute als Klassiker geltender Artikel zur numerischen Taxonomie in der Archäologie von einem Archäologen, einem Biologen, und dem Mitglied der "Experimental Programming Unit" an der Edinburgh University gemeinsam publiziert wurde [@hodson1966]. Sowohl die theoretischen Grundlagen von archäologischer und klassifikatorischer Seit mussten von Fachleuten geklärt werden, aber die Durchführung musste speziell programmiert werden.
@@ -14,13 +16,15 @@ Neben Clarke und Whallon sind Dunnell und andere zu erwähnen, die in diesen Jah
 
 Ohne alle Details zu besprechen, sollte eine Tendenz deutlich werden: Noch vor der Umsetzung mit Computerprogrammen und während der ersten Jahre wurde das theoretische Konzept entwickelt, erst im Laufe dieses Prozesses wurde dies digital umgesetzt. Wissenschaftler:innen aus verschiedenen Disziplinen haben hierfür zusammen gearbeitet, zunehmend haben jedoch Fachleute aus der Archäologie das Heft in die Hand genommen. Es wurden Lösungen für eine bestimmte Fundgattung entwickelt und publiziert, sodass weitere Kreise dann hierauf aufbauend eigene theoretisch-methodische Grundlagen erarbeiten und mit eigenen Entwicklungen digital umsetzen konnten.
 
-Zur selben Zeit wurden in der Wirtschaft und anderen akademischen Disziplinen Computer als Werkzeug für fachspezifische Probleme genutzt und Lösungen entwickelt, die später in die Archäologie Eingang gefunden haben. Wie in der archäologischen Systematik, sind es zunächst Fächer, die mit Zahlen und "harten Daten" arbeiten: Vermessung und die Entwicklung von CAD, Karthographie, Chemie und die Auswertung chemischer Analysen in per Computer in der Archäometrie sind zu nennen. Selbstverständlich haben die Naturwissenschaftler, denen solche Analysen oblagen, mit ihren statistischen, digital durchgeführten Auswertungsmethoden ebenfalls die Archäologie beeinflusst.
+### Archäologische Praxis?
 
-Wichtige Bereiche wie Bildbearbeitung, 2D- und 3D-Darstellungen und Geographische Informationssysteme reichen in diese Zeiten zurück, Prinzipien aus diesen Jahren gelten heute noch; archäologisch kann man für diese frühen Jahre aber noch keine einflussreichen Anwendungen sehen.
+Zur selben Zeit wurden in der Wirtschaft und anderen akademischen Disziplinen Computer als Werkzeug für fachspezifische Probleme genutzt und Lösungen entwickelt, die später in die Archäologie Eingang gefunden haben. Wie in der archäologischen Systematik, sind es zunächst Fächer, die mit Zahlen und "harten Daten" arbeiten: Vermessung und die Entwicklung von CAD, Karthographie, Chemie und die Auswertung chemischer Analysen in per Computer in der Archäometrie sind zu nennen(TODO Beispiele zu Luftbildern, LiDAR, NAA). Selbstverständlich haben die Naturwissenschaftler, denen solche Analysen oblagen, mit ihren statistischen, digital durchgeführten Auswertungsmethoden ebenfalls die Archäologie beeinflusst. Anwendungsbereiche, die in der Archäologie eine bedeutende Rolle spielen, wie Bildbearbeitung, 2D- und 3D-Darstellungen oder Geographische Informationssysteme reichen in diese Zeiten zurück (TODO Beispiele zu Luftbildern, LiDAR, NAA). In dieser Zeit kann man jedoch nur in einigen Bereichen und erst im Laufe der Jahre einen gewissen Einfluss dieser digitalen Anwendungen beobachten; von Archäolog:innen werden sie nicht durchgeführt.
 
-Auch eine andere, heute zentrale Aufgabe des Computers setzt in der archäologischen Forschung erst später ein: die Nutzung von digitalen Datenbanken. Auch Datenbanken liegen zwei Prinzipien zugrunde: Zum einen ist es das Fach -- zum Beispiel Bibliothekswissenschaften -- mit spezifisch inhaltlichen Erfordernissen und theoretischen Grundlagen, zum anderen ist es die Technik, nach der die jeweiligen Datenbanken eingerichtet werden. Während in der hier besprochenen frühen Zeit Daten zu Funden oder Befunden durchaus im Computer erfasst wurden, so geschah das fast ausschließlich projektgebunden, um z.B. eine bestimmte Analyse durchzuführen. Archivierung von Grabungen u.a. war noch sehr lange analogen Verfahren überlassen. Aber auch im Bereich Datenbanken sind um diese Zeit die Prinzipien entstanden, nach denen heute noch eine archäologische oder denkmalpflegerische Datenbank modelliert wird (s. @sec-teaching-applications, @sec-sample-datamodels). Integration von Medien in solche Datenbanken war noch undenkbar.
+Auch eine andere, heute zentrale Aufgabe des Computers setzt in der archäologischen Forschung erst später ein: die Nutzung von digitalen Datenbanken. Datenbanken liegen zwei Prinzipien zugrunde: Zum einen ist es das Fach -- zum Beispiel Bibliothekswissenschaften -- mit spezifisch inhaltlichen Erfordernissen und theoretischen Grundlagen, zum anderen ist es die Technik, nach der die jeweiligen Datenbanken eingerichtet werden. Während in der hier besprochenen frühen Zeit Daten zu Funden oder Befunden durchaus im Computer erfasst wurden, so geschah das fast ausschließlich projektgebunden, um z.B. eine bestimmte Analyse durchzuführen. Archivierung von Grabungen u.a. war noch sehr lange analogen Verfahren überlassen. Aber auch im Bereich Datenbanken sind um diese Zeit die Prinzipien entstanden, nach denen heute noch eine archäologische oder denkmalpflegerische Datenbank modelliert wird (s. @sec-teaching-applications, @sec-sample-datamodels). Integration von Medien in solche Datenbanken war noch undenkbar.
 
-Einige Charakteristika der frühen Jahre lassen wie folgt aus dieser Übersicht ableiten.
+### Zusammenfassung der frühen Jahre
+
+Einige Charakteristika der frühen Jahre lassen sich wie folgt aus dieser Übersicht ableiten.
 
 -   Für digitale Umsetzung geeignete Methoden wurden schon vor der Verbreitung von Computern in der Archäologie diskutiert, und zwar vor allem im Zusammenhang mit der "Verwissenschaftlichung" der Archäologie. Die theoretisch-methodischen Diskussionen wurden in Auseinandersetzung mit den seit den 1960er Jahren durchgeführten Studien fortgeführt.
 -   Computer waren rar, teuer, schwierig zu bedienen; die Kenntnis naturwissenschaftlicher und mathematischer Grundlagen wurden als unverzichtbar erachtet, so dass Archäolog:innen zu Beginn meist gemeinsam mit Fachleuten aus den anderen Disziplinen zusammen arbeiteten und gemeinsam Resultate von hohem wissenschaftlichen Wert vorweisen konnten.
@@ -31,30 +35,97 @@ Einige Charakteristika der frühen Jahre lassen wie folgt aus dieser Übersicht 
 
 ## 1990 - 2010 {#sec-historical-stages-ninetees}
 
-Mikroprozessor, PC, Betriebssysteme
+### Technischer und kommerzieller Hintergrund
 
-### Charakteristika {#sec-historical-stages-ninetees-character-problems}
+Schon im Verlaufe der oben beschriebenen frühen Jahre entwickelte sich die Computertechnologie in eine Richtung weiter, die dann ab den späten 1980er Jahren begann, auch die archäologische Arbeit zu revolutionieren: Anfang der 1970er Jahre fertigte IBM die ersten Mikroprozessoren in Serie, 1976 stellte Apple mit dem Apple I den ersten Personal Computer her, 1981 folgte der IBM-PC. Viele andere Unternehmen folgten mit ähnlichen Konzepten, die Nutzung der Maus wurde ein wichtiges Charakteristikum der Arbeit am Computer, die das Erlernen von kryptischen Befehlen überflüssig machte und die Nutzung von Computern einem weiten Personkreis über die Experten hinaus ermöglichte. Eine Reihe von Personal Computern wurden in den 1980er Jahren entwickelt, deren Namen heute noch bekannt sind -- wie Atari, Schneider, Commodore. Geblieben sind über die 1990er Jahre hinaus bis heute die "IBM-kompatiblen" Systeme, die heute durch das gemeinsame Betriebssystem Windows von Microsoft charakterisiert werden als durch eine gemeinsame Prozessor-Architektur, sowie die Systeme der Firma Apple mit Mac OS.
 
--   **Hardware** verbreitet (Quasi-Monopole)
--   **Software** zugänglicher
-    -   keine spezialisierten Entwicklungen
-    -   teuer (akademische Programme)
-    -   GUI (= bedienbar)
-    -   "Experten" im Umfeld können helfen
--   Ergebnisse als **proprietäres Datenformat**
-    -   eingeschränkt austauschbar
-    -   kein aktiver Austausch von Daten, nur Ergebnisse
--   **Kombination mit bisher analogen Arbeiten** (Publikation - Ausstellung) beginnt
-    -   **keine Integration** archäologischer und anderer Tätigkeiten
--   Halbinformiertes "Basteln" oder Expertentum
-    -   methodisch einwandfreies Vorgehen?
--   Teure Programme (Statistik, GIS, CAD, Graphik)
--   Ergebnisse keine Insellösungen, aber Daten sind proprietär, nur eingeschränkt austauschbar
--   Festlegen auf einen Konzern (Microsoft, Adobe, ...)
+1991 begann Linus Torvalds mit der Entwicklung des Betriebssystems Linux, ein freies Betriebssystem, das auch unterschiedlichen Rechnerarchitekturen arbeiten kann. Es eignet sich für die Arbeit am Personal Computer, ist aber weltweit vor allem in Großrechnern und Servern vorherrschend. Die Entwicklung von Linux als offenem -- kostenlos und von jeder und jedem veränderbar -- ist im Rahmen der Entwicklung von Open Source zu sehen. Es ist sicher nicht übertrieben, den Anfang von Open Source in dem 1983 von Richard Stallman initiierten GNU-Projekt zu sehen (TODO lit websites), das in aller Stille im Schatten der großen kommerziellen Erfolge anderer Software langfristig und nachhaltig einen ernormen Einfluss auf die Kultur der Softwareentwicklung hatte und hat.
+
+Noch in dieser Periode, nämlich 2005 wurde für die Entwicklung des Linux-Kernels das Versionsverwaltungssystem "Git" publiziert, das seitdem andere Versionsverwaltungssysteme weitgehend abgelöst hat und vor allem eine Entwicklung in Gang gesetzt hat, die in @sec-actual-situation-characteristics und @sec-community eingehend besprochen werden soll, denn dieses zunächst unscheinbare Verfahren hat eine Entwicklung in Gang gesetzt, die die Zukunft des digitalen Arbeitens auch in der Archäologie revolutioniert. In der hier diskutierten Zeit zwischen 1990 und 2010 war davon noch nichts zu spüren.
+
+### Anwendungssoftware und Betriebssysteme
+
+Lässt man die Workstations und ihre jeweiligen Betriebssysteme einmal beiseite, die in den 1980er und 1990er Jahren aufgrund ihrer besseren Rechnenleistung gegenüber den PCs für anspruchsvolle Anwendungen verwendet wurden, so wurden die Welt der Personal Computer von einer kleinen Gruppe von Hardware-Produzenten und zwei Betriebssystemen beherrscht: Auf der einen Seite stand IBM und zunehmend erfolgreiche Konkurrenten wie Dell und Acer (neben anderen), auf deren Computern das Betriebssystem Microsofts Windows (zu Beginn noch auf MS-DOS basierend) und darüber die entsprechende Anwendungssoftware installiert wurde. Auf der anderen Seite Apple mit dem Betriebssystem Mac OS (heute OS X), das seit 2001 auf einem Unix Betriebssystem basiert.
+
+Auf beiden Betriebssystem lief zu Beginn unterschiedliche Anwendungssoftware, die zu großen Teilen im Laufe der Zeit auf das andere Betriebssystem portiert wurde.
+
+Zu den heutigen Platzhirschen zählt Excel von Microsoft, das zunächst in den 1980ern für Apple Computer entwickelt, dann aber auf Windows portiert wurde und relativ gleichwertig auf beiden Systemen läuft. Im Bereich der Textverarbeitung hat sich Word weitgehend durchgesetzt, das zunächst auf Windows lief und später auf Apple / Mac portiert wurde. Bei der Bildverarbeitung lief Photoshop zu Beginn auf Apple, wurde auf Windows portiert, was einige Zeit die vorherrschende Plattform für Grafik und Design wurde. 1990 wurde Photoshop für den Macintosh (Apple) herausgegeben, und beide auch in den archäologischen Fächern wichtige Programme; etwas früher, aber in gleicher Reihenfolge zuerst für den Mac, dann für Windows, wurde das Zeichenprogramm Illustrator entwickelt. Beide Programme sind für die archäologische Arbeit sinnvoll, sie haben sich neben zahlreichen anderen Konkurrenten auf beiden Betriebssystemplattformen durchgesetzt, die in diesen Programmen erzeugten Dateien sind auf beiden Betriebssystemen austauschbar, die Programme selber waren im Laufe der Jahre oft auf einer Plattform besser ausgestattet als auf der anderen.
+
+Die 1990er und die frühen 2000er Jahre können auch als "Kampf der Betriebssysteme" betitelt werden oder als "Kampf von OpenSource gegen die Vormachtstellung der proprietären Programme". Die Austauschbarkeit von Dateien, die auf Apple-Computern erstellt wurden mit solchen, die auf Windows-Computern erstellt wurden, war nicht garantiert, und zwar nicht einmal in identischen Programmen, die vom selben Hersteller auf den Markt kamen. Noch heute sind Office-Programme von Microsoft zum Beispiel gegenüber der Office-Suite auf Macs mit mehr und professionelleren Möglichkeiten ausgestattet. Man kann das als Nachteil betrachten oder als Anreiz, die Welt von Microsoft Office zu verlassen und sich tatsächlich professionellen Lösungen zuzuwenden, die dann vollkommen unabhängig von Betriebssystemen und gewinnorientierten Firmen sind; hierzu mehr in @sec-teaching-applications.
+
+Zum "Kampf der Betriebssysteme" muss auch die besondere Rolle von Linux erwähnt werden: Über Jahre wurde versucht, die Desktop-Versionen als Alternative zu Apple und Windows zu etablieren, diese Bemühungen haben aber in der genannten Periode keine Früchte getragen, und es sieht so aus, dass auch in Zukunft nur zwei große, von privaten Firmen angebotene Betriebssysteme den Markt der digitalen Archäologie bestimmen werden. Die Gründe für das traurige Ende dieser so hoffnungsvoll begonnenen Entwicklung sind vielfältig und einer Diskussion würdig, hier sei nur auf einige Artikel hingewiesen (TODO lit zu Linux Distributions, Eigensinn, kommerzielle Hindernisse).
+
+Früh hat sich auch die Bewegung um "OpenOffice", heute eher um dessen Ableger "LibreOffice" etabliert, die die Arbeitsweise von Microsoft Office-Programmen so zu kopieren versuchten, dass ein Umstieg leichter fiel. Auch hier gibt es zahlreiche Entwicklungen, die dem entgegenstanden, und trotz ihrer großen Leistungsfähigkeit hat sich LibreOffice bis heute nicht durchgesetzt.
+
+Diese vier Programmarten: **(1) Textverarbeitung** für das Verfassen von Aufsätzen, Hausarbeiten, Dissertationen etc. (faktisch vorwiegend in *Word)*, **(2) Tabellenkalkulation** für das Sammeln, Sortieren und Auswerten von Daten (faktisch vorwiegend in *Excel)*, **(3) Bildbearbeitung** und **digitales Zeichnen** (faktisch vorwiegend in *Adobe-Programmen)* für die Dokumentation von Befunden fanden schnell in die alltägliche Praxis -- vom Studium bis hin zur professionellen archäologischen oder denkmalpflegerischen Arbeit.
+
+Die Vorteile gegenüber den traditionellen Techniken wie Zeichnen mit Bleistift und Tusche oder Schreiben mit der Schreibmachine waren die Toleranz gegenüber Fehlern, Flexibilität der Arbeitsschritte, freie Gestaltung von Layouts und die Möglichkeit, "druckfertige" Ergebnisse ohne Handarbeit und effizient zu erstellen, ohne zusätzliche und zeitraubende Kommunikation mit Druckern, Zeichnern, Fotografen und anderen, die ursprünglich die archäologische Arbeit ergänzt und mit fachfremdem Expertenwissen abgeschlossen haben. Das Fehlen dieses Expertenwissens macht sich in manchen Arbeiten dieser Zeit durchaus mit schlechtem Layout oder intern schlecht aufgebauten Dateien bemerkbar. Gerade das Problem unprofessioneller Arbeit, die sich im abschließenden Druck nicht bemerkbar macht, war ein Charakteristikum dieser Zeit: Die tatsächlichen Vorteile, die die Arbeit mit dem Computer langfristig bietet, wurden hier konterkariert, da es oft nur darauf ankam, eine bisher analog erstellte Arbeit digital zu erstellen und dann zu archivieren. Für weitere Nutzung in anderen Projekten mit anderen Beteiligten waren diese Arbeiten nicht vorgesehen.
+
+Viele dieser Probleme bestehen nach wie vor, und die Grundlagen, die in den Arbeiten dieser Zeit fehlen, müssen heute nach wie vor unterrichtet werden; vor allem @sec-teaching-applications geht hierauf näher ein.
+
+Anders als in der ersten, von Fachleuten und Fachproblemen geprägten Zeit, sind in dieser Stufe junge Menschen meist ohne fachliche Expertise -- weder in der Archäologie noch in Computeranwendungen -- diejenigen, die für die Popularisierung digitaler Techniken verantwortlich waren. Dies war in allen Bereichen des akademischen und nichtakademischen Alltags in dieser Zeit der Fall; in der Archäologie aber war diese Entwicklung wegen des Bedarfs über viele Anwendugngsbereiche und die dilettantische Umsetzung besonders auffällig. Diese Phase der Popularisierung soll aber deswegen nicht abgewertet werden; wahrscheinlich war es ein notwendiger Schritt hin zu breiter und besser fundierter Anwendung. Sie hat nach wie vor noch nicht das notwendige professionelle Level erreicht, und dieses Buch soll Schritte in diese Richtung weisen.
+
+### Professionelle Entwicklungen
+
+Die Jahre zwischen 1990 und 2000 -- man kann gerne 10 bis 15 Jahre früher beginnen und 10 Jahre später enden -- waren in anderen Fächern von grundsätzlichen Entwicklungen geprägt in Bereichen, die heute die archäologischen Fächer und die Gesellschaft insgesamt prägen: Kartographie und Geographische Informationssysteme, LiDAR, vernetzte Datenbanken, 3D-Vermessung und Umsetzung in Computermodelle und maßstabsgetreue analoge Modelle, statistische Verfahren und Visualisierungen, ... (TODO Ergänzungen?). Alle diese Bereiche sind heute aus der archäologischen Arbeit nicht mehr wegzudenken, sie waren in den genannten Jahren allerdings mehr vom Hörensagen als von tatsächlicher archäologischer Anwendung bekannt (TODO Ausnahmen).
+
+Ausnahmen sind die Entwicklung von Grabungsdokumentationsmodulen für CAD-Programme, die schon in den frühen 1990er Jahren begann; hier sehen wir früh die Verknüpfung nicht-archäologischer Technologie mit archäologischen Aufgaben wie die im deutschsprachigen Raum verbreitete Software "ArchäoCAD". In diesen Bereich gehören auch 3D Entwicklungen in interdisziplinärem Zusammenhang [@ShinotoEtAl2002TopometricalmeasurementsTiryns] An dieser Stelle ist auch Baoquan Song zu erwähnen, der früh digitale Verfahren für die Kartierung von Luftbildern in seine Arbeit integriert hat; hierfür war in den ersten Jahren noch eine Workstation und das privat nicht erreichbare Programm ERDAS erforderlich; als Standardwerk hierfür ist der Band zur Luftbildarchäologie in China aus dem Jahr 2000 hervorgegangen [@LiPingel2000], neben zahlreichen anderen Arbeiten [@songEtAl2019; @songPingel2020]. Es versteht sich von selbst, dass diese Anwendungen erhebliche Kosten verursachten, anders, als die im vorherigen Abschnitt besprochenen populären, nicht fachgebundenen Softwares, und somit zwar fachlich genutzt, über die direkten Anwender hinaus jedoch nicht verbreitet sind.
+
+### Die CAA (Computer Applications in Archaeology)
+
+An dieser Stelle spätestens muss auch die "Computer Applications and Quantitative Methods in Archaeology Conference (CAA)" erwähnt werden, die 1973 in Großbritannien von Susan Laflin als Treffen von mathematisch und computertechnisch interessierten Archäolog:innen gegründet wurde und heute eine international agierende Gesellschaft mit verschiedenen Publiaktionen und jährlichen Konferenzen ist [@caa2023history]. Hier spiegeln sich die oben skizzierten Trends, wobei natürlich immer der Fokus auf archäologisch relevanten Anwendungen und Professionalität gelegen hat. Aber auch diese Entwicklungen sind heute, in den 2020er Jahren, vor dem Hintergrund der leichten Zugänglichkeit und Umsetzbarkeit zu sehen; denn, wie @sec-actual-situation zeigen soll, ist das meiste dessen, was in diesen Jahren mit großem Aufwand entwickelt wurde, heute am PC mit OpenSource Software umsetzbar. Die fachlich solide Basis findet sich in den Publikationen der damaligen Zeit.
+
+### Zusammenfassung {#sec-historical-stages-ninetees-character-problems}
+
+Die zweite Phase ist gekennzeichnet durch Wachstum und Ausweitung.
+
+-   Durch die Verbreitung des PC wurde Hardware und Software zugänglich für weite Teile, in den archäologischen Fächern nicht nur die professionelle Arbeit an spezifischen Anwendungen für die Archäologie, sondern auch für die Nutzung von Officeprogrammen, Fotobearbeitungssoftware und einfachen Datenbanken möglich wurde. Mit diesen Programmen war vieles -- von der Texterstellung bis hin zu statistischen Analysen oder Funddokumentation mit Fotos und Zeichnungen -- relativ einfach möglich, aber auch unangemessener Nutzung preisgegeben.
+
+-   Vor allem zwei Betriebssysteme und ihre jeweils spezifische Software beherrschten lange Zeit den Markt; oft waren die Dateien nicht austauschbar. Hierdurch entstanden Kämpfe um die Vorherrschaft bestimmter Programme und Softwarefirmen, die weniger durch Qualität sondern die Masse der Verbreitung entschieden wurden. Proprietäre Datenformate beherrschten aus privatwirtschaftlichen Motiven das Feld.
+
+-   Außerhalb der Archäologie wurde in unterschiedlichen akademischen und ingeneurtechnischen (TODO) Bereichen -- wie zum Beispiel in der Kartographie -- die Digitalisierung traditioneller Methoden vorangetrieben. Solche Lösungen fanden teilweise in gut ausgestatteten Projekten Eingang, aus denen sukzessive archäologisch verwertbare Lösungen entwickelt wurden. Diese hatten meist einen höheren Anspruch an Rechenleistung als auf PCs umsetzbar, sie waren von Fachleuten begleitet und solide entwickelt. Proprietäre Datenformate waren üblich, da die Entwicklung von Standards sich natürlicherweise der Entwicklung der eigentlichen Programme und Datenformate erst anschließt.
+
+-   Austausch von Daten blieb nach wie vor ein schwieriges Unterfangen.
 
 ## 2000 - 2020 {#sec-historical-stages-2000s}
 
+Diese Zeitstufe überschneidet sich mit der vorigen und mit der nächsten, die im folgenden @sec-actual-situation als heutige Situation beschrieben werden soll. Diese 20 Jahre sind in vieler Hinsicht eine Übergangszeit; am Ende steht eine vollkommen gewandelte Situation, die ich im folgenden Kapitel (@sec-actual-situation) beschreiben möchte.
+
+Diese zwanzig Jahre sind durch einige wenige Ereignisse und Trends gekennzeichnet, die nicht unmittelbar Einfluss auf die Archäologie hatten, einige "early adaptors" in ihrer Arbeitsweise allerdings stark beeinflussen konnten und die Basis gelegt haben für eine Situation wie sie heute auch die Archäologie zu beeinflussen beginnt. Rückblickend sind dies mit Sicherheit die wichtigsten Punkte, die in einer Geschichte der Digitalisierung der Geisteswissenschaften und der archäologischen Fächer zu nennen sind.
+
+### Ereignisse
+
+-   2005 wird das verteilte Versionskontrollsystem git veröffentlicht und publiziert (Übersicht in @wikipedia2023git; Homepage @homepage2023git). Ursprünglich für die Entwicklung des Linux-Kernels gedacht, war das System durch die Lizensierung (GNU General Public License, jetzt Version 2) frei für andere Software-Entwicklungen zu nutzen. Es brauchte nicht lange, bis die Möglichkeit, auch die Erstellung von Texten (Blogs, wissenschaftliche Texte) und das gemeinsame Arbeiten mit getrennten Repos der Versionskontrolle mit Git anzuvertrauen.
+-   In der Folge entstehen zentral Repo-Verwaltungen wie GitHub (Übersicht in @wikipedia2023github; Homepage @homepage2023github), Bitbucket (Übersicht in @wikipedia2023bitbucket; Homepage @homepage2023bitbucket), GitLab (Übersicht in @wikipedia2023gitlab; Homepage @homepage2023gitlab). Damals ist das Ausmaß, in dem diese Plattformen zwanzig Jahre später den Austausch von Programmen, Patches, und Ideen befördern, noch nicht absehbar.
+-   2004 veröffentlicht John Gruber seine Syntax für eine reduzierte Markup-Sprache "Markdown" [@Gruber2004], [Übersicht mit Weiterentwicklungen: @wikipedia2023markdown]. Ursprünglich als einfache Entwicklungssprache für HTML-Seiten gedacht, hat sie sich zu dem System entwickelt, in dem heutzutage Texte erstellt werden, die nachhaltig lesbar, grenzenlos austauschbar und vielseitig formatierbar sind. Markdown ist aus der digitalen Arbeit nicht mehr wegzudenken und wird in kurzer Zeit auch die wissenschaftliche Textverarbeitung bestimmen.
+    -   Hierzu entschieden beigetragen hat John McFarlane mit "Pandoc" [@homepage2022pandoc], einer zurückhaltenden und akademisch sinnvollen Erweiterung der Auszeichnungssprache Markdown mit der Möglichkeit, aus etlichen anderen Formaten nach Pandoc und von Pandoc in viele andere Formate zu konvertieren. Mehr dazu im nächsten Abschnitt und in @sec-software-fileformats.
+    -   RStudio erstes Pre-Release 2014
+
+### Tendenzen
+
+#### Bedeutung des Textformats
+
+-   TeX - LaTeX
+
+-   Unicode - UTF8
+
+-   XML
+
+-   Trennung von Inhalt und Form (CSS; Markdown / Pandoc)
+
+-   Literate Programming
+
+-   Pandoc
+
+-   Versioncontrol, Offenheit und Austausch
+
+-   Offene Tutorials, Blogs, YouTube; stackoverflow etc.
+
+-   Ehemalig spezialisierte Lösungen werden popularisiert oder abgelöst durch OpenSource
+
 (Wiederholung im nächsten Kapitel -- trennen)
+
+Git -- Open Source, Linux
 
 Langlebigkeit von Programmen und Daten wird allgemein als bedeutsam erkannt (neben proprietär); rein proprietäre, vom Aussterben bedrohte Lösungen gibt es nicht mehr.
 
@@ -103,3 +174,7 @@ Neu aufgetretende Probleme weisen in die Zukunft; sie werden wohl bedeutender we
 ------------------------------------------------------------------------
 
 TODO tabellarische Aufstellung? TODO lit TODO Lit
+
+TODO Benennung von Apple, Macintosh, Mac und den Betriebssystemen
+
+TODO Definition von Begriffen wir "Betriebssystemplattform", vielleicht jeweils in Fußnoten? Ebenso die verschiedenen Benennungen für macOS etc.?
