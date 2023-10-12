@@ -1,4 +1,4 @@
-# LITERATUR & LINKS {.unnumbered}
+# LITERATUR {.unnumbered}
 
 ::: {#refs}
 :::

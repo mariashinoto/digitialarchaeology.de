@@ -11,9 +11,9 @@ book:
   chapters:
     - index.qmd
     - part: intro.qmd
-      chapters: 
+      chapters:
         - overview.qmd
-    - part: archaeology.qmd
+    - part: archaeology-history.qmd
       chapters:
         - historical-stages.qmd
         - actual-situation.qmd
@@ -37,14 +37,15 @@ book:
         - sample-writing.qmd
         - sample-cooperation.qmd
     - references.qmd
-  appendices:
-    - list.qmd
+    - part: appendixlist.qmd
+      chapters:
+        - scripts.qmd
 lang: de
 bibliography: references.bib
 
 format:
   html:
-    theme: cosmo  
+    theme: cosmo
   pdf:
     documentclass: scrreprt
     cite-method: biblatex
