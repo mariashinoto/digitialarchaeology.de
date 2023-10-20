@@ -1,0 +1,15 @@
+# Konsistenz und Regeln {#sec-consistency}
+
+## Warum und in welchen Fällen {#sec-consistency-reasons}
+
+
+
+### Datei- und Ordnerstruktur {#sec-consistency-structure}
+
+
+
+### Dateibenennung {#sec-consistency-naming}
+
+
+
+#### "Regular Expressions" {#sec-consistency-regex} 
