@@ -8,9 +8,9 @@ Die Entwicklung, die man selber als Kontinuum miterlebt, wird für gewöhnlich i
 
 Die Entwicklung des Computers nahm während des Zweiten Weltkriegs an Fahrt auf, die 1950er Jahre brachten die ersten wichtigen Fortschritte hin zu kommerziell initiierter Produktion, aber insgesamt blieben Computer weitestgehend nicht nutzbar, da teuer und selten; "Rechenzeit" musste angemeldet und effizient genutzt werden. In der Wissenschaft wurden rechenintensive Leistungen zunächst von mathematisch orientierten Disziplinen in Anspruch genommen. Hierzu gehört die Statistik.
 
-Da vor allem in der englischsprachigen Archäologie seit längerem im Rahmen der Keramikklassifikation versucht worden war, statistische Ansätze an die Stelle subjektiver, erfahrungsgeleiteter Typologie treten zu lassen [@vossen1970], verwundert es nicht, dass auch die frühesten Versuche der Umsetzung archäologischer Forschung mit dem Computer in der Klassifikation zu suchen sind. Die frühen Anwendungen werden angeführt bei Leblanc [@leblanc1975], ebenfalls seit den Anfangsjahren und über Jahrzehnte war der Autor der "Analytical Archaeology", David L. Clarke ; er hatte schon 1962 für den Computer geeignete Keramikanalysen erstellt [@clarke1962]. Allgemein wurde die statistisch begründete Klassifikation als "numerical taxonomy" bezeichnet, ein Begriff, den man aus der Biologie übernommen hatte -- denn die Biologie war und ist die normative Disziplin für archäologische Klassifikation [@vossen1970]. So verwundert es nicht, das 1966 ein heute als Klassiker geltender Artikel zur numerischen Taxonomie in der Archäologie von einem Archäologen, einem Biologen, und dem Mitglied der "Experimental Programming Unit" an der Edinburgh University gemeinsam publiziert wurde [@hodson1966]. Sowohl die theoretischen Grundlagen von archäologischer und klassifikatorischer Seit mussten von Fachleuten geklärt werden, aber die Durchführung musste speziell programmiert werden.
+Da vor allem in der englischsprachigen Archäologie seit längerem im Rahmen der Keramikklassifikation versucht worden war, statistische Ansätze an die Stelle subjektiver, erfahrungsgeleiteter Typologie treten zu lassen [@Vossen1970], verwundert es nicht, dass auch die frühesten Versuche der Umsetzung archäologischer Forschung mit dem Computer in der Klassifikation zu suchen sind. Die frühen Anwendungen werden angeführt bei Leblanc [@LeBlanc1975a], ebenfalls seit den Anfangsjahren und über Jahrzehnte war der Autor der "Analytical Archaeology", David L. Clarke ; er hatte schon 1962 für den Computer geeignete Keramikanalysen erstellt [@Clarke1962]. Allgemein wurde die statistisch begründete Klassifikation als "numerical taxonomy" bezeichnet, ein Begriff, den man aus der Biologie übernommen hatte -- denn die Biologie war und ist die normative Disziplin für archäologische Klassifikation [@Vossen1970]. So verwundert es nicht, das 1966 ein heute als Klassiker geltender Artikel zur numerischen Taxonomie in der Archäologie von einem Archäologen, einem Biologen, und dem Mitglied der "Experimental Programming Unit" an der Edinburgh University gemeinsam publiziert wurde [@HodsonEtAl1966]. Sowohl die theoretischen Grundlagen von archäologischer und klassifikatorischer Seit mussten von Fachleuten geklärt werden, aber die Durchführung musste speziell programmiert werden.
 
-Kurz darauf untersuchte Whallon die Klassifikation einer Keramikgruppe mithilfe eines Entscheidungsbaums, für das er ein Computerprogramm entwickelte und in kleinerem Rahmen veröffentlichte [@whallon1971], während die Klassifikation und die darunter liegende Methode heute besser zugänglich ist [@whallon1972a]. Zur selben Zeit veröffentlichte er einen Aufsatz zur Anwendung von Computern in der Archäologie [@whallon1972b], in dem er nicht nur vorhergehende Übersichten noch aus den 1960er zitieren kann, sondern behauptet: "The number and variety of computer applications in archaeology today are so great that it is virtually impossible to select any small number of individual projects as representative." [@whallon1972a, 29].
+Kurz darauf untersuchte Whallon die Klassifikation einer Keramikgruppe mithilfe eines Entscheidungsbaums, für das er ein Computerprogramm entwickelte und in kleinerem Rahmen veröffentlichte [@Whallon1971], während die Klassifikation und die darunter liegende Methode heute besser zugänglich ist [@Whallon1972]. Zur selben Zeit veröffentlichte er einen Aufsatz zur Anwendung von Computern in der Archäologie, in dem er nicht nur vorhergehende Übersichten noch aus den 1960er zitieren kann, sondern schreibt: "The number and variety of computer applications in archaeology today are so great that it is virtually impossible to select any small number of individual projects as representative" [@Whallon1972a, 29]. -- Was damals sicher ein richtiger Eindruck war, mutet angesichts der heutigen, unübersichtlichen Situation ein wenig übertrieben an.
 
 Neben Clarke und Whallon sind Dunnell und andere zu erwähnen, die in diesen Jahren vor allem im Bereich der Systematik (Klassifikation/Taxonomie, Modelle) gewirkt haben, indem sie an Grundlagen und Theorien gearbeitet haben, die ohne Computertechnik nicht umsetzbar gewesen wären, und die diese Grundlagen in digitale Lösungen umgesetzt haben.
 
@@ -43,7 +43,17 @@ Schon im Verlaufe der oben beschriebenen frühen Jahre entwickelte sich die Comp
 
 Noch in dieser Periode, nämlich 2005 wurde für die Entwicklung des Linux-Kernels das Versionsverwaltungssystem "Git" publiziert, das seitdem andere Versionsverwaltungssysteme weitgehend abgelöst hat und vor allem eine Entwicklung in Gang gesetzt hat, die in @sec-actual-situation-characteristics und @sec-community eingehend besprochen werden soll, denn dieses zunächst unscheinbare Verfahren hat eine Entwicklung in Gang gesetzt, die die Zukunft des digitalen Arbeitens auch in der Archäologie revolutioniert. In der hier diskutierten Zeit zwischen 1990 und 2010 war davon noch nichts zu spüren.
 
+### Anfänge, die erst heute wirken
+
+Ähnlich wie bei Linux und Git starten in den frühen 1990er Jahren drei weitere wichtige Entwicklungen, die ihre volle Wirkung auf breitem Feld erst in den letzten 10 bis 20 Jahren entfaltet haben, und zwar auf sehr unterschiedliche Weise.
+
+Anfang der 1990er Jahre begann Guido van Rossum, die Programmiersprache Python zu entwickeln, die viele neue Programmierkonzepte enthielt [@wikipedia2023python], relativ leicht zu erlernen war und in der heute dritten Version unerlässlich für die Arbeit mit Geographischen Informationssystemen ist, aber universell einsetzbar ist und im Bereich Statistik/Machine Learning heutzutage hervorragende Bedeutung besitzt. Dies war in dieser Phase noch nicht absehbar. In derselben Zeit wurde die professionelle und skriptbasierte Statistik Software R von den Neuseeländern Ross Ihaka und Robert Gentleman entwickelt [@wikipedia2023R], die zu jener Zeit ebenfalls noch keinen weiten Einfluss über Experten hinaus in Anspruch, heute aber im Bereich Statistik und Literate Programming mit Python konkurriert und für Archäologen vielleicht einfacher zu erlernen ist, da sie das begrenzte Feld der Statistik behandelt. Über beide wird noch mehrfach zu reden sein.
+
+Die andere Entwicklung ist die des Programms LaTeX, die zwar schon in die 1980ger zurückreicht [@wikipedia2023latex], aber in naturwissenschaftlichen Fächern als flexibel einsetzbares Textverarbeitungs- und Satzsystem genutzt wurde. Dabei kam ein Literaturverwaltungssystem zum Einsatz, das auch schon in den 1980er Jahren entwickelt wurde: BibTeX [@wikipedia2023bibtex]. Sowohl LaTeX als auch BibTeX mit einigen weiteren Entwicklungen sind auch heute noch eine Software, die eine sehr begrenzte, computer-affine Clientel benutzt; sie werden kaum direkt von Nutzen sein für digitale Anwendungen in der Archäologie. Aber LaTeX ist für viele Anwendungen um das literate Programming und Schreiben mit Markdown-Dialekten im Hintergrund unerlässlich -- ohne dass die Anwender:in davon etwas mitbekommen muss, und Literaturverwaltung benötigt in vielen Fällen das Bibtex- oder Biblatex-Format, um die heutigen Annehmlichkeiten wissenschaftlicher Publikationen nutzen zu können. Auch auf diese beiden Programme, die soweit zurückreichen und jetzt erst weitreichenden Einfluss gewonnen haben, soll in anderen Abschnitten eingegangen werden.
+
 ### Anwendungssoftware und Betriebssysteme
+
+Während die Entwicklungen um Git, Python, R und LaTeX/BibTeX wahrscheinlich in den 1990er und 2000er Jahren kaum bemerkbar waren, war in diesen Jahren das Betriebssystem und bestimmte Anwendungssoftware in der Öffentlichkeit und in archäologischen Anwendung sehr präsent.
 
 Lässt man die Workstations und ihre jeweiligen Betriebssysteme einmal beiseite, die in den 1980er und 1990er Jahren aufgrund ihrer besseren Rechnenleistung gegenüber den PCs für anspruchsvolle Anwendungen verwendet wurden, so wurden die Welt der Personal Computer von einer kleinen Gruppe von Hardware-Produzenten und zwei Betriebssystemen beherrscht: Auf der einen Seite stand IBM und zunehmend erfolgreiche Konkurrenten wie Dell und Acer (neben anderen), auf deren Computern das Betriebssystem Microsofts Windows (zu Beginn noch auf MS-DOS basierend) und darüber die entsprechende Anwendungssoftware installiert wurde. Auf der anderen Seite Apple mit dem Betriebssystem Mac OS (heute OS X), das seit 2001 auf einem Unix Betriebssystem basiert.
 
@@ -67,9 +77,9 @@ Anders als in der ersten, von Fachleuten und Fachproblemen geprägten Zeit, sind
 
 ### Professionelle Entwicklungen
 
-Die Jahre zwischen 1990 und 2000 -- man kann gerne 10 bis 15 Jahre früher beginnen und 10 Jahre später enden -- waren in anderen Fächern von grundsätzlichen Entwicklungen geprägt in Bereichen, die heute die archäologischen Fächer und die Gesellschaft insgesamt prägen: Kartographie und Geographische Informationssysteme, LiDAR, vernetzte Datenbanken, 3D-Vermessung und Umsetzung in Computermodelle und maßstabsgetreue analoge Modelle, statistische Verfahren und Visualisierungen, ... (TODO Ergänzungen?). Alle diese Bereiche sind heute aus der archäologischen Arbeit nicht mehr wegzudenken, sie waren in den genannten Jahren allerdings mehr vom Hörensagen als von tatsächlicher archäologischer Anwendung bekannt (TODO Ausnahmen).
+Die Jahre zwischen 1990 und 2000 -- man kann gerne 10 bis 15 Jahre früher beginnen und 10 Jahre später enden -- waren in anderen Fächern von grundsätzlichen Entwicklungen geprägt in Bereichen, die heute die archäologischen Fächer und die Gesellschaft insgesamt prägen: Kartographie und Geographische Informationssysteme, LiDAR, vernetzte Datenbanken, 3D-Vermessung und Umsetzung in Computermodelle und maßstabsgetreue analoge Modelle, statistische Verfahren und Visualisierungen, ... (TODO). Alle diese Bereiche sind heute aus der archäologischen Arbeit nicht mehr wegzudenken, sie waren in den genannten Jahren allerdings mehr vom Hörensagen als von tatsächlicher archäologischer Anwendung bekannt (TODO Ausnahmen).
 
-Ausnahmen sind die Entwicklung von Grabungsdokumentationsmodulen für CAD-Programme, die schon in den frühen 1990er Jahren begann; hier sehen wir früh die Verknüpfung nicht-archäologischer Technologie mit archäologischen Aufgaben wie die im deutschsprachigen Raum verbreitete Software "ArchäoCAD". In diesen Bereich gehören auch 3D Entwicklungen in interdisziplinärem Zusammenhang [@ShinotoEtAl2002TopometricalmeasurementsTiryns] An dieser Stelle ist auch Baoquan Song zu erwähnen, der früh digitale Verfahren für die Kartierung von Luftbildern in seine Arbeit integriert hat; hierfür war in den ersten Jahren noch eine Workstation und das privat nicht erreichbare Programm ERDAS erforderlich; als Standardwerk hierfür ist der Band zur Luftbildarchäologie in China aus dem Jahr 2000 hervorgegangen [@LiPingel2000], neben zahlreichen anderen Arbeiten [@songEtAl2019; @songPingel2020]. Es versteht sich von selbst, dass diese Anwendungen erhebliche Kosten verursachten, anders, als die im vorherigen Abschnitt besprochenen populären, nicht fachgebundenen Softwares, und somit zwar fachlich genutzt, über die direkten Anwender hinaus jedoch nicht verbreitet sind.
+Ausnahmen sind die Entwicklung von Grabungsdokumentationsmodulen für CAD-Programme, die schon in den frühen 1990er Jahren begann; hier sehen wir früh die Verknüpfung nicht-archäologischer Technologie mit archäologischen Aufgaben wie die im deutschsprachigen Raum verbreitete Software "ArchäoCAD". In diesen Bereich gehören auch 3D Entwicklungen in interdisziplinärem Zusammenhang [@ShinotoEtAl2002TopometricalmeasurementsTiryns] An dieser Stelle ist auch Baoquan Song zu erwähnen, der früh digitale Verfahren für die Kartierung von Luftbildern in seine Arbeit integriert hat; hierfür war in den ersten Jahren noch eine Workstation und das privat nicht erreichbare Programm ERDAS erforderlich; als Standardwerk hierfür ist der Band zur Luftbildarchäologie in China aus dem Jahr 2000 hervorgegangen [@LiPingel2000], neben zahlreichen anderen Arbeiten [@SongEtAl2019; @SongLeidorf2020]. Es versteht sich von selbst, dass diese Anwendungen erhebliche Kosten verursachten, anders, als die im vorherigen Abschnitt besprochenen populären, nicht fachgebundenen Softwares, und somit zwar fachlich genutzt, über die direkten Anwender hinaus jedoch nicht verbreitet sind.
 
 ### Die CAA (Computer Applications in Archaeology)
 
@@ -85,91 +95,41 @@ Die zweite Phase ist gekennzeichnet durch Wachstum und Ausweitung.
 
 -   Außerhalb der Archäologie wurde in unterschiedlichen akademischen und ingeneurtechnischen (TODO) Bereichen -- wie zum Beispiel in der Kartographie -- die Digitalisierung traditioneller Methoden vorangetrieben. Solche Lösungen fanden teilweise in gut ausgestatteten Projekten Eingang, aus denen sukzessive archäologisch verwertbare Lösungen entwickelt wurden. Diese hatten meist einen höheren Anspruch an Rechenleistung als auf PCs umsetzbar, sie waren von Fachleuten begleitet und solide entwickelt. Proprietäre Datenformate waren üblich, da die Entwicklung von Standards sich natürlicherweise der Entwicklung der eigentlichen Programme und Datenformate erst anschließt.
 
--   Austausch von Daten blieb nach wie vor ein schwieriges Unterfangen.
+-   Entwicklungen, die früh in den 1990er Jahren oder früher begannen, blieben in der Archäologie weitgehend unbekannt, haben heute aber nicht zu unterschätzenden Einfluss auf die Arbeit mit dem Computer: Es ist die Entwicklung des rein textbasierten Satz- und Textverarbeitungssystem LaTeX mit seinem Prinzip der Trennung von Form und Inhalt, die Entwicklung der Programmiersprache Python, des Statistikprogramms R, sowie seit Anfang der 2000er Jahre des Versionskontrollsystems Git. Die Bedeutung dieser Entwicklung kann erst heute wirklich eingeschätzt werden.
+
+-   Insgesamt und in der alltäglichen archäologischen Arbeit bliegen digitale Anwendungen auf kommerzielle, praktisch anwendbare Software mit proprietären Datenformaten beschränmt, der Austausch von Daten blieb nach wie vor ein schwieriges Unterfangen.
 
 ## 2000 - 2020 {#sec-historical-stages-2000s}
 
-Diese Zeitstufe überschneidet sich mit der vorigen und mit der nächsten, die im folgenden @sec-actual-situation als heutige Situation beschrieben werden soll. Diese 20 Jahre sind in vieler Hinsicht eine Übergangszeit; am Ende steht eine vollkommen gewandelte Situation, die ich im folgenden Kapitel (@sec-actual-situation) beschreiben möchte.
+Die Zeitstufe zwischen der Jahrtausendwende und heute überschneidet sich mit der vorigen und mit der nächsten, die im folgenden @sec-actual-situation als heutige Situation beschrieben werden soll. Diese 20 Jahre sind in vieler Hinsicht eine Übergangszeit; am Ende steht eine vollkommen gewandelte Situation, die ich im folgenden Kapitel (@sec-actual-situation) beschreiben möchte.
 
-Diese zwanzig Jahre sind durch einige wenige Ereignisse und Trends gekennzeichnet, die nicht unmittelbar Einfluss auf die Archäologie hatten, einige "early adaptors" in ihrer Arbeitsweise allerdings stark beeinflussen konnten und die Basis gelegt haben für eine Situation wie sie heute auch die Archäologie zu beeinflussen beginnt. Rückblickend sind dies mit Sicherheit die wichtigsten Punkte, die in einer Geschichte der Digitalisierung der Geisteswissenschaften und der archäologischen Fächer zu nennen sind.
+Die Übergangszeit durch einige wenige Ereignisse und Trends gekennzeichnet, die nicht unmittelbar Einfluss auf die Archäologie hatten, einige "early adaptors" in ihrer Arbeitsweise allerdings stark beeinflussen konnten und die Basis gelegt haben für eine Situation wie sie heute auch die Archäologie zu beeinflussen beginnt. Rückblickend sind dies mit Sicherheit die wichtigsten Punkte, die in einer Geschichte der Digitalisierung der Geisteswissenschaften und der archäologischen Fächer zu nennen sind.
 
 ### Ereignisse
 
--   2005 wird das verteilte Versionskontrollsystem git veröffentlicht und publiziert (Übersicht in @wikipedia2023git; Homepage @homepage2023git). Ursprünglich für die Entwicklung des Linux-Kernels gedacht, war das System durch die Lizensierung (GNU General Public License, jetzt Version 2) frei für andere Software-Entwicklungen zu nutzen. Es brauchte nicht lange, bis die Möglichkeit, auch die Erstellung von Texten (Blogs, wissenschaftliche Texte) und das gemeinsame Arbeiten mit getrennten Repos der Versionskontrolle mit Git anzuvertrauen.
--   In der Folge entstehen zentral Repo-Verwaltungen wie GitHub (Übersicht in @wikipedia2023github; Homepage @homepage2023github), Bitbucket (Übersicht in @wikipedia2023bitbucket; Homepage @homepage2023bitbucket), GitLab (Übersicht in @wikipedia2023gitlab; Homepage @homepage2023gitlab). Damals ist das Ausmaß, in dem diese Plattformen zwanzig Jahre später den Austausch von Programmen, Patches, und Ideen befördern, noch nicht absehbar.
--   2004 veröffentlicht John Gruber seine Syntax für eine reduzierte Markup-Sprache "Markdown" [@Gruber2004], [Übersicht mit Weiterentwicklungen: @wikipedia2023markdown]. Ursprünglich als einfache Entwicklungssprache für HTML-Seiten gedacht, hat sie sich zu dem System entwickelt, in dem heutzutage Texte erstellt werden, die nachhaltig lesbar, grenzenlos austauschbar und vielseitig formatierbar sind. Markdown ist aus der digitalen Arbeit nicht mehr wegzudenken und wird in kurzer Zeit auch die wissenschaftliche Textverarbeitung bestimmen.
-    -   Hierzu entschieden beigetragen hat John McFarlane mit "Pandoc" [@homepage2022pandoc], einer zurückhaltenden und akademisch sinnvollen Erweiterung der Auszeichnungssprache Markdown mit der Möglichkeit, aus etlichen anderen Formaten nach Pandoc und von Pandoc in viele andere Formate zu konvertieren. Mehr dazu im nächsten Abschnitt und in @sec-software-fileformats.
-    -   RStudio erstes Pre-Release 2014
+-   2005 wird das verteilte Versionskontrollsystem "Git" veröffentlicht und publiziert (Übersicht in @wikipedia2023git; Homepage @homepage2023git). Ursprünglich für die Entwicklung des Linux-Kernels gedacht, war das System durch die Lizensierung (GNU General Public License, jetzt Version 2) frei für andere Software-Entwicklungen zu nutzen. Es dauert nicht lange, bis die Möglichkeit, auch die Erstellung von Texten (Blogs, wissenschaftliche Texte) und das gemeinsame Arbeiten mit getrennten Repos der Versionskontrolle mit Git anzuvertrauen, genutzt wird.
+-   In der Folge entstehen zentrale Repo-Verwaltungen wie Bitbucket 2007 (Übersicht in @wikipedia2023bitbucket; Homepage @homepage2023bitbucket), GitHub 2008 (Übersicht in @wikipedia2023github; Homepage @homepage2023github), GitLab 2011 (Übersicht in @wikipedia2023gitlab; Homepage @homepage2023gitlab). Zu Beginn ist das Ausmaß, in dem diese Plattformen wenige Jahre später den Austausch von Programmen, Patches, und Ideen befördern, noch nicht absehbar.
+-   2004 veröffentlicht John Gruber seine Syntax für eine reduzierte Markup-Sprache "Markdown" [@Gruber2004], [Übersicht mit Weiterentwicklungen: @wikipedia2023markdown]. Ursprünglich als einfache Entwicklungssprache für HTML-Seiten gedacht, hat sie sich zu dem System entwickelt, in dem heutzutage Texte erstellt werden, die nachhaltig lesbar, grenzenlos austauschbar und vielseitig formatierbar sind. Markdown ist aus der digitalen Arbeit nicht mehr wegzudenken und wird in kurzer Zeit auch die wissenschaftliche Textverarbeitung bestimmen. Es ist auch in den genannten Git-Systemen die Sprache, in der kommuniziert wird, und die Sprache, in der die Inhalte in Versionskontrolle erfasst werden.
+    -   Hierzu entschieden beigetragen hat John McFarlane mit "Pandoc" [@homepage2022pandoc], einer zurückhaltenden und akademisch sinnvollen Erweiterung der Auszeichnungssprache Markdown mit der Möglichkeit, (a) aus etlichen anderen Formaten nach Pandoc und (b) von Pandoc in viele andere Formate zu konvertieren. Mehr dazu im nächsten Abschnitt und in @sec-software-fileformats. -- McFarlane konnte hierfür auf die Vorarbeiten mit LaTeX und BibTeX zurückgreifen, die dadurch erst ihre weite Verbreitung fanden -- ohne dass man direkt mit diesen Systemen arbeiten muss. 
+-   Von Markdown profitierte die Welt der "Notebooks" oder "Lab-Notebooks", in denen Text, Beobachtungen und Programme zusammengefasst wurden -- eine Idee, die auf dem Ideal des "Literate Programming" fußt. Fast gleichzeitig bewegte sich hier die Welt der beiden Programme, die oben schon als bedeutend für die digitale Archäologie genannt wurde -- R und Python. 
+    - Das 2014 ins Leben gerufene Jupyter-Project greift zurück auf iPython-Notebooks, die erstmals 2011 veröffentlicht wurden [@wikipedia2023jupyterproject, @homepage2023jupyterproject]. Es kann auch mit den Sprachen R, Julia und Python arbeiten, ist aber besonders stark im Bereich Python. 
+    - Gleichzeitig lief eine ähnliche Entwicklung in der R-Welt: Nach dem Vorbild von Sweave, einer in München entwickelten Lösung, die Statistik mit S -- einem Vorläufer von R -- und Textsatz mit TeX "verweben" konnte, hat Xie Yihui `knitr` entwickelt, ein System, das Markdown und R "zusammenstricken" konnte . Die erste Version dieser damals schon ausgezeichneten Software war auf Github mit dem Tag "0.1" am 17. Januar 2012 gespeichert worden (https://github.com/yihui/knitr/releases/tag/v0.1) und wird lebhaft weiter entwickelt [@Xie2001]. Dies ist der Ursprung und die Basis von `RMarkdown`, einer erweiterten Form von Markdown, das (a) Codeblocks enthalten kann, die ausgeführt werden können, und (b) mithilfe von Pandoc in unterschiedliche Formate exportiert werden kann; hier können dann die Codeblocks ausgewertet mit Diagrammen, Tabellen und anderen Formen der Ergebnisdarstellung gespeichert werden [@XieEtAl2019, @homepage2023rmarkdownrstudio]. 
+- Die Entwicklungen von Xie führten zur Entwicklung von R Notebooks seit 2014/15, zu umfangreichen Möglichkeiten des Publizierens als Blog, Buch, etc., und seit 2022 liegt auf dieser Basis die Plattform "Quarto" vor, die nicht nur mit R, sondern auch mit Python sowie Julia und Observable arbeiten kann, zahlreiche flexible Formen des Publizierens und der Kooperation extrem vereinfacht, in einem logischen System zusammengeführt und bestens dokumentiert als Open Source zur Verfügung stellt (https://quarto.org).
+
 
 ### Tendenzen
 
-#### Bedeutung des Textformats
+Die vielen Ereignisse, die im letzten Abschnitt beschrieben werden, mögen auf den ersten Blick unübersichtlich wirken. Es sind Punkte in einer Entwicklung, die für uns in der Archäologie heute bedeutsam sind. Die Tendenzen, gefiltert für archäologische Umsetzung, stellen sich wie folgt dar: 
 
--   TeX - LaTeX
+- Reinem Text wird der Vorrang vor proprietären Formaten gegeben. Die Entwicklung von Unicode und Markup-Sprachen hat diesen logisch sinvollen Trend ermöglicht (siehe @sec-actual-situation, @sec-software-fileformats).
+- Inhalt und Form werden getrennt betrachtet, dadurch lässt sich derselbe Inhalt in andere Formate und in anderen Kontexten nutzen. 
+- Offenheit der Entwicklung und Austausch zwischen Interessierten weltweit auf Plattformen wie Github, Bitbucket, Gitlab hat der Vielfalt und Schnelligkeit von Entwicklungen, aber auch ihrer Zugänglichkeit einen Schub verliehen.
+- Ehemals kommerzielle Lösungen werden von Open Source Lösungen abgelöst.
+- Standards und Übereinkünften kommen in dieser Vielfalt eine zunehmende Bedeutung zu. 
 
--   Unicode - UTF8
+Diese Entwicklungen haben in den 2010er Jahren zu einer Ausweitung der Möglichkeiten digitaler Anwendungen in der Archäologie geführt, die heute das Bild bestimmen. Daneben darf nicht vergessen, dass auch hardwareseitig, zum Beispiel in Bereich digitaler Fotografie, Bildbearbeitung, 3D-Render, Luftbildarchäologie mit UAV, Prospektionen mit LiDAR usw. erhebliche Fortschritte gemacht wurden, so dass sowohl preislich als auch in der Bedienung diese Expertenanwendungen einer breiteren Schicht erreichbarer wurden.
 
--   XML
-
--   Trennung von Inhalt und Form (CSS; Markdown / Pandoc)
-
--   Literate Programming
-
--   Pandoc
-
--   Versioncontrol, Offenheit und Austausch
-
--   Offene Tutorials, Blogs, YouTube; stackoverflow etc.
-
--   Ehemalig spezialisierte Lösungen werden popularisiert oder abgelöst durch OpenSource
-
-(Wiederholung im nächsten Kapitel -- trennen)
-
-Git -- Open Source, Linux
-
-Langlebigkeit von Programmen und Daten wird allgemein als bedeutsam erkannt (neben proprietär); rein proprietäre, vom Aussterben bedrohte Lösungen gibt es nicht mehr.
-
--   Grundlegende Standards: ---
-
-### Charakteristika {#sec-historical-stages-2000s-characteristics}
-
--   **Hardware** leistungsfähig und preiswert, allgemein zugänglich
--   **Software** zunehmend OpenSource, kostenlos, allgemein zugänglich, Standards
-    -   hervorragende Schulungen kostenlos im Internet
-    -   jeder kann Expert:in werden; aber: rasante Entwicklung der Software (Imposter Syndrom auch bei professionellen Programmier:innen)
--   Ergebnisse folgen **offenen Standards**,
-    -   vollkommene **Austauschbarkeit** zwischen Studien
-    -   **Zukunftssicherheit**
--   Zunehmend **Offenheit aller Arbeitsschritte** (Datensammlung, Analyse, Schreiben: github etc.), nicht nur der Ergebnisse
--   Standards und Offenheit ermöglichen **Verknüpfung von Forschungen**
--   **Integration von Forschung und Veröffentlichung** (Literate Programming mit RMarkdown, Quarto, Jupiter Notebooks; 3D Modelle und Präsentation; Shiny Apps etc.)
--   **Fließende Forschungsergebnisse** (z.B. Zenodo und Versionskontrolle)
--   Unübersichtliche Vielfalt von Versuchen, beginnendes Chaos mit Programmen, Initiativen, Standards etc. zu bändigen
--   **Ehemals vorherrschende proprietäre Lösungen** schlagen sich weiter erfolgreich
-    -   Praktischer Zwang aufgrund der vorliegenden Arbeiten und Erfahrungen
-    -   Bequemlichkeit
-    -   Nutzungsprobleme von OpenSource Software
-        -   nicht durchweg nutzerfreundlich programmiert
-        -   nicht durchweg dokumentiert
-        -   ABER solche Probleme sind fast bedeutungslos geworden
-
-### Probleme {#sec-historical-stages-2000s-problems}
-
-Neu aufgetretende Probleme weisen in die Zukunft; sie werden wohl bedeutender werden.
-
--   Unübersichtlichkeit der Möglichkeiten
-    -   Publikationen
-    -   Austausch (persönlich und aktiv; indirekt)
-    -   Datenangebote (dataverse, Zenodo, OpenData Zeitschriften, Fulcrum, ...)
-    -   Software
-    -   Schulungen und Dokumentationen im Internet
--   ständige Weiterentwicklung von Software benötigt ständiges Lernen (Impostersyndrom)
--   **Informiert bleiben:** Arbeit, um mit den Möglichkeiten Schritt zu halten und die beste (zumindest zukunftssichere) Lösung zu finden, überwiegt archäologische Arbeit
-    -   Rückkehr der Experten?
-    -   Künstliche Beschränkungen (sinnvoll oder nicht)
-        -   Zugehörigkeit zu Gruppen (dataverse badges in Heidelberg!)
-        -   Qualitätsgarantien (Travis)
-        -   konkurrierende Standards
+Die größte Aufgabe, die in der aktuellen Situation besteht liegt darin, das Wichtige vom Unwichtigen, Fundamentales von individuellen Entwicklungen zu trennen, Anwendungsklassen und Muster zu erkennen, die sich wiederholen und sich in der Menge konkreter Angebote zu orientieren. Der nächste Abschnitt soll diese Situation näher beleuchten, bevor wir in Teil 2 (Computer) diese Konstanten genauer kennenlernen wollen. 
 
 ------------------------------------------------------------------------
 
