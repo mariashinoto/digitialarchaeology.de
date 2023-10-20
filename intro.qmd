@@ -1,10 +1,12 @@
 # ZU BEGINN
 
-Archäologie ist, wenn man an Ausgrabungen und den Umgang mit Funden denkt, die denkbar dinglichste, analoge Wissenschaft überhaupt. Aber "Digital Humanities" und digitale Anwendungen in der Archäologie haben das Fach extrem gewandelt und sind in ständigem Umbruch begriffen -- es ist schwer, hier eine Übersicht zu behalten und auf aktuellem Stand zu bleiben.
+Fundstücke, Ausgrabung, Wanderung durch unwegsames Gelände um Fundplätze zu beobachen -- die Archäologie ist die denkbar dinglichste, analoge Wissenschaft überhaupt. Aber digitale Anwendungen sind in den letzten 50 Jahren zu immer wichtigeren Werkzeugen bei unserem Umgang mit diesen Dingen geworden, und ohne Kenntnis und Beherrschung wenigstens der Grundlagen solch digitaler Werkzeug in archäologischer oder denkmalpflegerischer Arbeit ist heute keine Forschung mehr möglich. Digitale Anwendungen haben die Archäologie verändert und sind in ständigem Umbruch begriffen; es gibt immer mehr und bessere Optionen. Da fällt es schwer, eine Übersicht zu behalten und auf aktuellem Stand zu bleiben. Dieses Buch soll Konstanten herausarbeiten, damit es leichter fällt, in Neuem das grundsätzlich Gültige wiederzuerkennen und sich ohne Umwege so weit anzupassen wie notwendig.
 
 Seit fast 30 Jahren unterrichte ich digitale Anwendungen in den archäologischen Fächern, habe digitale Werkzeuge für meine archäologische Forschung benutzt und auch bei der Entwicklung im Bereich 3D Dokumentation und LiDAR mitgewirkt. In dieser Zeit konnte ich fast die gesamte Entwicklung -- angefangen mit den damals oft zitierten Arbeiten der älteren Generation aus den 1960er bis 1980er Jahren über die in vielen Fällen fragwürdige Popularisierung in den 1990er Jahren bis hin zur momentanen Professionalisierung -- direkt miterleben. 
 
 In den letzten Jahren habe ich öfter versucht, diese Erfahrungen zu erfassen, zu systematisieren und daraus etwas Hilfreiches zu gestalten. Nun  ist mit dem Projekt ["Digitale Kompetenzen in der Archäologie"](TODO LINK) ein richtiger Ansporn geschaffen, Erfahrungen und Überlegungen zusammenzufassen und vielleicht ein paar Hilfen zur Orientierung im immer unübersichtlicheren Ozean an Angeboten, Vorgaben und Möglichkeiten im Bereich digitaler Werkzeuge und Digital Humanities zu geben. 
+
+Zu guter Letzt etwas dazu, dass dieses Buch öffentlich geschrieben wird. Für jede und jeden, die bislang für sich selber im stillen Kämmerlein Gedanken entwickelt, Texte formuliert und wieder und wieder umformuliert haben, ist das sicher eine ungewohnte Situation. Aber warum nicht? Software wird öffentlich entwickelt, Computerliteratur und Dokumentation ensteht öffentlich, warum nicht auch ein Lehrbuch? Auf jeden Fall bin ich gespannt auf diese Erfahrung.  
 
 Beppu, 26. September 2023
 
