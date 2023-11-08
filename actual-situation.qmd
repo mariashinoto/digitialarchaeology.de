@@ -1,6 +1,34 @@
-# 2010er Jahre bis heute {#sec-actual-situation}
+# Heutige Situation {#sec-actual-situation}
 
 (Wiederholung im vorigen Kapitel -- trennen)
+
+
+-   TeX - LaTeX
+
+-   Unicode - UTF8
+
+-   XML
+
+-   Trennung von Inhalt und Form (CSS; Markdown / Pandoc)
+
+-   Literate Programming
+
+-   Pandoc
+
+-   Versioncontrol, Offenheit und Austausch
+
+-   Offene Tutorials, Blogs, YouTube; stackoverflow etc.
+
+-   Ehemalig spezialisierte Lösungen werden popularisiert oder abgelöst durch OpenSource
+
+(Wiederholung im nächsten Kapitel -- trennen)
+
+Git -- Open Source, Linux
+
+Langlebigkeit von Programmen und Daten wird allgemein als bedeutsam erkannt (neben proprietär); rein proprietäre, vom Aussterben bedrohte Lösungen gibt es nicht mehr.
+
+-   Grundlegende Standards: ---
+
 
 ## Charakteristika {#sec-actual-situation-characteristics}
 
