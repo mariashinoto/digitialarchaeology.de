@@ -46,7 +46,9 @@ bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      dark: cyborg
+      light: journal
   pdf:
     documentclass: scrreprt
     cite-method: biblatex
