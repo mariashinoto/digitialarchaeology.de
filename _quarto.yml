@@ -15,6 +15,7 @@ book:
         - overview.qmd
     - part: archaeology-history.qmd
       chapters:
+        - archaeological-work.qmd
         - historical-stages.qmd
         - actual-situation.qmd
         - non-research-work.qmd
