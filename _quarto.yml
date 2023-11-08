@@ -15,6 +15,7 @@ book:
         - overview.qmd
     - part: archaeology-history.qmd
       chapters:
+        - archaeological-work.qmd
         - historical-stages.qmd
         - actual-situation.qmd
         - non-research-work.qmd
@@ -45,7 +46,9 @@ bibliography: references.bib
 
 format:
   html:
-    theme: cosmo
+    theme: 
+      dark: cyborg
+      light: journal
   pdf:
     documentclass: scrreprt
     cite-method: biblatex
