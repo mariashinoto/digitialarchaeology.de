@@ -55,4 +55,4 @@ Wandel (mariashinoto/digitialarchaeology.de) (v0.0.0.1). Zenodo.
 
 Das Buch als:
 
-Maria Shinoto. (2023). Digitale Archäologie - Werkzeuge und Konzepte im Wandel. (v0.0.0.1) [https://mariashinoto.github.com/digitialarchaeology.de]. https://doi.org/10.5281/zenodo.8342718
+Maria Shinoto. (2023). Digitale Archäologie - Werkzeuge und Konzepte im Wandel. (v0.0.0.1) [https://mariashinoto.github.io/digitialarchaeology.de/]. https://doi.org/10.5281/zenodo.8342718
