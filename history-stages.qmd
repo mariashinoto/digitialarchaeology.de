@@ -1,8 +1,8 @@
-# Drei historische Entwicklungsstadien {#sec-historical-stages}
+# Drei historische Entwicklungsstadien {#sec-history-stages}
 
 Die Entwicklung, die man selber als Kontinuum miterlebt, wird für gewöhnlich im Nachhinein in Phasen oder Epochen eingeteilt mit verschiedenen Charakteristika, die sich aber in den vorherigen Stufen schon angekündigt haben und bis in die nachfolgenden Stufen wirken. So sind die Charakteristika kein exclusives Kriterium, und auch die hier gesetzten Grenzen in Jahreszahlen sind natürlich willkürlich gesetzt -- nicht ganz korrekt, aber auch nicht vollkommen sinnlos. Persönlich ist es für mich interessant zu sehen, wie ich noch die letzten Auswirkungen der ersten Stufe miterleben und dann in den folgenden Stadien aktiv mitgearbeitet habe, ohne damals zu verstehen, wo ich mich gerade befinde. Der historische Rückblick soll das Verständnis für den heutigen Zustand und die künftigen Möglichkeiten (s. @sec-actual-situation) vertiefen.
 
-## 1960 - 1990 {#sec-historical-stages-early-years}
+## 1960 - 1990 {#sec-history-stages-early-years}
 
 ### Akademische Nutzung
 
@@ -33,7 +33,7 @@ Einige Charakteristika der frühen Jahre lassen sich wie folgt aus dieser Übers
 -   Insgesamt gibt es in der international zur Verfügung stehenden Literatur aus den Jahren bis in die 1980er nur wenige Namen, die immer wieder auftauchen; man kann es so verstehen, dass es eine kleine Elite gab, die zum einen die Bedeutung digitaler Entwicklungen für die Archäologie trotz ausstehender praktischer Vorteile einschätzen konnten, die genügend Fachkenntisse und Verständnis mitbrachten, um sich mit Fachleuten aus anderen Disziplinen zu unterhalten, und denen Computer für ihre Projekte zur Verfügung standen. **Solches tieferes Verständnis der theoretisch-methodischen Grundlagen und der digitalen Durchführung sollte in heutiger Lehrtätigkeit vermittelt werden.**
 -   Die meisten Tätigkeiten in der Archäologie wurden nach wie vor analog durchgeführt: Zeichnung, Fotografie, Archivierung, Dokumentation, Publizieren.
 
-## 1990 - 2010 {#sec-historical-stages-ninetees}
+## 1990 - 2010 {#sec-history-stages-ninetees}
 
 ### Technischer und kommerzieller Hintergrund
 

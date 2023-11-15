@@ -1,4 +1,4 @@
-# Integriertes Schreiben {#sec-sample-writing}
+# Integriertes Schreiben {#sec-implementation-writing}
 
 - Literate Programming mit Quarto; 
 - Datenmodellierung, Analysen, Graphik, alles in einem Text.
