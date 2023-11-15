@@ -1,4 +1,31 @@
-# Archäologisches Arbeiten
+# Archäologische Werkzeuge
+
+## Eine Analogie
+
+Heute noch wird in der Archäologie viel mit Fotografie gearbeitet, und dieser Bereich ist ein guter Weg, ins Thema einzufinden. 
+
+Es liegt noch nicht lange zurück, dass an archäologischen Instituten und auf Grabungen Zeichner oder Photographen gearbeitet haben, deren Aufgabe es war, für die Archäologen (es waren wohl weniger Archäologinnen) Aufnahmen zu machen, da sie die Tücken der analogen Technik (Filmauswahl, Farbstiche, Körnung, Beleuchtung, Schärfentiefe, Brennweiten...) zu beherrschen gelernt hatten. Sie haben Negative verwaltet, Abzüge erstellt und für Publikationen vorbereitet und archiviert, Angaben zu den Umständen der Fotografie und den abgebildeten Gegenständen oder Strukturen festgehalten -- heute würde man sagen: Metadaten. 
+
+Seit Ende der 1990er Jahre wurde diese Technik langsam abgelöst, und heute, nach etwa einer Generation, sind diese Kenntnisse und Fertigkeiten nur noch in Ausnahmefällen gefragt. Sogar mit dem Smartphone lassen sich perfekte Aufnahmen durch Laien erstellen; Fehler werden fast ohne eigenes Eingreifen schon beim Fotografieren korrigiert: Belichtungsausgleich, Farbkorrektur, Verzerrung durch Objektive, Bildneigung -- alles wird sofort oder in einem automatisierbaren Schritt des "Postprocessing" korrigiert, für eine perfekte Tiefenschärfe können Aufnahmeprogramme in der Kamera direkt mehrere Aufnahmen stacken und ein in voller Tiefe scharfes Bild erstellen. Fotos, von Laien in einem kurzen Moment "aus der Hüfte geschossen" können informativer sein als manche aufwendig und mit großer Kenntnis erstellte Aufnahme aus früheren Zeiten.  
+
+Natürlich geht dabei einiges verloren -- Unwichtiges und Wichtiges. Das Unwichtige heute sind vielleicht Kenntnisse zum Verhältnis von Brennweite und Ausprägung der Filmkörnung im Negativ oder den Einsatz von Filtern, um den Einfluss des Umgebungslichts auf den Film zu mindern -- um nur zwei Beispiele zu nennen. Aber es geht auch anderes verloren, was nachdenklich stimmt oder alarmieren sollte: Strahlen alte Aufnahmen nicht mehr Ruhe aus und laden ein zur genaueren Betrachtung? Sind die heutzutage berechneten Korrekturen tatsächlich glaubhaft? Wie platziert man ein Fundstück am besten für eine gute Aufnahme? Zudem wird Archäolog:innen eine weitere Verantwortung und Arbeitsschritte auferlegt: Fotografieren ist so einfach, warum nicht gleich selber machen? 
+
+Auch die Verwaltung der Fotografien liegt nun mehr oder minder in der Hand der Archäolog:innen und auf ihrem Computer. Gab es für ausgebildete Fotografen erlernte Vorgaben, wie Negative, Kontaktabzüge und Abzüge aufzubewahren und zu katalogisieren sind, so strickt man sich heute eher selber eine Logik, in der digital abgelegt wird. Hierbei überlappen sich digitale Datenspeicherung, Datenbankentwicklung, Client-Server-Technologien, die genutzt werden können, um Fotografien zu speichern. Gleichzeitig sind Fotografien nicht mehr isoliert: Sie können in derselben Datenbank gemeinsam mit 3D-Daten, Zeichnungen, verbalen Beschreibungen und Schlagworten über mehrere, früher getrennte Bereiche hinweg verwaltet werden. 
+
+Gemeinsame Verwaltung generisch unterschiedlicher digitaler Daten, gemeinsame Schlagworte, alles das sind Kennzeichen der Digitalisierung, die ganz neue Möglichkeiten der Verknüpfung und Sichtweisen ermöglichen, aber auch Probleme mit sich bringen: Waren früher Schlagworte zum Beispiel für Fotografien einer Institutssammlung festgelegt und über die Jahre weitergegeben worden, und galten sie nur für die Fotografie, so war dieses System für die Fachleute stressfrei beherrschbar. Heute gibt es übergreifende Systeme, und jeder Schritt in einem Bereich muss bedenken, welche Auswirkungen dies auf andere Bereiche hat. 
+
+Hierfür sind Standards entwickelt worden, die an die jeweilige Situation im Institut angepasst werden können. Aber diese Standards selber sind komplex, müssen beherrscht werden und: Welchen Standard sollte man anwenden? Wie finde ich das Angebot von sinnvollen Standards?
+
+Dieser kurz Überblick wird sicher auch Widerspruch hervorrufen, denn überall gibt es Situationen, die etwas anders geartet sind. Das soll uns nicht stören, denn in diesem Buch geht es darum, die grundsätzlichen Strukturen zu entdecken, das herauszuschälen, was strukturell gleich bleibt und verstanden werden muss. Hat man sich einmal in diese Strukturen eingearbeitet und hält sich in der eigenen Arbeit an diese Logik, so sind spätere Anpassungen kein Problem. Insofern sollte dieses Buch vor allem helfen, der nächsten Generation und den Unterrichtenden eine Orientierung zu geben bei folgenden Fragen: 
+
+- Wie soll ich meine Daten sammeln und speichern?
+- Welche Daten und Metadaten soll ich beachten? 
+- Welche Möglichkeiten stehen mir jetzt für eine Datenbearbeitung zur Verfügung, welche Möglichkeiten sind für die Zukunft denkbar?
+- Wie teile ich meine Daten mit der Community jetzt und in der Zukunft?
+
+
+## Verschiedene Arbeitsbereiche
+
 
 - Prospektion
 - Ausgrabung
@@ -7,3 +34,6 @@
 - Archivieren
 - Beschreiben
 - ...
+
+- Lehre
+- Publikation
