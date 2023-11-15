@@ -12,31 +12,31 @@ book:
     - index.qmd
     - part: intro.qmd
       chapters:
-        - overview.qmd
-    - part: archaeology-history.qmd
+        - intro-archaeological-work.qmd
+        - intro-overview.qmd
+    - part: history.qmd
       chapters:
-        - archaeological-work.qmd
-        - historical-stages.qmd
-        - actual-situation.qmd
-        - non-research-work.qmd
-        - outlook-discussion.qmd
-    - part: computational-basics.qmd
+        - history-stages.qmd
+        - history-actual-situation.qmd
+        - history-non-research-work.qmd
+        - history-outlook-discussion.qmd
+    - part: basics.qmd
       chapters:
-        - hardware.qmd
-        - software.qmd
-        - consistency.qmd
-        - community.qmd
-        - software-dev-methods.qmd
-        - standards-qualifications.qmd
-    - part: levels-for-teaching.qmd
+        - basics-hardware.qmd
+        - basics-software.qmd
+        - basics-consistency.qmd
+        - basics-community.qmd
+        - basics-dev-methods.qmd
+        - basics-standards-qualifications.qmd
+    - part: teaching.qmd
       chapters:
         - teaching-foundations.qmd
         - teaching-applications.qmd
     - part: implementations-examples.qmd
       chapters:
-        - sample-datamodeling.qmd
-        - sample-writing.qmd
-        - sample-cooperation.qmd
+        - implementation-writing.qmd
+        - implementation-cooperation.qmd
+        - implementation-datamodeling.qmd
     - references.qmd
     - part: appendixlist.qmd
       chapters:
@@ -46,7 +46,7 @@ bibliography: references.bib
 
 format:
   html:
-    theme: 
+    theme:
       dark: cyborg
       light: journal
   pdf:
