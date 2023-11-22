@@ -4,7 +4,8 @@ project:
 book:
   title: "Digitale Archäologie (ver. 0.0.0.1)"
   author: "Maria Shinoto"
-  date: "2023-09-26"
+  date: last-modified
+  
   date-format: long
   chapters:
     - index.qmd
