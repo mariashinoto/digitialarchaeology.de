@@ -1,4 +1,5 @@
 # Standards und Qualifikationen {#sec-standardsqualifications}
 
-- Orientierungshilfen oder Gatekeeper?
+Orientierungshilfen oder Gatekeeper?
 
+Lizenzen! OpenSource!

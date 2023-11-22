@@ -24,6 +24,6 @@ Die Diskussion dieser Problematik und konkreter Software oder Systeme ist einer 
 
 Der letzte Teil bringt drei Beispiele für Probleme, die in verschiedenen Layern unterrichtet werden können: (1) Prinzipien von Datenmodellen - Datenmodellierung für statische Datenbanken - Datenmanipulation und Ändern von Modellen in statistischer Software; (2) das Schreiben alleine oder im Team mit Textverarbeitungen und Tracking - Schreiben im Textformat mit variablem Output - Schreiben mit Versionskontrolle - Schreiben mit Versionskontrolle im Team - integriertes Forschen und Schreiben (Literate Programming); (3) Kooperation und Integrations verschiedener Ansätze. -- Mit diesen Themen wird nur ein Ausschnitt digitaler Anwendungen in der Archäologie besprochen, immer unter dem Aspekt der Konstanten und des "Wiedererkennungswerts"; weitere Anwendungen wie 3D Vermessungen und Rekonstruktionen, Prospektionen mit unterschiedlichen Methoden und Geräten u.a. sollte aktuellen Tutorien vorbehalten bleiben (TODO Link zu DiKopA). 
 
----
+
 TODO Illustrationen
 TODO Link zu DiKopA

@@ -2,38 +2,86 @@
 
 ## Eine Analogie
 
-Heute noch wird in der Archäologie viel mit Fotografie gearbeitet, und dieser Bereich ist ein guter Weg, ins Thema einzufinden. 
+Heute noch wird in der Archäologie viel mit Fotografie gearbeitet, und dieser Bereich ist ein guter Weg, ins Thema einzufinden.
 
-Es liegt noch nicht lange zurück, dass an archäologischen Instituten und auf Grabungen Zeichner oder Photographen gearbeitet haben, deren Aufgabe es war, für die Archäologen (es waren wohl weniger Archäologinnen) Aufnahmen zu machen, da sie die Tücken der analogen Technik (Filmauswahl, Farbstiche, Körnung, Beleuchtung, Schärfentiefe, Brennweiten...) zu beherrschen gelernt hatten. Sie haben Negative verwaltet, Abzüge erstellt und für Publikationen vorbereitet und archiviert, Angaben zu den Umständen der Fotografie und den abgebildeten Gegenständen oder Strukturen festgehalten -- heute würde man sagen: Metadaten. 
+Es liegt noch nicht lange zurück, dass an archäologischen Instituten und auf Grabungen Zeichner oder Photographen gearbeitet haben, deren Aufgabe es war, für die Archäologen (es waren wohl weniger Archäologinnen) Aufnahmen zu machen, da sie die Tücken der analogen Technik (Filmauswahl, Farbstiche, Körnung, Beleuchtung, Schärfentiefe, Brennweiten...) zu beherrschen gelernt hatten. Sie haben Negative verwaltet, Abzüge erstellt und für Publikationen vorbereitet und archiviert, Angaben zu den Umständen der Fotografie und den abgebildeten Gegenständen oder Strukturen festgehalten -- heute würde man sagen: Metadaten.
 
-Seit Ende der 1990er Jahre wurde diese Technik langsam abgelöst, und heute, nach etwa einer Generation, sind diese Kenntnisse und Fertigkeiten nur noch in Ausnahmefällen gefragt. Sogar mit dem Smartphone lassen sich perfekte Aufnahmen durch Laien erstellen; Fehler werden fast ohne eigenes Eingreifen schon beim Fotografieren korrigiert: Belichtungsausgleich, Farbkorrektur, Verzerrung durch Objektive, Bildneigung -- alles wird sofort oder in einem automatisierbaren Schritt des "Postprocessing" korrigiert, für eine perfekte Tiefenschärfe können Aufnahmeprogramme in der Kamera direkt mehrere Aufnahmen stacken und ein in voller Tiefe scharfes Bild erstellen. Fotos, von Laien in einem kurzen Moment "aus der Hüfte geschossen" können informativer sein als manche aufwendig und mit großer Kenntnis erstellte Aufnahme aus früheren Zeiten.  
+Seit Ende der 1990er Jahre wurde diese Technik langsam abgelöst, und heute, nach etwa einer Generation, sind diese Kenntnisse und Fertigkeiten nur noch in Ausnahmefällen gefragt. Sogar mit dem Smartphone lassen sich perfekte Aufnahmen durch Laien erstellen; Fehler werden fast ohne eigenes Eingreifen schon beim Fotografieren korrigiert: Belichtungsausgleich, Farbkorrektur, Verzerrung durch Objektive, Bildneigung -- alles wird sofort oder in einem automatisierbaren Schritt des "Postprocessing" korrigiert, für eine perfekte Tiefenschärfe können Aufnahmeprogramme in der Kamera direkt mehrere Aufnahmen stacken und ein in voller Tiefe scharfes Bild erstellen. Fotos, von Laien in einem kurzen Moment "aus der Hüfte geschossen" können informativer sein als manche aufwendig und mit großer Kenntnis erstellte Aufnahme aus früheren Zeiten.
 
-Natürlich geht dabei einiges verloren -- Unwichtiges und Wichtiges. Das Unwichtige heute sind vielleicht Kenntnisse zum Verhältnis von Brennweite und Ausprägung der Filmkörnung im Negativ oder den Einsatz von Filtern, um den Einfluss des Umgebungslichts auf den Film zu mindern -- um nur zwei Beispiele zu nennen. Aber es geht auch anderes verloren, was nachdenklich stimmt oder alarmieren sollte: Strahlen alte Aufnahmen nicht mehr Ruhe aus und laden ein zur genaueren Betrachtung? Sind die heutzutage berechneten Korrekturen tatsächlich glaubhaft? Wie platziert man ein Fundstück am besten für eine gute Aufnahme? Zudem wird Archäolog:innen eine weitere Verantwortung und Arbeitsschritte auferlegt: Fotografieren ist so einfach, warum nicht gleich selber machen? 
+Natürlich geht bei solchem Vorgehen auch einiges verloren -- Unwichtiges und Wichtiges. Das Unwichtige heute sind vielleicht Kenntnisse zum Verhältnis von Brennweite und Ausprägung der Filmkörnung im Negativ oder den Einsatz von Filtern, um den Einfluss des Umgebungslichts auf den Film zu mindern -- um nur zwei Beispiele zu nennen, die nichts weiter zum archäologischen Verständnis beitragen würden. Aber es geht auch anderes verloren, was nachdenklich stimmt oder alarmieren sollte: Strahlen alte Aufnahmen nicht mehr Ruhe aus und laden ein zur genaueren Betrachtung? Sind die heutzutage berechneten Korrekturen tatsächlich glaubhaft? Wie platziert man ein Fundstück am besten für eine gute Aufnahme? Zudem wird Archäolog:innen eine weitere Verantwortung und Arbeitsschritte auferlegt, die den Fokus auf die eigentliche Arbeit stören kann: Fotografieren ist so einfach, warum nicht gleich selber machen? Letztlich kann auch die Diskussion zwischen Archäolog:in und Fotograf:in ein fruchtbarer Bestandteil des Erkenntnisprozesses sein, der jetzt auf einen "archäologischen Monolog" beschränkt ist.
 
-Auch die Verwaltung der Fotografien liegt nun mehr oder minder in der Hand der Archäolog:innen und auf ihrem Computer. Gab es für ausgebildete Fotografen erlernte Vorgaben, wie Negative, Kontaktabzüge und Abzüge aufzubewahren und zu katalogisieren sind, so strickt man sich heute eher selber eine Logik, in der digital abgelegt wird. Hierbei überlappen sich digitale Datenspeicherung, Datenbankentwicklung, Client-Server-Technologien, die genutzt werden können, um Fotografien zu speichern. Gleichzeitig sind Fotografien nicht mehr isoliert: Sie können in derselben Datenbank gemeinsam mit 3D-Daten, Zeichnungen, verbalen Beschreibungen und Schlagworten über mehrere, früher getrennte Bereiche hinweg verwaltet werden. 
+Auch die Verwaltung der Fotografien liegt nun mehr oder minder in der Hand der Archäolog:innen und auf ihrem Computer. Gab es für ausgebildete Fotografen in der Lehre erlernte Vorgaben, wie Negative, Kontaktabzüge und Abzüge aufzubewahren und zu katalogisieren sind, so strickt man sich heute eher selber eine Logik, in der digital abgelegt wird. Hierbei überlappen sich digitale Datenspeicherung, Datenbankentwicklung, Client-Server-Technologien, die genutzt werden können, um Fotografien zu speichern, es gilt, zwischen oft proprietären Programmen zu wählen. Gleichzeitig sind Fotografien nicht mehr isoliert: Sie können in derselben Datenbank gemeinsam mit 3D-Daten, Zeichnungen, verbalen Beschreibungen und Schlagworten über mehrere, früher getrennte Bereiche hinweg verwaltet werden. Dieser Schritt hin zu einer Vereinigung unterschiedlicher Arbeitsschritte und Werkzeuge wird mit der Zeit intensiver werden und, wie wir noch feststellen werden, in anderen Bereichen der archäologischen Arbeit schon weiter fortgeschritten sind.
 
-Gemeinsame Verwaltung generisch unterschiedlicher digitaler Daten, gemeinsame Schlagworte, alles das sind Kennzeichen der Digitalisierung, die ganz neue Möglichkeiten der Verknüpfung und Sichtweisen ermöglichen, aber auch Probleme mit sich bringen: Waren früher Schlagworte zum Beispiel für Fotografien einer Institutssammlung festgelegt und über die Jahre weitergegeben worden, und galten sie nur für die Fotografie, so war dieses System für die Fachleute stressfrei beherrschbar. Heute gibt es übergreifende Systeme, und jeder Schritt in einem Bereich muss bedenken, welche Auswirkungen dies auf andere Bereiche hat. 
+Gemeinsame Verwaltung generisch unterschiedlicher digitaler Daten, gemeinsame Schlagworte, alles das sind Kennzeichen der Digitalisierung, die ganz neue Möglichkeiten der Verknüpfung und Sichtweisen ermöglichen, aber auch Probleme mit sich bringen: Waren früher Schlagworte zum Beispiel für Fotografien einer Institutssammlung festgelegt und über die Jahre weitergegeben worden, und galten sie nur für die Fotografie, so war dieses System für die jeweiligen Fachleute stressfrei beherrschbar. Heute gibt es übergreifende Systeme, Aber viel mehr noch: Bei jedem Schritt in einem Bereich muss bedacht werden, welche Auswirkungen der Schritt auf andere Bereiche hat.
 
-Hierfür sind Standards entwickelt worden, die an die jeweilige Situation im Institut angepasst werden können. Aber diese Standards selber sind komplex, müssen beherrscht werden und: Welchen Standard sollte man anwenden? Wie finde ich das Angebot von sinnvollen Standards?
+Hierfür sind internationale Standards entwickelt worden, für die Fotografie sei an die IPTC Standards [@iptcsta2023; @photome] erinnert, mehr in der Archäologie verwendbar sind die Vorgaben des "Dublin Core" [@dublinc2023; @dcmisch2023]. Aber diese Standards selber sind komplex, müssen beherrscht werden und: Welchen Standard sollte man anwenden? Wie finde ich das Angebot von sinnvollen Standards? Die Kenntnisse zu solchen Standards und Metadaten erleichtern wiederum den Zugang zu offenen Datenbanken, in denen man nach fremden Daten suchen kann, oder die eigenen Ergebnisse in einer Fremden verständlichen Form verfügbar machen kann. Hier kommt wieder der Gedanke der Vernetzung ins Spiel, ein Charakteristikum moderner oder künftiger Formen der archäologischen Arbeit, über die in einem gesonderten Kapitel spekuliert und diskutiert werden soll (@sec-community, @sec-standardsqualifications).
 
-Dieser kurz Überblick wird sicher auch Widerspruch hervorrufen, denn überall gibt es Situationen, die etwas anders geartet sind. Das soll uns nicht stören, denn in diesem Buch geht es darum, die grundsätzlichen Strukturen zu entdecken, das herauszuschälen, was strukturell gleich bleibt und verstanden werden muss. Hat man sich einmal in diese Strukturen eingearbeitet und hält sich in der eigenen Arbeit an diese Logik, so sind spätere Anpassungen kein Problem. Insofern sollte dieses Buch vor allem helfen, der nächsten Generation und den Unterrichtenden eine Orientierung zu geben bei folgenden Fragen: 
+Die beschriebene Entwicklung der visuellen Dokumentation kann um einen weiteren Bereich ergänzt werden: Die Dokumentation mit dreidimensionalen Daten, die ohne Digitalisierung kaum möglich ist, und die Vereinigung von Photographie und 3D Daten in einem "lebensnahen" Modell, das zusätzlich in den nicht erhaltenen Bereichen ergänzt werden kann -- bislang mithilfe archäologischer Expertise, zunehmend mit Künstlicher Intelligenz, die natürlich über die Rekonstruktion hinaus in unterschiedlicher Weise Anwendung finden kann. 
 
-- Wie soll ich meine Daten sammeln und speichern?
-- Welche Daten und Metadaten soll ich beachten? 
-- Welche Möglichkeiten stehen mir jetzt für eine Datenbearbeitung zur Verfügung, welche Möglichkeiten sind für die Zukunft denkbar?
-- Wie teile ich meine Daten mit der Community jetzt und in der Zukunft?
+Dieser kurz Überblick zeigt den weiten Weg von der einfachen Skizze mit spontanen Notizen hin zu hochgradig vernetzten, standardisierten Daten, der einerseits unsere Befunde sehr viel genauer und vielseitiger, nicht unbedingt schneller, aber aufgrund der Verknüpfung, Standards und Offenheit eine neue Qualität archäologischer Arbeit ermöglicht. 
+
+In diesem Buch sollen die grundsätzlichen Strukturen aufgedeckt werden, die gleich bleiben. Hat man sich einmal in diese Strukturen eingearbeitet und hält sich in der eigenen Arbeit an diese Logik, so sind spätere Anpassungen kein Problem. Insofern sollte dieses Buch vor allem helfen, der nächsten Generation und den Unterrichtenden eine Orientierung zu geben, und zwar auch bei solchen Fragen wie:
+
+-   Wie soll ich meine Daten sammeln und speichern?
+-   Welche Daten und Metadaten soll ich beachten?
+-   Welche Möglichkeiten stehen mir jetzt für eine Datenbearbeitung zur Verfügung, welche Möglichkeiten sind für die Zukunft denkbar?
+-   Wie teile ich meine Daten mit der Community jetzt und in der Zukunft?
+- Wie kann ich meine bisherige, monologe Arbeitsweise den neuen Möglichkeiten anpassen?
+
+<!-- TODO erstelle fig aus callout -->
+
+::: callout-note
+**Beispiel visuelle Dokumentation**
+
+-   Zeichnung: abstrahierend, klassifizierend, traditionsgebunden
+-   Analoges Foto: individuell; Experte - Dilettant
+-   Digitales Foto: individuell; Dilettant; unkontrollierbar?
+-   Foto und Metadaten
+- Standardisierung der Metadaten
+-   2D zu 3D (standardisierte Daten)
+-   Zusammenführen von Abstraktion, individueller Information, 3D und externen Informationen
+:::
+
+
 
 
 ## Verschiedene Arbeitsbereiche
 
+In der genauer beschriebenen Analogie ging es um die visuelle Dokumentation von Befunden, die Vielfalt der digitalen Aspekte sollte deutlich geworden sein. Ähnlich sieht es in allen Bereichen archäologischer Arbeit, von denen einige hier aufgezählt werden sollen: 
 
-- Prospektion
-- Ausgrabung
-- Befunde
-- Funde
-- Archivieren
-- Beschreiben
-- ...
+::: callout-note
 
-- Lehre
-- Publikation
+<!-- TODO Schema mit Verzweigungen erstellen -->
+
+-   Prospektion
+-   Ausgrabung und Befunde
+-   Dokumentation
+-   Fundbearbeitung
+-   Physische Archivierung
+-   Datenerfassung
+-   Auswertung
+-   Kontexterstellung (Forschung zu Geschichte, Soziologie etc.)
+-   Öffentlichkeitsarbeit (Wissenschaft, Laien)
+:::
+
+
+In allen diesen Bereichen hat die Archäologie schon vor dem Digitalen Zeitalter mit analogen Mitteln gearbeitet, mittlerweile ist allerdings keiner dieser Bereiche mehr ohne digitale Werkzeuge denkbar. Dabei wird nicht nur einer Linie von der Skizze über das analoge Foto hin zu digitalen Aufnahmen gearbeitet, sondern es kommen neue Werkzeuge hinzu, die wie beispielsweise LiDAR-Messungen und Analysen ohne digitale Werkzeuge nicht denkbar sind. 
+
+Gibt es also in der Prospektion heute bei einer Begehung nicht mehr die Kartierung auf einer gedruckten Karte und die Erfassung per Notizbuch, so wird heute auch im Gelände mit GIS und direktem Eintrag gearbeitet, und die hier gewonnenen Erkenntnisse können anschließend über standardisierte Schnittstellen mit anderen Landkarten, Satellitenaufnahmen, Digital Terrain Models u.a. verknüpft werden, aber auch mit Funddatenbanken, Museumsbeständen und anderen digital vorhandenen Daten wie z.B. solchen aus Grabungen. Die verwendeten Werkzeuge werden ständig weiter entwickelt, und es ist einem Allrounder kaum mehr zuzumuten, die Entwicklungen in allen Teilbereichen stets auf dem neuesten Entwicklungsstand zu beherrschen. Es gibt aber grundsätzliche Pattern und Kenntnisse, die, einmal verstanden, es erleichtern, die neuen Entwicklungen einzuordnen und ihre Logik zu verstehen. 
+
+Die folgende Tabelle gibt einen ersten Überblick über die Verbindung zwischen den jeweiligen Bereichen archöologischer Tätigkeiten, den konkreten digitalen, oft mehrere Aufgaben erfüllenden Werkzeugen, und den darin enthaltenen konstanten Theorien, Methoden und digitalen Kernbereichen, sowie als Beispiel konkrete Software, die heute (2023) häufig in Anwendung kommt, und zwar OpenSource Versionen und kommerzielle Programme. 
+
+<!-- TODO ergänze die Tabelle -- viel Arbeit! -->
+
++-----------------+------------------------+---------------------------------------+------------------------------------------------+
+| Bereich         | Digital                | Konstanten                            | Aktuelle Software                              |
++=================+========================+=======================================+================================================+
+| Prospektion     | GIS                    | Grafik, Datenverarbeitung, Kartierung | QGIS; R spatial; LiDAR Filter; ...             |
++-----------------+------------------------+---------------------------------------+------------------------------------------------+
+| Dokumen- tation | Daten, Grafik, 3D, ... | Grafik, Datenverarbeitung             | Anwendungen zu Grafik/3D, Datenverwaltung, ... |
++-----------------+------------------------+---------------------------------------+------------------------------------------------+
+| ...             | ...                    | ...                                   | ...                                            |
++-----------------+------------------------+---------------------------------------+------------------------------------------------+
+
+: Vorschlag für einen systematischen Abgleich von methodischen Grundlagen, Werkzeugkonstanten, aktuell empfehlenswerten Anwendungen (s. Rinne 2022, "Softwarebox_DGUF"). {#tbl-application}
+
