@@ -2,7 +2,7 @@ project:
   type: book
 
 book:
-  title: "Digitale Archäologie"
+  title: "Digitale Archäologie (ver. 0.0.0.1)"
   author: "Maria Shinoto"
   date: "2023-09-26"
   date-format: long

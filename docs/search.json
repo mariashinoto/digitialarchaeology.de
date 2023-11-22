@@ -2,35 +2,35 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Digitale Archäologie",
+    "title": "Digitale Archäologie (ver. 0.0.0.1)",
     "section": "",
     "text": "Über das Buch"
   },
   {
     "objectID": "index.html#anlass",
     "href": "index.html#anlass",
-    "title": "Digitale Archäologie",
+    "title": "Digitale Archäologie (ver. 0.0.0.1)",
     "section": "Anlass",
     "text": "Anlass\nFundstücke, Ausgrabung, Wanderung durch unwegsames Gelände um Fundplätze zu beobachen – die Archäologie ist die denkbar dinglichste, analoge Wissenschaft überhaupt. Aber digitale Anwendungen sind in den letzten 50 Jahren zu immer wichtigeren Werkzeugen bei unserem Umgang mit diesen Dingen geworden, und ohne Kenntnis und Beherrschung wenigstens der Grundlagen solch digitaler Werkzeug in archäologischer oder denkmalpflegerischer Arbeit ist heute keine Forschung mehr möglich. Digitale Anwendungen haben die Archäologie verändert und sind in ständigem Umbruch begriffen; es gibt immer mehr und bessere Optionen. Da fällt es schwer, eine Übersicht zu behalten und auf aktuellem Stand zu bleiben. Dieses Buch soll Konstanten herausarbeiten, damit es leichter fällt, in Neuem das grundsätzlich Gültige wiederzuerkennen und sich ohne Umwege so weit anzupassen wie notwendig."
   },
   {
     "objectID": "index.html#versionen",
     "href": "index.html#versionen",
-    "title": "Digitale Archäologie",
+    "title": "Digitale Archäologie (ver. 0.0.0.1)",
     "section": "Versionen",
     "text": "Versionen\n\nBegonnen September 2023, Outline."
   },
   {
     "objectID": "index.html#links-und-zitierweise",
     "href": "index.html#links-und-zitierweise",
-    "title": "Digitale Archäologie",
+    "title": "Digitale Archäologie (ver. 0.0.0.1)",
     "section": "Links und Zitierweise",
     "text": "Links und Zitierweise\nMaria Shinoto. (2023). Digitale Archäologie - Werkzeuge und Konzepte im Wandel. [https://mariashinoto.github.io/digitialarchaeology.de/]. https://doi.org/10.5281/zenodo.8342717\nBibtex:\n@book{maria_shinoto_2023_8342717,\n  author       = {Maria Shinoto},\n  title        = {{Digitale Archäologie - \n                 Werkzeuge und Konzepte im Wandel}},\n  publisher    = {Zenodo},\n  year         = 2023,\n  month        = sep,\n  doi          = {https://doi.org/10.5281/zenodo.8342717},\n  url          = {https://mariashinoto.github.com/digitialarchaeology.de}\n}"
   },
   {
     "objectID": "index.html#über-die-autorin",
     "href": "index.html#über-die-autorin",
-    "title": "Digitale Archäologie",
+    "title": "Digitale Archäologie (ver. 0.0.0.1)",
     "section": "Über die Autorin",
     "text": "Über die Autorin\n\nPrivatdozentin am Institut für Ur- und Frühgeschichte und Vorderasiatische Archäologie, Zentrum für Altertumswissenschaften, Universität Heidelberg.\n\nKorrespondierendes Mitglied am Deutschen Archäologischen Institut\nGastprofessorin an der Beppu University, Japan\n https://orcid.org/0000-0001-6089-4526\n\nWebseiten:\n\nInstitutsseite\nEigene Webseite\n\nArbeitsschwerpunkte:\n\nJapanische Archäologie\nKeramik\nDigitale Anwendungen, insbesondere Statistik und Klassifikation"
   },
