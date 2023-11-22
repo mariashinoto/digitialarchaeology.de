@@ -1,5 +1,7 @@
 # Datenmodelle {#sec-sample-datamodels}
 
+TODO Verweis auf #history-stagesearlyarchaeology
+
 -   Modellieren auf Papier
 -   Modellieren mit Zeichenprogrammen oder UML
 -   Implementation in verschiedene Sprachen (v.s. SQL) und Datenbanken (Text- oder Excel-Tabellen; Postgres, MySQL, MariaDB, SQLight)
