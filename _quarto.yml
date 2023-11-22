@@ -3,52 +3,48 @@ project:
 
 book:
   title: "Digitale Archäologie"
-  subtitle: "Werkzeuge und Konzepte im Wandel"
-  author:
-    - name: Maria Shinoto
+  author: "Maria Shinoto"
   date: "2023-09-26"
   date-format: long
   chapters:
     - index.qmd
     - part: intro.qmd
-      chapters:
+      chapters: 
         - intro-archaeological-work.qmd
         - intro-overview.qmd
     - part: history.qmd
-      chapters:
+      chapters: 
         - history-stages.qmd
-        - history-actual-situation.qmd
-        - history-non-research-work.qmd
-        - history-outlook-discussion.qmd
+        - history-actualsituation.qmd
+        - history-nonresearchwork.qmd
+        - history-outlookdiscussion.qmd
     - part: basics.qmd
-      chapters:
+      chapters: 
         - basics-hardware.qmd
         - basics-software.qmd
         - basics-consistency.qmd
         - basics-community.qmd
-        - basics-dev-methods.qmd
+        - basics-methods.qmd
         - basics-standards-qualifications.qmd
     - part: teaching.qmd
-      chapters:
+      chapters: 
         - teaching-foundations.qmd
         - teaching-applications.qmd
     - part: implementations-examples.qmd
-      chapters:
+      chapters: 
         - implementation-writing.qmd
         - implementation-cooperation.qmd
         - implementation-datamodeling.qmd
     - references.qmd
-    - part: appendixlist.qmd
-      chapters:
-        - scripts.qmd
+
 lang: de
+
 bibliography: references.bib
 
 format:
   html:
-    theme:
-      dark: cyborg
-      light: journal
+    theme: cosmo
   pdf:
     documentclass: scrreprt
-    cite-method: biblatex
+    papersize: a4
+  docx: default
