@@ -2,11 +2,38 @@ project:
   type: book
 
 book:
-  title: "Digitale Archäologie (ver. 0.0.0.1)"
+  title: "Digitale Archäologie"
+  # subtitle: "-- v0.0.0.1 --"
   author: "Maria Shinoto"
   date: last-modified
-  
   date-format: long
+ # license: CC BY-SA
+  repo-url: https://github.com/mariashinoto/digitialarchaeology.de
+  reader-mode: false
+  page-footer:
+    left: |
+      Version 0.0.0.1, Creative Commons Attribution 4.0 International</br>
+      <a href=https://doi.org/10.5281/zenodo.8342717)>DOI: https://doi.org/10.5281/zenodo.8342717</a>
+      
+    # right: |
+    #    <a href=https://zenodo.org/badge/689810268.svg)>DOI </a>
+       
+  # cover-image: cover.jpg
+  favicon: cover.jpg
+  site-url: https://mariashinoto.github.io/digitialarchaeology.de/
+  # repo-url: https://github.com/hadley/r4ds/
+  # repo-branch: main
+  # repo-actions: [edit, issue]
+
+
+  # sidebar: 
+  #   tools: 
+  #     - icon: github
+  #       text: "Source"
+  #       href: https://github.com/mariashinoto/digitialarchaeology.de
+  #     - icon: fig-doi.png
+  #       text: "DOI"
+  #       href: https://doi.org/10.5281/zenodo.8342717
   chapters:
     - index.qmd
     - part: intro.qmd
@@ -45,6 +72,8 @@ bibliography: references.bib
 format:
   html:
     theme: cosmo
+    grid: 
+      sidebar-width: 21em
   pdf:
     documentclass: scrreprt
     papersize: a4
