@@ -3,6 +3,7 @@ project:
 
 book:
   title: "Digitale Archäologie"
+  subtitle: "Werkzeuge und Konzepte im Wandel"
   author: "Maria Shinoto"
   date: last-modified
   date-format: long
