@@ -8,7 +8,8 @@ Fundstücke, Ausgrabung, Wanderung durch unwegsames Gelände um Fundplätze zu b
 
 ## Versionen
 
--   Begonnen September 2023, Outline.
+- Version 0.0.0.1: Initialize.
+- September 2023.
 
 ## Links und Zitierweise
 
