@@ -10,7 +10,7 @@ Maria Shinoto
 ![Language
 German](https://img.shields.io/badge/Language-German-cyan.png)
 [![DOI](https://zenodo.org/badge/689810268.svg)](https://zenodo.org/badge/latestdoi/689810268)
-![Version](https://img.shields.io/badge/Ver.-0.0.0.1-red?style=flat&logo=github)
+![Version](https://img.shields.io/badge/Ver.-0.0.0.2-red?style=flat&logo=github)
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey?labelColor=grey&style=flat&logo=CC&link=https://creativecommons.org/licenses/by/4.0/.png)](https://creativecommons.org/licenses/by/4.0/)
 
 ### Buch und Repo
@@ -42,7 +42,7 @@ https://mariashinoto.github.io/digitialarchaeology.de/
 
 ### Versionen
 
-- v0.0.0.2 Book Chapters Outline
+- v0.0.0.2 Intro
 - v0.0.0.1 Initialize
 
 ### Wie zitieren?
@@ -50,9 +50,10 @@ https://mariashinoto.github.io/digitialarchaeology.de/
 Das Repo als:
 
 Maria Shinoto. (2023). Digitale Archäologie - Werkzeuge und Konzepte im
-Wandel (mariashinoto/digitialarchaeology.de) (v0.0.0.1). Zenodo.
-[https://doi.org/10.5281/zenodo.8342718](https://doi.org/10.5281/zenodo.8342718)
+Wandel (mariashinoto/digitialarchaeology.de) (v0.0.0.2)
+\[github.com/mariashinoto/digitialarchaeology.de\]. Zenodo.
+https://doi.org/10.5281/zenodo.8342718
 
 Das Buch als:
 
-Maria Shinoto. (2023). Digitale Archäologie - Werkzeuge und Konzepte im Wandel. (v0.0.0.1) [https://mariashinoto.github.io/digitialarchaeology.de/]. https://doi.org/10.5281/zenodo.8342718
+    Maria Shinoto. (2023). Digitale Archäologie - Werkzeuge und Konzepte im Wandel. (v0.0.0.1) [https://mariashinoto.github.com/digitialarchaeology.de]. https://doi.org/10.5281/zenodo.8342718

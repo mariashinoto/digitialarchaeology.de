@@ -11,7 +11,7 @@ book:
   reader-mode: false
   page-footer:
     left: |
-      Version 0.0.0.1, Creative Commons Attribution 4.0 International</br>
+      Version 0.0.0.2, Creative Commons Attribution 4.0 International</br>
       <a href=https://doi.org/10.5281/zenodo.8342717)>DOI: https://doi.org/10.5281/zenodo.8342717</a>
   favicon: cover.jpg
   site-url: https://mariashinoto.github.io/digitialarchaeology.de/

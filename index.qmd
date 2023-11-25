@@ -4,10 +4,11 @@
 
 ## Anlass
 
-Fundstücke, Ausgrabung, Wanderung durch unwegsames Gelände um Fundplätze zu beobachen -- die Archäologie ist die denkbar dinglichste, analoge Wissenschaft überhaupt. Aber digitale Anwendungen sind in den letzten 50 Jahren zu immer wichtigeren Werkzeugen bei unserem Umgang mit diesen Dingen geworden, und ohne Kenntnis und Beherrschung wenigstens der Grundlagen solch digitaler Werkzeug in archäologischer oder denkmalpflegerischer Arbeit ist heute keine Forschung mehr möglich. Digitale Anwendungen haben die Archäologie verändert und sind in ständigem Umbruch begriffen; es gibt immer mehr und bessere Optionen. Da fällt es schwer, eine Übersicht zu behalten und auf aktuellem Stand zu bleiben. Dieses Buch soll Konstanten herausarbeiten, damit es leichter fällt, in Neuem das grundsätzlich Gültige wiederzuerkennen und sich ohne Umwege so weit anzupassen wie notwendig.
+Fundstücke, Ausgrabung, Wanderung durch unwegsames Gelände um Fundplätze zu beobachten -- die Archäologie ist die denkbar dinglichste, analoge Wissenschaft überhaupt. Aber digitale Anwendungen sind in den letzten 50 Jahren zu immer wichtigeren Werkzeugen bei unserem Umgang mit diesen Dingen geworden, und ohne Kenntnis und Beherrschung wenigstens der Grundlagen solch digitaler Werkzeug in archäologischer oder denkmalpflegerischer Arbeit ist heute keine Forschung mehr möglich. Digitale Anwendungen haben die Archäologie verändert und sind in ständigem Umbruch begriffen; es gibt immer mehr und bessere Optionen. Da fällt es schwer, eine Übersicht zu behalten und auf aktuellem Stand zu bleiben. Dieses Buch soll Konstanten herausarbeiten, damit es leichter fällt, in Neuem das grundsätzlich Gültige wiederzuerkennen und sich ohne Umwege so weit anzupassen wie notwendig.
 
 ## Versionen
 
+- Version 0.0.0.2: Intro.
 - Version 0.0.0.1: Initialize.
 - September 2023.
 
