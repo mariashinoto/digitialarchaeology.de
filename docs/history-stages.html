@@ -2,12 +2,12 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.2.280">
+<meta name="generator" content="quarto-1.3.450">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Digitale Archäologie (ver. 0.0.0.1) - 3&nbsp; Drei historische Entwicklungsstadien</title>
+<title>Digitale Archäologie - 3&nbsp; Drei historische Entwicklungsstadien</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -17,14 +17,15 @@ div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
   width: 0.8em;
-  margin: 0 0.8em 0.2em -1.6em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for citations */
 div.csl-bib-body { }
 div.csl-entry {
   clear: both;
 }
-.hanging div.csl-entry {
+.hanging-indent div.csl-entry {
   margin-left:2em;
   text-indent:-2em;
 }
@@ -38,8 +39,7 @@ div.csl-right-inline {
 }
 div.csl-indent {
   margin-left: 2em;
-}
-</style>
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -51,6 +51,7 @@ div.csl-indent {
 <meta name="quarto:offset" content="./">
 <link href="./history-actualsituation.html" rel="next">
 <link href="./history.html" rel="prev">
+<link href="./cover.jpg" rel="icon" type="image/jpeg">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -76,7 +77,8 @@ div.csl-indent {
     "search-more-matches-text": "weitere Treffer in diesem Dokument",
     "search-clear-button-title": "Zurücksetzen",
     "search-detached-cancel-button-title": "Abbrechen",
-    "search-submit-button-title": "Abschicken"
+    "search-submit-button-title": "Abschicken",
+    "search-label": "Suchen"
   }
 }</script>
 
@@ -87,11 +89,16 @@ div.csl-indent {
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
-  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-    <div class="container-fluid d-flex justify-content-between">
-      <h1 class="quarto-secondary-nav-title"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Drei historische Entwicklungsstadien</span></h1>
-      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
-        <i class="bi bi-chevron-right"></i>
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+      <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./history.html">HISTORISCHE ENTWICKLUNGEN</a></li><li class="breadcrumb-item"><a href="./history-stages.html"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Drei historische Entwicklungsstadien</span></a></li></ol></nav>
+      <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Seitenleiste umschalten" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+      </a>
+      <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
       </button>
     </div>
   </nav>
@@ -99,193 +106,222 @@ div.csl-indent {
 <!-- content -->
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
     <div class="pt-lg-2 mt-2 text-left sidebar-header">
     <div class="sidebar-title mb-0 py-0">
-      <a href="./">Digitale Archäologie (ver. 0.0.0.1)</a> 
+      <a href="./">Digitale Archäologie</a> 
+        <div class="sidebar-tools-main">
+    <a href="https://github.com/mariashinoto/digitialarchaeology.de" rel="" title="Source Code" class="quarto-navigation-tool px-1" aria-label="Source Code"><i class="bi bi-github"></i></a>
+</div>
     </div>
       </div>
-      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="mt-2 flex-shrink-0 align-items-center">
         <div class="sidebar-search">
-        <div id="quarto-search" class="" title="Search"></div>
+        <div id="quarto-search" class="" title="Suchen"></div>
         </div>
-      </div>
+        </div>
     <div class="sidebar-menu-container"> 
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link">Über das Buch</a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">Über das Buch</span></a>
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./intro.html" class="sidebar-item-text sidebar-link">ZU BEGINN</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <a href="./intro.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">ZU BEGINN</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro-archaeological-work.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Archäologische Werkzeuge</span></a>
+  <a href="./intro-archaeological-work.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">1</span>&nbsp; <span class="chapter-title">Archäologische Werkzeuge</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./intro-overview.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Aufbau des Buches</span></a>
+  <a href="./intro-overview.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">2</span>&nbsp; <span class="chapter-title">Aufbau des Buches</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./history.html" class="sidebar-item-text sidebar-link">HISTORISCHE ENTWICKLUNGEN</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <a href="./history.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">HISTORISCHE ENTWICKLUNGEN</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./history-stages.html" class="sidebar-item-text sidebar-link active"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Drei historische Entwicklungsstadien</span></a>
+  <a href="./history-stages.html" class="sidebar-item-text sidebar-link active">
+ <span class="menu-text"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Drei historische Entwicklungsstadien</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./history-actualsituation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Heutige Situation</span></a>
+  <a href="./history-actualsituation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">4</span>&nbsp; <span class="chapter-title">Heutige Situation</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./history-nonresearchwork.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Abseits der Forschung</span></a>
+  <a href="./history-nonresearchwork.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">5</span>&nbsp; <span class="chapter-title">Abseits der Forschung</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./history-outlookdiscussion.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Blick in die Zukunft</span></a>
+  <a href="./history-outlookdiscussion.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">6</span>&nbsp; <span class="chapter-title">Blick in die Zukunft</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./basics.html" class="sidebar-item-text sidebar-link">COMPUTER</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true">
+            <a href="./basics.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">COMPUTER</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./basics-hardware.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Hardware</span></a>
+  <a href="./basics-hardware.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">7</span>&nbsp; <span class="chapter-title">Hardware</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./basics-software.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Software</span></a>
+  <a href="./basics-software.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">8</span>&nbsp; <span class="chapter-title">Software</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./basics-consistency.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Konsistenz und Regeln</span></a>
+  <a href="./basics-consistency.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">9</span>&nbsp; <span class="chapter-title">Konsistenz und Regeln</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./basics-community.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Rolle der Community</span></a>
+  <a href="./basics-community.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">10</span>&nbsp; <span class="chapter-title">Rolle der Community</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./basics-methods.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Prinzipien der Softwareentwicklung</span></a>
+  <a href="./basics-methods.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">11</span>&nbsp; <span class="chapter-title">Prinzipien der Softwareentwicklung</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./basics-standards-qualifications.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Standards und Qualifikationen</span></a>
+  <a href="./basics-standards-qualifications.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">12</span>&nbsp; <span class="chapter-title">Standards und Qualifikationen</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./teaching.html" class="sidebar-item-text sidebar-link">UNTERRICHT</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true">
+            <a href="./teaching.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">UNTERRICHT</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-4" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-4" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./teaching-foundations.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Abstrakte Grundlagen</span></a>
+  <a href="./teaching-foundations.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">13</span>&nbsp; <span class="chapter-title">Abstrakte Grundlagen</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./teaching-applications.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Anwendungen</span></a>
+  <a href="./teaching-applications.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">14</span>&nbsp; <span class="chapter-title">Anwendungen</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a href="./implementations-examples.html" class="sidebar-item-text sidebar-link">BEISPIELE</a>
-          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true">
+            <a href="./implementations-examples.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">BEISPIELE</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-5" aria-expanded="true" aria-label="Abschnitt umschalten">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
       <ul id="quarto-sidebar-section-5" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./implementation-writing.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Integriertes Schreiben</span></a>
+  <a href="./implementation-writing.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">15</span>&nbsp; <span class="chapter-title">Integriertes Schreiben</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./implementation-cooperation.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Kooperation</span></a>
+  <a href="./implementation-cooperation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">16</span>&nbsp; <span class="chapter-title">Kooperation</span></span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./implementation-datamodeling.html" class="sidebar-item-text sidebar-link"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Datenmodelle</span></a>
+  <a href="./implementation-datamodeling.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text"><span class="chapter-number">17</span>&nbsp; <span class="chapter-title">Datenmodelle</span></span></a>
   </div>
 </li>
       </ul>
   </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./references.html" class="sidebar-item-text sidebar-link">LITERATUR</a>
+  <a href="./references.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">LITERATUR</span></a>
   </div>
 </li>
     </ul>
     </div>
 </nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         <nav id="TOC" role="doc-toc" class="toc-active">
     <h2 id="toc-title">Inhaltsverzeichnis</h2>
    
   <ul>
-  <li><a href="#sec-history-stages-early-years" id="toc-sec-history-stages-early-years" class="nav-link active" data-scroll-target="#sec-history-stages-early-years"><span class="toc-section-number">3.1</span>  1960 - 1990</a>
+  <li><a href="#sec-history-stages-early-years" id="toc-sec-history-stages-early-years" class="nav-link active" data-scroll-target="#sec-history-stages-early-years"><span class="header-section-number">3.1</span> 1960 - 1980</a>
   <ul class="collapse">
-  <li><a href="#akademische-nutzung" id="toc-akademische-nutzung" class="nav-link" data-scroll-target="#akademische-nutzung"><span class="toc-section-number">3.1.1</span>  Akademische Nutzung</a></li>
-  <li><a href="#history-earlyarchaeologicalpractice" id="toc-history-earlyarchaeologicalpractice" class="nav-link" data-scroll-target="#history-earlyarchaeologicalpractice"><span class="toc-section-number">3.1.2</span>  Archäologische Praxis?</a></li>
-  <li><a href="#zusammenfassung-der-frühen-jahre" id="toc-zusammenfassung-der-frühen-jahre" class="nav-link" data-scroll-target="#zusammenfassung-der-frühen-jahre"><span class="toc-section-number">3.1.3</span>  Zusammenfassung der frühen Jahre</a></li>
+  <li><a href="#akademische-nutzung" id="toc-akademische-nutzung" class="nav-link" data-scroll-target="#akademische-nutzung"><span class="header-section-number">3.1.1</span> Akademische Nutzung</a></li>
+  <li><a href="#history-earlyarchaeologicalpractice" id="toc-history-earlyarchaeologicalpractice" class="nav-link" data-scroll-target="#history-earlyarchaeologicalpractice"><span class="header-section-number">3.1.2</span> Archäologische Praxis?</a></li>
+  <li><a href="#zusammenfassung-der-frühen-jahre" id="toc-zusammenfassung-der-frühen-jahre" class="nav-link" data-scroll-target="#zusammenfassung-der-frühen-jahre"><span class="header-section-number">3.1.3</span> Zusammenfassung der frühen Jahre</a></li>
   </ul></li>
-  <li><a href="#sec-history-stages-ninetees" id="toc-sec-history-stages-ninetees" class="nav-link" data-scroll-target="#sec-history-stages-ninetees"><span class="toc-section-number">3.2</span>  1990 - 2010</a>
+  <li><a href="#sec-history-stages-ninetees" id="toc-sec-history-stages-ninetees" class="nav-link" data-scroll-target="#sec-history-stages-ninetees"><span class="header-section-number">3.2</span> 1980 - 2000 Jahre</a>
   <ul class="collapse">
-  <li><a href="#technischer-und-kommerzieller-hintergrund" id="toc-technischer-und-kommerzieller-hintergrund" class="nav-link" data-scroll-target="#technischer-und-kommerzieller-hintergrund"><span class="toc-section-number">3.2.1</span>  Technischer und kommerzieller Hintergrund</a></li>
-  <li><a href="#anfänge-die-erst-heute-wirken" id="toc-anfänge-die-erst-heute-wirken" class="nav-link" data-scroll-target="#anfänge-die-erst-heute-wirken"><span class="toc-section-number">3.2.2</span>  Anfänge, die erst heute wirken</a></li>
-  <li><a href="#anwendungssoftware-und-betriebssysteme" id="toc-anwendungssoftware-und-betriebssysteme" class="nav-link" data-scroll-target="#anwendungssoftware-und-betriebssysteme"><span class="toc-section-number">3.2.3</span>  Anwendungssoftware und Betriebssysteme</a></li>
-  <li><a href="#professionelle-entwicklungen" id="toc-professionelle-entwicklungen" class="nav-link" data-scroll-target="#professionelle-entwicklungen"><span class="toc-section-number">3.2.4</span>  Professionelle Entwicklungen</a></li>
-  <li><a href="#sec-history-caa" id="toc-sec-history-caa" class="nav-link" data-scroll-target="#sec-history-caa"><span class="toc-section-number">3.2.5</span>  Die CAA (Computer Applications in Archaeology)</a></li>
-  <li><a href="#sec-historical-stages-ninetees-character-problems" id="toc-sec-historical-stages-ninetees-character-problems" class="nav-link" data-scroll-target="#sec-historical-stages-ninetees-character-problems"><span class="toc-section-number">3.2.6</span>  Zusammenfassung</a></li>
+  <li><a href="#technischer-und-kommerzieller-hintergrund" id="toc-technischer-und-kommerzieller-hintergrund" class="nav-link" data-scroll-target="#technischer-und-kommerzieller-hintergrund"><span class="header-section-number">3.2.1</span> Technischer und kommerzieller Hintergrund</a></li>
+  <li><a href="#langfristig-wirksame-software-entwicklungen" id="toc-langfristig-wirksame-software-entwicklungen" class="nav-link" data-scroll-target="#langfristig-wirksame-software-entwicklungen"><span class="header-section-number">3.2.2</span> Langfristig wirksame Software Entwicklungen</a></li>
+  <li><a href="#anwendungssoftware-und-betriebssysteme" id="toc-anwendungssoftware-und-betriebssysteme" class="nav-link" data-scroll-target="#anwendungssoftware-und-betriebssysteme"><span class="header-section-number">3.2.3</span> Anwendungssoftware und Betriebssysteme</a></li>
+  <li><a href="#professionelle-entwicklungen" id="toc-professionelle-entwicklungen" class="nav-link" data-scroll-target="#professionelle-entwicklungen"><span class="header-section-number">3.2.4</span> Professionelle Entwicklungen</a></li>
+  <li><a href="#sec-history-caa" id="toc-sec-history-caa" class="nav-link" data-scroll-target="#sec-history-caa"><span class="header-section-number">3.2.5</span> Die CAA (Computer Applications in Archaeology)</a></li>
+  <li><a href="#sec-historical-stages-ninetees-character-problems" id="toc-sec-historical-stages-ninetees-character-problems" class="nav-link" data-scroll-target="#sec-historical-stages-ninetees-character-problems"><span class="header-section-number">3.2.6</span> Zusammenfassung</a></li>
   </ul></li>
-  <li><a href="#sec-historical-stages-2000s" id="toc-sec-historical-stages-2000s" class="nav-link" data-scroll-target="#sec-historical-stages-2000s"><span class="toc-section-number">3.3</span>  2000 - 2020</a>
+  <li><a href="#sec-historical-stages-2000s" id="toc-sec-historical-stages-2000s" class="nav-link" data-scroll-target="#sec-historical-stages-2000s"><span class="header-section-number">3.3</span> 2000 - 2015</a>
   <ul class="collapse">
-  <li><a href="#ereignisse" id="toc-ereignisse" class="nav-link" data-scroll-target="#ereignisse"><span class="toc-section-number">3.3.1</span>  Ereignisse</a></li>
-  <li><a href="#tendenzen" id="toc-tendenzen" class="nav-link" data-scroll-target="#tendenzen"><span class="toc-section-number">3.3.2</span>  Tendenzen</a></li>
+  <li><a href="#ereignisse" id="toc-ereignisse" class="nav-link" data-scroll-target="#ereignisse"><span class="header-section-number">3.3.1</span> Ereignisse</a></li>
+  <li><a href="#tendenzen" id="toc-tendenzen" class="nav-link" data-scroll-target="#tendenzen"><span class="header-section-number">3.3.2</span> Tendenzen</a></li>
   </ul></li>
+  <li><a href="#tabellarische-übersicht" id="toc-tabellarische-übersicht" class="nav-link" data-scroll-target="#tabellarische-übersicht"><span class="header-section-number">3.4</span> Tabellarische Übersicht</a></li>
   </ul>
 </nav>
     </div>
@@ -294,7 +330,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span id="sec-history-stages" class="quarto-section-identifier d-none d-lg-block"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Drei historische Entwicklungsstadien</span></span></h1>
+<h1 class="title"><span id="sec-history-stages" class="quarto-section-identifier"><span class="chapter-number">3</span>&nbsp; <span class="chapter-title">Drei historische Entwicklungsstadien</span></span></h1>
 </div>
 
 
@@ -311,19 +347,19 @@ div.csl-indent {
 
 <p>Die Entwicklung, die man selber als Kontinuum miterlebt, wird für gewöhnlich im Nachhinein in Phasen oder Epochen eingeteilt. Ihre jeweiligen Charakteristika haben sich oft schon in den vorherigen Stufen angekündigt und wirken bis in die nachfolgenden Stufen. So sind sie nicht exclusiv nur in einer Phase anzutreffen, und auch die hier gesetzten Grenzen der Phasen in Jahreszahlen sind diskussionswürdig. Persönlich konnte ich noch die letzten Auswirkungen der ersten Stufe, die ich kurzerhand zwischen 1960 und 1990 datiere, miterleben. Während der folgenden Stadien war ich aktiv dabei, ohne damals zu verstehen, auf welchem Weg ich mich gerade befinde. Der historische Rückblick soll das Verständnis für den heutigen Zustand und die künftigen Möglichkeiten (s. <a href="history-actualsituation.html"><span>Kapitel&nbsp;4</span></a>) vertiefen.</p>
 <section id="sec-history-stages-early-years" class="level2" data-number="3.1">
-<h2 data-number="3.1" class="anchored" data-anchor-id="sec-history-stages-early-years"><span class="header-section-number">3.1</span> 1960 - 1990</h2>
+<h2 data-number="3.1" class="anchored" data-anchor-id="sec-history-stages-early-years"><span class="header-section-number">3.1</span> 1960 - 1980</h2>
 <section id="akademische-nutzung" class="level3" data-number="3.1.1">
 <h3 data-number="3.1.1" class="anchored" data-anchor-id="akademische-nutzung"><span class="header-section-number">3.1.1</span> Akademische Nutzung</h3>
 <p>Die Entwicklung des Computers nahm während des Zweiten Weltkriegs an Fahrt auf. Die 1950er Jahre brachten die ersten wichtigen Fortschritte hin zu kommerziell initiierter Produktion, aber außer für eine kleine Gruppe von Fachleuten blieben Computer weitestgehend etwas Unbekanntes. Auch Fachleute mussten “Rechenzeit” an Rechnern reservieren und die Zeit effizient nutzen. In der Wissenschaft wurden solche rechenintensive Leistungen zunächst von mathematisch orientierten Disziplinen in Anspruch genommen. Hierzu gehört die Statistik.</p>
-<p>Da vor allem in der englischsprachigen Archäologie seit längerem im Rahmen der Keramikklassifikation versucht worden war, statistische Ansätze an die Stelle subjektiver, erfahrungsgeleiteter Typologie treten zu lassen (Beschreibung des Prozesses seit den 1920er Jahren bei <span class="citation" data-cites="Vossen1970">(<a href="references.html#ref-Vossen1970" role="doc-biblioref">Vossen 1970</a>)</span>), verwundert es nicht, dass auch die frühesten Versuche der Umsetzung archäologischer Forschung mit dem Computer in der statistisch basierten Klassifikation zu suchen sind. Frühe Anwendungen zur Seriation werden angeführt bei Leblanc , sehr früh und mit grundsätzlichen statistischen Methoden hat der Autor der “Analytical Archaeology”, David L. Clarke den Trend zur Statistik eingeleitet; er hatte schon 1962 für den Computer geeignete Keramikanalysen erstellt <span class="citation" data-cites="Clarke1962">(<a href="references.html#ref-Clarke1962" role="doc-biblioref">Clarke 1962</a>)</span>. Allgemein wurde die statistisch begründete Klassifikation als “numerical taxonomy” bezeichnet, ein Begriff, den man aus der Biologie übernommen hatte – denn die Biologie war und ist die normative Disziplin für archäologische Klassifikation <span class="citation" data-cites="Vossen1970">(vgl. <a href="references.html#ref-Vossen1970" role="doc-biblioref">Vossen 1970</a>)</span>. So verwundert es nicht, das 1966 ein heute als Klassiker geltender Artikel zur numerischen Taxonomie in der Archäologie von einem Archäologen, einem Biologen, und dem Mitglied der “Experimental Programming Unit” an der Edinburgh University gemeinsam publiziert wurde <span class="citation" data-cites="HodsonEtAl1966">(<a href="references.html#ref-HodsonEtAl1966" role="doc-biblioref">Hodson, Sneath, und Doran 1966</a>)</span>. Sowohl die theoretischen Grundlagen von archäologischer und klassifikatorischer Seit mussten von Fachleuten geklärt werden, aber die Durchführung musste speziell programmiert werden. – Daneben begannen auch früh schon Versuche der automatisierten Seriation, von Leblanc (<span class="citation" data-cites="LeBlanc1975a">(<a href="references.html#ref-LeBlanc1975a" role="doc-biblioref">LeBlanc 1975</a>)</span>) für internationale Anwendungen angeführt; in Deutschland, wo Seriation gut in die Forschungslandschaft passte, wurden solche Algorithmen weiter entwickelt (@)</p>
-<p>Kurz darauf untersuchte Whallon die Klassifikation einer Keramikgruppe mithilfe eines Entscheidungsbaums, für das er ein Computerprogramm entwickelte und in kleinerem Rahmen veröffentlichte <span class="citation" data-cites="Whallon1971">(<a href="references.html#ref-Whallon1971" role="doc-biblioref">Whallon 1971</a>)</span>, während die Klassifikation und die darunter liegende Methode heute besser zugänglich ist <span class="citation" data-cites="Whallon1972">(<a href="references.html#ref-Whallon1972" role="doc-biblioref">Whallon 1972a</a>)</span>. Zur selben Zeit veröffentlichte er einen Aufsatz zur Anwendung von Computern in der Archäologie, in dem er nicht nur vorhergehende Übersichten noch aus den 1960er zitieren kann, sondern schreibt: “The number and variety of computer applications in archaeology today are so great that it is virtually impossible to select any small number of individual projects as representative” <span class="citation" data-cites="Whallon1972a">(<a href="references.html#ref-Whallon1972a" role="doc-biblioref">Whallon 1972b, 29</a>)</span>. – Was damals sicher ein richtiger Eindruck war, mutet angesichts der heutigen, unübersichtlichen Situation ein wenig übertrieben an.</p>
-<p>Neben Clarke und Whallon ist Dunnell zu erwähnen <span class="citation" data-cites="dunnell1971">(<a href="references.html#ref-dunnell1971" role="doc-biblioref">Dunnell 1971</a>)</span>, die in diesen Jahren vor allem im Bereich der Systematik (Klassifikation/Taxonomie, Modelle) gewirkt haben, indem sie an Grundlagen und Theorien gearbeitet haben, die ohne Computertechnik nicht umsetzbar gewesen wären, und die diese Grundlagen in digitale Lösungen umgesetzt haben.</p>
-<p>In Deutschland setzte eine ähnliche Entwicklung etwas später ein, so heißt es von dem Biostatistiker Peter Ihm, er habe seit Anfang der 1970er Jahre an verschiedenen westdeutschen Universitäten begonnen, Statistik für Archäologen zu unterrichten <span class="citation" data-cites="weber2014">(<a href="references.html#ref-weber2014" role="doc-biblioref">Weber und Zimmermann 2014</a>)</span>, und schon 1978 erschien sein Lehrbuch zur Statistik in der Archäologie <span class="citation" data-cites="ihm1978">(<a href="references.html#ref-ihm1978" role="doc-biblioref">Ihm, Lüning, und Zimmermann 1978</a>)</span>; aber auch die sehr frühe Anwendung einer statistischen Klassifikation sollte nicht vergessen werden <span class="citation" data-cites="dohrn-ihmig1976">(<a href="references.html#ref-dohrn-ihmig1976" role="doc-biblioref">Dohrn-Ihmig 1976</a>)</span>. Anwendung und Weiterentwicklung von Klassifikation und Seriation blieb ein großes Thema in der deutschsprachigen Archäologie; für die Entwicklung digitaler Verfahren muss diese Entwicklung jedoch nicht weiter verfolgt werden.</p>
+<p>Da vor allem in der englischsprachigen Archäologie seit längerem im Rahmen der Keramikklassifikation versucht worden war, statistische Ansätze an die Stelle subjektiver, erfahrungsgeleiteter Typologie treten zu lassen (Beschreibung des Prozesses seit den 1920er Jahren bei <span class="citation" data-cites="Vossen1970">(<a href="references.html#ref-Vossen1970" role="doc-biblioref">Vossen 1970</a>)</span>, verwundert es nicht, dass auch die frühesten Versuche der Umsetzung archäologischer Forschung mit dem Computer in der statistisch basierten Klassifikation zu suchen sind. Frühe Anwendungen zur Seriation werden angeführt bei Leblanc , sehr früh und mit grundsätzlichen statistischen Methoden hat der Autor der “Analytical Archaeology”, David L. Clarke den Trend zur Statistik eingeleitet; er hatte schon 1962 für den Computer geeignete Keramikanalysen erstellt <span class="citation" data-cites="Clarke1962">(<a href="references.html#ref-Clarke1962" role="doc-biblioref">Clarke 1962</a>)</span>. Allgemein wurde die statistisch begründete Klassifikation als “numerical taxonomy” bezeichnet, ein Begriff, den man aus der Biologie übernommen hatte – denn die Biologie war und ist die normative Disziplin für archäologische Klassifikation <span class="citation" data-cites="Vossen1970">(vgl. <a href="references.html#ref-Vossen1970" role="doc-biblioref">Vossen 1970</a>)</span>. So verwundert es nicht, das 1966 ein heute als Klassiker geltender Artikel zur numerischen Taxonomie in der Archäologie von einem Archäologen, einem Biologen, und dem Mitglied der “Experimental Programming Unit” an der Edinburgh University gemeinsam publiziert wurde <span class="citation" data-cites="HodsonEtAl1966">(<a href="references.html#ref-HodsonEtAl1966" role="doc-biblioref">Hodson, Sneath, und Doran 1966</a>)</span>. Sowohl die theoretischen Grundlagen von archäologischer und klassifikatorischer Seit mussten von Fachleuten geklärt werden, aber die Durchführung musste speziell programmiert werden. – Daneben begannen auch früh schon Versuche der automatisierten Seriation, von Leblanc <span class="citation" data-cites="LeBlanc1975a">(<a href="references.html#ref-LeBlanc1975a" role="doc-biblioref">LeBlanc 1975</a>)</span> für internationale Anwendungen angeführt; in Deutschland, wo Seriation gut in die Forschungslandschaft passte, wurden solche Algorithmen recht früh aufgegriffen <span class="citation" data-cites="weber2014">(<a href="references.html#ref-weber2014" role="doc-biblioref">Weber und Zimmermann 2014</a>)</span> und weiter entwickelt (s.u.).</p>
+<p>Kurz darauf untersuchte Whallon die Klassifikation einer Keramikgruppe mithilfe eines Entscheidungsbaums, für das er ein Computerprogramm entwickelte und in kleinerem Rahmen veröffentlichte <span class="citation" data-cites="Whallon1971">(<a href="references.html#ref-Whallon1971" role="doc-biblioref">Whallon 1971</a>)</span>, während die Klassifikation und die darunter liegende Methode heute besser zugänglich ist <span class="citation" data-cites="Whallon1972">(<a href="references.html#ref-Whallon1972" role="doc-biblioref">Whallon 1972a</a>)</span>. Zur selben Zeit veröffentlichte er einen Aufsatz zur Anwendung von Computern in der Archäologie, in dem er nicht nur vorhergehende Übersichten noch aus den 1960er zitieren kann, sondern schreibt: “The number and variety of computer applications in archaeology today are so great that it is virtually impossible to select any small number of individual projects as representative” <span class="citation" data-cites="Whallon1972a">(<a href="references.html#ref-Whallon1972a" role="doc-biblioref">Whallon 1972b, 29</a>)</span>. – Was damals sicher ein angemessener Eindruck war, mutet angesichts der heutigen, unübersichtlichen Situation ein wenig übertrieben an.</p>
+<p>Neben Clarke und Whallon ist Dunnell zu erwähnen <span class="citation" data-cites="dunnell1971">(<a href="references.html#ref-dunnell1971" role="doc-biblioref">Dunnell 1971</a>)</span>, sie haben vor allem im Bereich der Systematik (Klassifikation/Taxonomie, Modelle) an Grundlagen und Theorien gearbeitet, die eine unentbehrliche Grundlage für solide digitale Lösungen sind.</p>
+<p>In Deutschland setzte eine ähnliche Entwicklung ebenfalls früh ein, so heißt es von dem Biostatistiker Peter Ihm, er habe seit Anfang der 1970er Jahre an verschiedenen westdeutschen Universitäten begonnen, Statistik für Archäologen zu unterrichten <span class="citation" data-cites="weber2014">(<a href="references.html#ref-weber2014" role="doc-biblioref">Weber und Zimmermann 2014</a>)</span>, und schon 1978 erschien sein Lehrbuch zur Statistik in der Archäologie <span class="citation" data-cites="ihm1978">(<a href="references.html#ref-ihm1978" role="doc-biblioref">Ihm, Lüning, und Zimmermann 1978</a>)</span>. Auch die sehr frühe Anwendung einer statistischen Klassifikation sollte nicht vergessen werden <span class="citation" data-cites="dohrn-ihmig1976">(<a href="references.html#ref-dohrn-ihmig1976" role="doc-biblioref">Dohrn-Ihmig 1976</a>)</span>. Anwendung und Weiterentwicklung von Klassifikation und Seriation blieb ein großes Thema in der deutschsprachigen Archäologie; für die Entwicklung digitaler Verfahren muss diese Entwicklung jedoch nicht weiter verfolgt werden.</p>
 <p>Aus dieser Übersicht sollte eine Tendenz deutlich geworden sein: Noch vor der Umsetzung mit Computerprogrammen und während der ersten Jahre wurden theoretische Konzepte entwickelt, erst im Laufe dieses Prozesses wurden diese digital umgesetzt. Wissenschaftler:innen aus verschiedenen Disziplinen, vor allem der Biologie, haben hierfür zusammen gearbeitet, zunehmend haben jedoch Fachleute aus der Archäologie das Heft in die Hand genommen. Es wurden Lösungen für eine bestimmte Fundgattung entwickelt und publiziert, sodass weitere Kreise dann hierauf aufbauend eigene theoretisch-methodische Grundlagen erarbeiten und mit eigenen Entwicklungen digital umsetzen konnten.</p>
 </section>
 <section id="history-earlyarchaeologicalpractice" class="level3" data-number="3.1.2">
 <h3 data-number="3.1.2" class="anchored" data-anchor-id="history-earlyarchaeologicalpractice"><span class="header-section-number">3.1.2</span> Archäologische Praxis?</h3>
-<p>1973 wurde die Gesellschaft “Computer Applications and Quantitative Methods in Archaeology Conference (CAA)” in Großbritannien von Susan Laflin gegründet. Sie war zunächst als Treffen von mathematisch und computertechnisch interessierten Archäolog:innen gedacht <span class="citation" data-cites="caa2023history">(<a href="references.html#ref-caa2023history" role="doc-biblioref"><span>„<span>CAA History</span> <span>CAA International</span>“</span> 2023</a>)</span> (s. <a href="#sec-history-caa"><span>Kapitel&nbsp;3.2.5</span></a>) .</p>
+<p>1973 wurde die Gesellschaft “Computer Applications and Quantitative Methods in Archaeology Conference (CAA)” in Großbritannien von Susan Laflin gegründet. Sie war zunächst als Treffen von mathematisch und computertechnisch interessierten Archäolog:innen gedacht <span class="citation" data-cites="caa2023history">(<a href="references.html#ref-caa2023history" role="doc-biblioref"><span>„<span>CAA History</span> <span>CAA International</span>“</span> 2023</a>)</span> (s. <a href="#sec-history-caa"><span>Kapitel&nbsp;3.2.5</span></a>) und passt somit vom Charakter in diese Jahre. Mittlerweile ist die CAA unverzichtbarer Bestandteil der archälogischen Forschungslandschaft.</p>
 <p>Zur selben Zeit wurden in der Wirtschaft und anderen akademischen Disziplinen Computer als Werkzeug für fachspezifische Probleme genutzt und Lösungen entwickelt, die später in die Archäologie Eingang gefunden haben. Wie in der archäologischen Systematik, sind es zunächst Fächer, die mit Zahlen und “harten Daten” arbeiten: Vermessung und die Entwicklung von CAD, Karthographie, Chemie und die Auswertung chemischer Analysen in per Computer sind zu nennen, spielen aber vor 1980 in der Archäologie noch keine bedeutende Rolle; die Integration beginnt erst in der nächsten Phase.</p>
 <p>Auch eine andere, heute zentrale Aufgabe des Computers setzt in der archäologischen Forschung erst später ein: die Nutzung von digitalen Datenbanken. Dem Design von Datenbanken liegen zwei Prinzipien zugrunde: Zum einen ist es der Inhalt oder das Thema der Datenbank – zum Beispiel Bibliothekswissenschaften – mit spezifisch inhaltlichen Erfordernissen und theoretischen Grundlagen, zum anderen ist es das Datenmodell, nach dem die jeweiligen Datenbanken eingerichtet werden. Während in der hier besprochenen frühen Zeit Daten zu Funden oder Befunden durchaus im Computer erfasst wurden, so geschah das fast ausschließlich projektgebunden, um z.B. eine bestimmte Analyse durchzuführen. Archivierung von Grabungen u.a. war noch sehr lange analogen Verfahren überlassen. Aber auch im Bereich Datenbanken sind um diese Zeit die Prinzipien entstanden, nach denen heute noch eine archäologische oder denkmalpflegerische Datenbank modelliert wird (s. <a href="teaching-applications.html"><span>Kapitel&nbsp;14</span></a>, <a href="implementation-datamodeling.html"><span>Kapitel&nbsp;17</span></a>).</p>
 </section>
@@ -335,50 +371,49 @@ div.csl-indent {
 <li>Vor allem im Zusammenhang mit der “Verwissenschaftlichung” der Archäologie wurden bevorzug die Methoden angewendet, die sich für digitale Umsetzung eigneten, vor allem systematische, rechenintensive Aufgaben. Die theoretisch-methodischen Diskussionen wurden in Auseinandersetzung mit den seit den 1960er Jahren durchgeführten Studien fortgeführt.</li>
 <li>Computer waren rar, teuer, schwierig zu bedienen; die Kenntnis naturwissenschaftlicher und mathematischer Grundlagen wurden als unverzichtbar erachtet, so dass Archäolog:innen zu Beginn meist gemeinsam mit Fachleuten aus den anderen Disziplinen – vor allem der Biologie – zusammen arbeiteten und gemeinsam Resultate von hohem wissenschaftlichen Wert vorweisen konnten.</li>
 <li>Die jeweiligen Lösungen waren Insellösungen an einer bestimmten Fundgruppe oder Problematik; Nachbildungen mussten neu programmiert werden. Das bedeutet einerseits, dass die digitale Arbeit für die Archäologie nicht unbedingt zeitsparend war, aber es gab Raum für originelle, freie Entwicklung.</li>
-<li>Viele Verfahren, die heute für die archäologische und denkmalpflegerische Arbeit bedeutsam sind, wurden zu dieser Zeit erst in ihren Grundlagen entwickelt und hatten keine Auswirkung auf die damalige archäologische Forschung oder Denkmalpflege. Die Grundlagen gelten jedoch nach wie vor, ihr Verständnis ist heute unabdingbar, um die neuen Entwicklungen korrekt anwenden zu können. Grundsätzlich sind die Beispiele, die damals mit großem Aufwand entwickelt und vorgestellt wurden, mit heute vorhandenen Daten, Hardware und Open Source Software, von Einzelpersonen in kurzer Zeit und ohne weitere Kosten durchführbar. Bildeten in der Frühphase die Darstellung der Methode neben dem Inhalt der jeweiligen Studien einen wichtigen Bestandteil der Arbeit, so kann man heute zunehmend auf etablierte Verfahren zurückgreifen und wieder die Feldarbeit und Interpretation der Analysen in den Mittelpunkt stellen (TODO Abschnitt unten hinzufügen?).</li>
+<li>Viele Verfahren, die heute für die archäologische und denkmalpflegerische Arbeit bedeutsam sind, wurden zu dieser Zeit erst in ihren Grundlagen entwickelt und hatten keine Auswirkung auf die damalige archäologische Forschung oder Denkmalpflege. Die Grundlagen gelten jedoch nach wie vor, ihr Verständnis ist heute unabdingbar, um die neuen Entwicklungen korrekt anwenden zu können. Grundsätzlich sind die Beispiele, die damals mit großem Aufwand entwickelt und vorgestellt wurden, mit heute vorhandenen Daten, Hardware und Open Source Software, von Einzelpersonen in kurzer Zeit und ohne weitere Kosten durchführbar. Bildeten in der Frühphase die Darstellung der Methode neben dem Inhalt der jeweiligen Studien einen wichtigen Bestandteil der Arbeit, so kann man heute zunehmend auf etablierte Verfahren zurückgreifen und wieder die Feldarbeit und Interpretation der Analysen in den Mittelpunkt stelle (TODO Abschnitt unten hinzufügen?).</li>
 <li>Insgesamt gibt es in der international zur Verfügung stehenden Literatur aus den Jahren bis in die 1980er Jahre nur wenige Namen, die immer wieder auftauchen; man kann es so verstehen, dass es eine kleine Elite gab, die zum einen die Bedeutung digitaler Entwicklungen für die Archäologie trotz ausstehender praktischer Vorteile einschätzen konnten, die genügend Fachkenntisse und Verständnis mitbrachten, um sich mit Fachleuten aus anderen Disziplinen zu unterhalten, und denen Computer für ihre Projekte zur Verfügung standen. <strong>Solches tieferes Verständnis der theoretisch-methodischen Grundlagen und der digitalen Durchführung sollte in heutiger Lehrtätigkeit vermittelt werden.</strong></li>
 <li>Die meisten Tätigkeiten in der Archäologie wurden nach wie vor analog durchgeführt: Zeichnung, Fotografie, Archivierung, Dokumentation, Publizieren.</li>
 </ul>
 </section>
 </section>
 <section id="sec-history-stages-ninetees" class="level2" data-number="3.2">
-<h2 data-number="3.2" class="anchored" data-anchor-id="sec-history-stages-ninetees"><span class="header-section-number">3.2</span> 1990 - 2010</h2>
+<h2 data-number="3.2" class="anchored" data-anchor-id="sec-history-stages-ninetees"><span class="header-section-number">3.2</span> 1980 - 2000 Jahre</h2>
 <section id="technischer-und-kommerzieller-hintergrund" class="level3" data-number="3.2.1">
 <h3 data-number="3.2.1" class="anchored" data-anchor-id="technischer-und-kommerzieller-hintergrund"><span class="header-section-number">3.2.1</span> Technischer und kommerzieller Hintergrund</h3>
-<p>Schon im Verlaufe der oben beschriebenen frühen Jahre entwickelte sich die Computertechnologie in eine Richtung weiter, die dann ab den späten 1980er Jahren begann, auch die archäologische Arbeit zu revolutionieren: Anfang der 1970er Jahre fertigte IBM die ersten Mikroprozessoren in Serie, 1976 stellte Apple mit dem Apple I den ersten Personal Computer her, 1981 folgte der IBM-PC. Viele andere Unternehmen folgten mit ähnlichen Konzepten, die Nutzung der Maus und damit die Entwicklung von GUIs (Graphical User Interfaces) wurde ein wichtiges Charakteristikum der Arbeit am Computer, die das Erlernen von kryptischen Befehlen überflüssig machte und die Nutzung von Computern einem weiten Personkreis über die Experten hinaus ermöglichte. Eine Reihe von Personal Computern wurden in den 1980er Jahren entwickelt, deren Namen heute noch bekannt sind – wie Atari, Schneider, Commodore. Geblieben sind über die 1990er Jahre hinaus bis heute die “IBM-kompatiblen” Systeme, die heute vor allem durch das gemeinsame Betriebssystem Windows von Microsoft charakterisiert, sowie die Systeme der Firma Apple mit einem eigenen Betriebssystem als Vorläufer des heutigen Mac OS, einem Unix-Derivat TODO.</p>
-<p>1991 begann Linus Torvalds mit der Entwicklung des Betriebssystems Linux, ein freies Betriebssystem, das auch unterschiedlichen Rechnerarchitekturen arbeiten kann. Es eignet sich für die Arbeit am Personal Computer, ist aber weltweit vor allem in Großrechnern und Servern vorherrschend. Die Entwicklung von Linux als offenem – kostenlos und von jeder und jedem veränderbaren – System ist im Rahmen der Entwicklung von Open Source zu sehen. Als Beginn der Open Source Bewegung wird das Anfang der 1980er Jahre von Richard Stallman initiierte GNU-Projekt zu gesehen (<span class="citation" data-cites="gnu-proj2020">(<a href="references.html#ref-gnu-proj2020" role="doc-biblioref"><span>„GNU-Projekt“</span> 2020</a>)</span>, <span class="citation" data-cites="stallman1985">(<a href="references.html#ref-stallman1985" role="doc-biblioref">Stallman 1985</a>)</span>), das in aller Stille im Schatten der großen kommerziellen Erfolge anderer Software langfristig und nachhaltig einen ernormen Einfluss auf die Kultur der Softwareentwicklung hatte und hat, heute mehr als je zuvor. Wichtiger im Begriff “Open Source” als die Komponente “kostenlos” – die nicht zwingend vorgegeben ist – ist der Aspekt, dass der Quellcode offen ist, eingesehen und verändert werden kann; dies ist bei proprietären Systemen wir den Office Paketen von Microsoft oder den Programmen der Adobe – nur als Beispiel für die Mehrzahl von Software bei Strafe untersagt. Im Falle von Open Source kann jeder mitwirken, und das Urheberrecht der Beteiligten ist durch bestimmte Lizenzen gesichert, die noch in Kapitel <a href="basics-standards-qualifications.html"><span>Kapitel&nbsp;12</span></a> und angesprochen werden sollen.</p>
-<p>Gegen Ende dieser Periode, nämlich 2005 wurde für die Entwicklung des Linux-Kernels das Versionsverwaltungssystem “Git” publiziert, das seitdem ältere Versionsverwaltungssysteme weitgehend abgelöst hat und vor allem eine Entwicklung in Gang gesetzt hat, die in <a href="history-actualsituation.html#sec-actual-situation-characteristics"><span>Kapitel&nbsp;4.1</span></a> und <a href="basics-community.html"><span>Kapitel&nbsp;10</span></a> eingehend besprochen werden soll, denn dieses zunächst unscheinbare Verfahren hat eine Entwicklung in Gang gesetzt, die die Zukunft des digitalen Arbeitens auch in der Archäologie revolutioniert. In der hier diskutierten Zeit zwischen 1990 und 2010 war davon noch nichts zu spüren.</p>
+<p>Schon im Verlaufe der oben beschriebenen frühen Jahre entwickelte sich die Computertechnologie in eine Richtung weiter, durch die ab den späten 1980er Jahren auch die archäologische Arbeit revolutioniert wurde: Anfang der 1970er Jahre fertigte IBM die ersten Mikroprozessoren in Serie, 1976 stellte Apple mit dem Apple I den ersten Personal Computer her, 1981 folgte der IBM-PC. Viele andere Unternehmen folgten mit ähnlichen Konzepten, die Nutzung der Maus und damit die Entwicklung von GUIs (Graphical User Interfaces) wurde ein wichtiges Charakteristikum der Arbeit am Computer. GUIs machten das Erlernen von kryptischen Befehlen überflüssig und ermöglichten die Nutzung von Computern einem weiten Personkreis über die Experten hinaus. Eine Reihe von Personal Computern wurden in den 1980er Jahren entwickelt, deren Namen heute noch bekannt sind – wie Atari, Schneider, Commodore. Geblieben sind über die 1990er Jahre hinaus bis heute die “IBM-kompatiblen” Systeme, die neben den genutzten Prozessoren heute vor allem durch das gemeinsame Betriebssystem Windows von Microsoft charakterisiert werden können, sowie die Systeme der Firma Apple mit anderen Prozessoren und eigenem Betriebssystem als Vorläufer des heutigen Mac OS, einem Unix-Betriebssystem, dessen Entwicklung ebenfalls schon in dieser Stufe einsetzte.</p>
+<p>1991 begann Linus Torvalds mit der Entwicklung des Betriebssystems Linux, einem freien Betriebssystem, das auch auf unterschiedlichen Rechnerarchitekturen arbeiten kann und wie Unix arbeitet. Es eignet sich für die Arbeit am Personal Computer, ist aber weltweit vor allem in Servern vorherrschend, die den Nutzer:innen nicht direkt begegnen. Die Entwicklung von Linux als offenem – kostenlos und von jeder und jedem veränderbaren – System ist im Rahmen der Entwicklung von Open Source zu sehen. Als Beginn der Open Source Bewegung wird das Anfang der 1980er Jahre von Richard Stallman initiierte GNU-Projekt zu gesehen <span class="citation" data-cites="gnu-proj2020">Stallman (<a href="references.html#ref-stallman1985" role="doc-biblioref">1985</a>)</span>, das in aller Stille im Schatten der großen kommerziellen Erfolge anderer Software langfristig und nachhaltig wirkte und wirkt. Es hat einen ernormen Einfluss auf die Kultur der Softwareentwicklung, heute mehr als je zuvor. Der Begriff “Open Source” bedeutet nicht grundsätzlich “kostenlos” – das ist nicht zwingend vorgegeben, wichtiger ist der Aspekt, dass der Quellcode offen ist, eingesehen und verändert werden kann. Solch kreativer Umgang mit Software ist bei proprietären Systemen wie den Office Paketen von Microsoft oder den Programmen der Adobe – prominente Beispiele für die Mehrzahl von Software bei Strafe untersagt. Im Falle von Open Source kann jeder mitwirken, und das Urheberrecht der Beteiligten ist durch bestimmte Lizenzen gesichert, die noch in Kapitel <a href="basics-standards-qualifications.html"><span>Kapitel&nbsp;12</span></a> und angesprochen werden sollen.</p>
+<p>Gegen Ende dieser Periode, nämlich 2005 wurde das Open Source Versionsverwaltungssystem “Git” publiziert, das seitdem ältere Versionsverwaltungssysteme weitgehend abgelöst hat. Es ist grundsätzlich für alle textbasierten Projekte geeignet und hat einen Prozess in Gang gesetzt, der in <a href="history-actualsituation.html#sec-actual-situation-characteristics"><span>Kapitel&nbsp;4.1</span></a> und <a href="basics-community.html"><span>Kapitel&nbsp;10</span></a> eingehend besprochen werden soll: Dieser vordergründig unscheinbare Bestandteil der Softwareentwicklung hat eine Arbeitsweise ermöglicht, die die Zukunft des digitalen Arbeitens auch in der Archäologie revolutioniert. In der hier diskutierten Zeit zwischen 1990 und 2010 war davon noch nichts zu spüren.</p>
 </section>
-<section id="anfänge-die-erst-heute-wirken" class="level3" data-number="3.2.2">
-<h3 data-number="3.2.2" class="anchored" data-anchor-id="anfänge-die-erst-heute-wirken"><span class="header-section-number">3.2.2</span> Anfänge, die erst heute wirken</h3>
-<p>Ähnlich wie bei Linux und Git starteten in den frühen 1990er Jahren drei weitere wichtige Entwicklungen, die ihre volle Wirkung auf breitem Feld erst in den letzten 10 bis 20 Jahren entfaltet haben, und zwar auf sehr unterschiedliche Weise.</p>
-<p>Anfang der 1990er Jahre begann Guido van Rossum, die Programmiersprache Python zu entwickeln, die viele neue Programmierkonzepte enthielt (<span class="citation" data-cites="wikipedia2023python">(<a href="references.html#ref-wikipedia2023python" role="doc-biblioref"><span>„Python (Programmiersprache)“</span> 2023</a>)</span>, , relativ leicht zu erlernen und in der heute dritten Version unerlässlich für die Arbeit mit Geographischen Informationssystemen ist. Gleichzeitig ist Python universell einsetzbar und nimmt im Bereich Statistik/Machine Learning heutzutage eine hervorragende Bedeutung ein. Dies war in dieser Phase noch nicht absehbar.</p>
-<p>In derselben Zeit wurde die professionelle und skriptbasierte Statistik Software R von den Neuseeländern Ross Ihaka und Robert Gentleman entwickelt (<span class="citation" data-cites="wikipedia2023R">(<a href="references.html#ref-wikipedia2023R" role="doc-biblioref"><span>„R (Programmiersprache)“</span> 2023</a>)</span>, die zu jener Zeit ebenfalls noch keinen weiten Einfluss über Experten hinaus in Anspruch, heute aber im Bereich Statistik und Literate Programming mit Python konkurriert und für Archäologen vielleicht einfacher zu erlernen ist, da sie das begrenzte Feld der Statistik behandelt. Über beide wird noch mehrfach zu reden sein.</p>
-<p>Die andere Entwicklung ist die des Programms LaTeX, die zwar schon in die 1980ger zurückreicht <span class="citation" data-cites="wikipedia2023latex">(<a href="references.html#ref-wikipedia2023latex" role="doc-biblioref"><span>„LaTeX“</span> 2023</a>)</span>, aber in naturwissenschaftlichen Fächern als flexibel einsetzbares Textverarbeitungs- und Satzsystem genutzt wurde. Dabei kam ein Literaturverwaltungssystem zum Einsatz, das auch schon in den 1980er Jahren entwickelt wurde: BibTeX <span class="citation" data-cites="wikipedia2023bibtex">(<a href="references.html#ref-wikipedia2023bibtex" role="doc-biblioref"><span>„BibTeX“</span> 2023</a>)</span>. Sowohl LaTeX als auch BibTeX mit einigen weiteren Entwicklungen sind auch heute noch eine Software, die eine sehr begrenzte, computer-affine Clientel benutzt; sie werden kaum direkt von Nutzen sein für digitale Anwendungen in der Archäologie. Aber LaTeX ist für viele Anwendungen um das literate Programming und Schreiben mit Markdown-Dialekten im Hintergrund unerlässlich – ohne dass die Anwender:in davon etwas mitbekommen muss, und Literaturverwaltung benötigt in vielen Fällen das Bibtex- oder Biblatex-Format, um die heutigen Annehmlichkeiten wissenschaftlicher Publikationen nutzen zu können. Auch auf diese beiden Programme, die soweit zurückreichen und jetzt erst weitreichenden Einfluss gewonnen haben, soll in anderen Abschnitten eingegangen werden.</p>
+<section id="langfristig-wirksame-software-entwicklungen" class="level3" data-number="3.2.2">
+<h3 data-number="3.2.2" class="anchored" data-anchor-id="langfristig-wirksame-software-entwicklungen"><span class="header-section-number">3.2.2</span> Langfristig wirksame Software Entwicklungen</h3>
+<p>Ähnlich wie bei Linux und Git starteten in den frühen 1990er Jahren drei weitere wichtige Entwicklungen, die ihre volle Wirkung auf breitem Feld erst in den letzten zehn bis zwanzig Jahren entfaltet haben, und zum Teil indirekt, und auf unterschiedliche Weise.</p>
+<p>Anfang der 1990er Jahre begann Guido van Rossum, die Programmiersprache Python zu entwickeln, die viele neue Programmierkonzepte enthielt <span class="citation" data-cites="wikipedia2023python">(<a href="references.html#ref-wikipedia2023python" role="doc-biblioref"><span>„Python (Programmiersprache)“</span> 2023</a>)</span> und relativ leicht zu erlernen ist. In der heute dritten Version ist Python kaum mehr wegzudenken aus der Arbeit mit Geographischen Informationssystemen. Gleichzeitig ist Python universell einsetzbar und nimmt im Bereich Statistik/Machine Learning heutzutage eine hervorragende Bedeutung ein. Dies war in in den ersten Jahrzehnten noch nicht absehbar.</p>
+<p>In derselben Zeit wurde die professionelle und skriptbasierte Statistik Software R von den Neuseeländern Ross Ihaka und Robert Gentleman entwickelt <span class="citation" data-cites="wikipedia2023R">(<a href="references.html#ref-wikipedia2023R" role="doc-biblioref"><span>„R (Programmiersprache)“</span> 2023</a>)</span>. Lange Zeit war das textbasierte Interface über einen kleinen Kreis von computeraffinen Experten hinaus nicht bekannt, ist heute aber im Bereich Statistik und Literate Programming mit Python zusammen das bedeutendste Programm für statistische Analysen. Für Archäologen ist das fokussiertere R sicher einfacher zu erlernen, ab über beide Programme wird noch mehrfach zu reden sein.</p>
+<p>Das dritte zu nennende Programm ist LaTeX, die Entwicklung reicht schon in die 1980ger Jahre zurück <span class="citation" data-cites="wikipedia2023latex">(<a href="references.html#ref-wikipedia2023latex" role="doc-biblioref"><span>„LaTeX“</span> 2023</a>)</span>, flexibel einsetzbares Textverarbeitungs- und Satzsystem mit Markup-Sprache (s. <a href="basics-software.html#sec-software-classesofdataandprograms"><span>Kapitel&nbsp;8.4</span></a>). Dabei kam ein Literaturverwaltungssystem zum Einsatz, das auch schon in den 1980er Jahren entwickelt wurde: BibTeX <span class="citation" data-cites="wikipedia2023bibtex">(<a href="references.html#ref-wikipedia2023bibtex" role="doc-biblioref"><span>„BibTeX“</span> 2023</a>)</span>. Sowohl LaTeX als auch BibTeX mit einigen weiteren Entwicklungen werden auch heute noch direkt von einer computer-affine Clientel benutzt; sie werden aber aufgrund ihrer Komplexität kaum direkt von Nutzen sein für digitale Anwendungen in der Archäologie. Aber ohne mit LaTeX direkt in Kontakt zu kommen, sind beide Komponenten ausgesprochen wichtig geworden. Vielmehr werden sie bei der Transformation von Formaten benötigt sowie für die automatische Erstellung von Literaturverzeichnissen (<a href="basics-software.html#sec-software-classesofdataandprograms"><span>Kapitel&nbsp;8.4</span></a>); das Schreiben im Textformat und Versionskontrolle, “Literate Programming” – dies sind Stichworte, die noch das neue digitale Arbeiten in der Archäologie beschreiben und noch näher beschrieben werden.</p>
 </section>
 <section id="anwendungssoftware-und-betriebssysteme" class="level3" data-number="3.2.3">
 <h3 data-number="3.2.3" class="anchored" data-anchor-id="anwendungssoftware-und-betriebssysteme"><span class="header-section-number">3.2.3</span> Anwendungssoftware und Betriebssysteme</h3>
-<p>Während die Entwicklungen um Git, Python, R und LaTeX/BibTeX wahrscheinlich in den 1990er und 2000er Jahren kaum bemerkbar waren, war in diesen Jahren das Betriebssystem und bestimmte Anwendungssoftware in der Öffentlichkeit und in archäologischen Anwendung sehr präsent.</p>
-<p>Lässt man die Workstations und ihre jeweiligen Betriebssysteme einmal beiseite, die in den 1980er und 1990er Jahren aufgrund ihrer besseren Rechnenleistung gegenüber den PCs für anspruchsvolle Anwendungen verwendet wurden, so wurden die Welt der Personal Computer von einer kleinen Gruppe von Hardware-Produzenten und zwei Betriebssystemen beherrscht: Auf der einen Seite stand IBM und zunehmend erfolgreiche Konkurrenten wie Dell und Acer (neben anderen), auf deren Computern das Betriebssystem Microsofts Windows (zu Beginn noch auf MS-DOS basierend) und darüber die entsprechende Anwendungssoftware installiert wurde. Auf der anderen Seite Apple mit dem Betriebssystem Mac OS (heute OS X), das seit 2001 auf einem Unix Betriebssystem basiert.</p>
-<p>Auf beiden Betriebssystem lief zu Beginn unterschiedliche Anwendungssoftware, die zu großen Teilen im Laufe der Zeit auf das andere Betriebssystem portiert wurde.</p>
-<p>Zu den heutigen Platzhirschen zählt Excel von Microsoft, das zunächst in den 1980ern für Apple Computer entwickelt, dann aber auf Windows portiert wurde und relativ gleichwertig auf beiden Systemen läuft. Im Bereich der Textverarbeitung hat sich Word weitgehend durchgesetzt, das zunächst auf Windows lief und später auf Apple / Mac portiert wurde. Bei der Bildverarbeitung lief Photoshop zu Beginn auf Apple, wurde auf Windows portiert, was einige Zeit die vorherrschende Plattform für Grafik und Design wurde. 1990 wurde Photoshop für den Macintosh (Apple) herausgegeben, und beide auch in den archäologischen Fächern wichtige Programme; etwas früher, aber in gleicher Reihenfolge zuerst für den Mac, dann für Windows, wurde das Zeichenprogramm Illustrator entwickelt. Beide Programme sind für die archäologische Arbeit sinnvoll, sie haben sich neben zahlreichen anderen Konkurrenten auf beiden Betriebssystemplattformen durchgesetzt, die in diesen Programmen erzeugten Dateien sind auf beiden Betriebssystemen austauschbar, die Programme selber waren im Laufe der Jahre oft auf einer Plattform besser ausgestattet als auf der anderen.</p>
-<p>Die 1990er und die frühen 2000er Jahre können auch als “Kampf der Betriebssysteme” betitelt werden oder als “Kampf von OpenSource gegen die Vormachtstellung der proprietären Programme”. Die Austauschbarkeit von Dateien, die auf Apple-Computern erstellt wurden mit solchen, die auf Windows-Computern erstellt wurden, war nicht garantiert, und zwar nicht einmal in identischen Programmen, die vom selben Hersteller auf den Markt kamen. Noch heute sind Office-Programme von Microsoft zum Beispiel gegenüber der Office-Suite auf Macs mit mehr und professionelleren Möglichkeiten ausgestattet. Man kann das als Nachteil betrachten oder als Anreiz, die Welt von Microsoft Office zu verlassen und sich tatsächlich professionellen Lösungen zuzuwenden, die dann vollkommen unabhängig von Betriebssystemen und gewinnorientierten Firmen sind; hierzu mehr in <a href="teaching-applications.html"><span>Kapitel&nbsp;14</span></a>.</p>
-<p>Zum “Kampf der Betriebssysteme” muss auch die besondere Rolle von Linux erwähnt werden: Über Jahre wurde versucht, die Desktop-Versionen als Alternative zu Apple und Windows zu etablieren, diese Bemühungen haben aber in der genannten Periode keine Früchte getragen, und es sieht so aus, dass auch in Zukunft nur zwei große, von privaten Firmen angebotene Betriebssysteme den Markt der digitalen Archäologie bestimmen werden. Die Gründe für das traurige Ende dieser so hoffnungsvoll begonnenen Entwicklung sind vielfältig und einer Diskussion würdig, hier sei nur auf einige Artikel hingewiesen (TODO lit zu Linux Distributions, Eigensinn, kommerzielle Hindernisse).</p>
-<p>Früh hat sich auch die Bewegung um “OpenOffice”, heute eher um dessen Ableger “LibreOffice” etabliert, die die Arbeitsweise von Microsoft Office-Programmen so zu kopieren versuchten, dass ein Umstieg leichter fiel. Auch hier gibt es zahlreiche Entwicklungen, die dem entgegenstanden, und trotz ihrer großen Leistungsfähigkeit hat sich LibreOffice bis heute nicht durchgesetzt.</p>
-<p>Diese vier Programmarten: <strong>(1) Textverarbeitung</strong> für das Verfassen von Aufsätzen, Hausarbeiten, Dissertationen etc. (faktisch vorwiegend in <em>Word)</em>, <strong>(2) Tabellenkalkulation</strong> für das Sammeln, Sortieren und Auswerten von Daten (faktisch vorwiegend in <em>Excel)</em>, <strong>(3) Bildbearbeitung</strong> und <strong>digitales Zeichnen</strong> (faktisch vorwiegend in <em>Adobe-Programmen)</em> für die Dokumentation von Befunden fanden schnell in die alltägliche Praxis – vom Studium bis hin zur professionellen archäologischen oder denkmalpflegerischen Arbeit.</p>
-<p>Die Vorteile gegenüber den traditionellen Techniken wie Zeichnen mit Bleistift und Tusche oder Schreiben mit der Schreibmachine waren die Toleranz gegenüber Fehlern, Flexibilität der Arbeitsschritte, freie Gestaltung von Layouts und die Möglichkeit, “druckfertige” Ergebnisse ohne Handarbeit und effizient zu erstellen, ohne zusätzliche und zeitraubende Kommunikation mit Druckern, Zeichnern, Fotografen und anderen, die ursprünglich die archäologische Arbeit ergänzt und mit fachfremdem Expertenwissen abgeschlossen haben. Das Fehlen dieses Expertenwissens macht sich in manchen Arbeiten dieser Zeit durchaus mit schlechtem Layout oder intern schlecht aufgebauten Dateien bemerkbar. Gerade das Problem unprofessioneller Arbeit, die sich im abschließenden Druck nicht bemerkbar macht, war ein Charakteristikum dieser Zeit: Die tatsächlichen Vorteile, die die Arbeit mit dem Computer langfristig bietet, wurden hier konterkariert, da es oft nur darauf ankam, eine bisher analog erstellte Arbeit digital zu erstellen und dann zu archivieren. Für weitere Nutzung in anderen Projekten mit anderen Beteiligten waren diese Arbeiten nicht vorgesehen.</p>
-<p>Viele dieser Probleme bestehen nach wie vor, und die Grundlagen, die in den Arbeiten dieser Zeit fehlen, müssen heute nach wie vor unterrichtet werden; vor allem <a href="teaching-applications.html"><span>Kapitel&nbsp;14</span></a> geht hierauf näher ein.</p>
-<p>Anders als in der ersten, von Fachleuten und Fachproblemen geprägten Zeit, sind in dieser Stufe junge Menschen meist ohne fachliche Expertise – weder in der Archäologie noch in Computeranwendungen – diejenigen, die für die Popularisierung digitaler Techniken verantwortlich waren. Dies war in allen Bereichen des akademischen und nichtakademischen Alltags in dieser Zeit der Fall; in der Archäologie aber war diese Entwicklung wegen des Bedarfs über viele Anwendugngsbereiche und die dilettantische Umsetzung besonders auffällig. Diese Phase der Popularisierung soll aber deswegen nicht abgewertet werden; wahrscheinlich war es ein notwendiger Schritt hin zu breiter und besser fundierter Anwendung. Sie hat nach wie vor noch nicht das notwendige professionelle Level erreicht, und dieses Buch soll Schritte in diese Richtung weisen.</p>
+<p>Während die Entwicklungen um Git, Python, R und LaTeX/BibTeX wahrscheinlich in den 1990er und 2000er Jahren in weiteren Kreisen kaum bemerkbar waren, waren in diesen Jahren Fragen um das Betriebssystem und bestimmte Anwendungssoftware in der Öffentlichkeit und in der archäologischen Anwendung sehr präsent.</p>
+<p>Lässt man die Workstations und ihre jeweiligen Betriebssysteme einmal beiseite, die in den 1980er und 1990er Jahren aufgrund ihrer besseren Rechenleistung gegenüber den PCs für anspruchsvolle Anwendungen verwendet wurden, so wurden die Welt der Personal Computer von einer kleinen Gruppe von Hardware-Produzenten und zwei Betriebssystemen beherrscht: Auf der einen Seite stand IBM und seine zunehmend erfolgreiche Konkurrenten wie Dell und Acer (neben anderen), auf deren Computern das Betriebssystem Microsofts Windows (zu Beginn noch auf MS-DOS basierend) und darüber die entsprechende Anwendungssoftware installiert wurde. Auf der anderen Seite Apple mit dem Betriebssystem Mac OS (heute OS X), das seit 2001 auf einem Unix Betriebssystem basiert.</p>
+<p>Auf beiden Betriebssystemen lief zu Beginn unterschiedliche Anwendungssoftware, die zu großen Teilen im Laufe der Zeit auf das jeweils andere Betriebssystem portiert wurde, so dass es gegen Ende dieser Periode um 2010 herum kaum noch von Bedeutung war, welche Hardware und welches Betriebssystem man nutzte. Das war in dieser zweiten Stufe noch ein wichtiges Kriterium. Als Archäolog:innen kommt man natürlich zunächst mit der Anwendungssoftware in Berührung.</p>
+<p>Zu den heutigen Platzhirschen zählt Excel von Microsoft, das zunächst in den 1980ern für Apple Computer entwickelt, dann aber auf Windows portiert wurde und auf beiden Systemen läuft. Im Bereich der Textverarbeitung hat sich Word weitgehend durchgesetzt, das zunächst auf Windows lief und später auf Apple / Mac portiert wurde. Bei der Bildverarbeitung lief Photoshop zu Beginn auf Apple, wurde auf Windows portiert, was einige Zeit die vorherrschende Plattform für Grafik und Design wurde. So wurde 1990 Photoshop für den Macintosh (Apple) herausgegeben, ebenso wurde das Zeichenprogramm Illustrator zuerst für den Mac, dann für Windows, wurde entwickelt. Beide Programme sind für die archäologische Arbeit sinnvoll, sie haben sich neben zahlreichen, oft überlegenen Konkurrenten auf beiden Betriebssystemplattformen durchgesetzt.</p>
+<p>Die 1990er und die frühen 2000er Jahre können auch als “Kampf der Betriebssysteme” betitelt werden oder als “Kampf von OpenSource gegen die Vormachtstellung der proprietären Programme”. Die Austauschbarkeit von Dateien, die auf Apple-Computern erstellt wurden mit solchen, die auf Windows-Computern erstellt wurden, war nicht garantiert, und zwar nicht einmal in identischen Programmen, die vom selben Hersteller auf den Markt kamen. Noch heute sind Office-Programme von Microsoft auf Windows zum Beispiel gegenüber der Office-Suite auf Macs mit mehr und professionelleren Möglichkeiten ausgestattet. Man kann das als Nachteil betrachten oder als Anreiz, die Welt von Microsoft Office zu verlassen und sich anderen professionellen Lösungen zuzuwenden, die dann vollkommen unabhängig von Betriebssystemen und gewinnorientierten Firmen sind; hierzu mehr in <a href="teaching-applications.html"><span>Kapitel&nbsp;14</span></a>.</p>
+<p>Zum “Kampf der Betriebssysteme” muss auch die besondere Rolle von Linux erwähnt werden: Über Jahre wurde versucht, die Desktop-Versionen als Alternative zu Apple und Windows zu etablieren, diese Bemühungen haben aber in der genannten Periode keine Früchte getragen, und es sieht so aus, dass in näherer Zukunft zwei große, von privaten Firmen angebotene Betriebssysteme den Markt der digitalen Archäologie bestimmen werden. Wir werden in einem späteren Abschnitt noch sehen, dass heute und in Zukunft allerdings die Anforderungen an die Software, auf allen Betriebssystemen gleichwertig zu laufen und standardisierte Daten zu speichern, sowie die zunehmende Bedeutung mobiler Geräte mit eigenen Betriebssystemen die klassischen Betriebssysteme als entscheidenden Bestandteil digitaler Arbeit vollkommen in den Hintergrund treten lassen werden (<a href="history-actualsituation.html"><span>Kapitel&nbsp;4</span></a>).</p>
+<p>Noch unter dem Paradigma der OpenSource Bewegung und unter dem Eindruck großer Softwareschmieden mit proprietären Programmen und Formaten, die einen Markt beherrschen, hattee sich die Bewegung um “OpenOffice”, heute eher um dessen Ableger “LibreOffice” etabliert, die die Arbeitsweise von Microsoft Office-Programmen so zu kopieren versuchten, dass ein Umstieg leichter fiel. Trotz ihrer großen Leistungsfähigkeit hat sich LibreOffice bis heute nicht durchgesetzt; man kann über die Gründe diskutieren und sich fragen, ob es in näherer Zukunft überhaupt noch einen Bedarf für solche Office-Pakete gibt.</p>
+<p>Diese vier Programmarten: <strong>(1) Textverarbeitung</strong> für das Verfassen von Aufsätzen, Hausarbeiten, Dissertationen etc. (faktisch vorwiegend in <em>Word)</em>, <strong>(2) Tabellenkalkulation</strong> für das Sammeln, Sortieren und Auswerten von Daten (faktisch vorwiegend in <em>Excel)</em>, <strong>(3) Bildbearbeitung</strong> und <strong>digitales Zeichnen</strong> (faktisch vorwiegend in <em>Adobe-Programmen)</em> für die Dokumentation von Befunden fanden schnell Eingang in die alltägliche Praxis – vom Studium bis hin zur professionellen archäologischen oder denkmalpflegerischen Arbeit. – Datenbanken wären in vielen Fällen besser geeignet als Excel, aber dies soll in einem gesonderten Kapitel diskutiert werden {<a href="basics-software.html#sec-software-classesofdataandprograms"><span>Kapitel&nbsp;8.4</span></a>}.</p>
+<p>Es handelt sich bei Anwendung dieser Programme <strong>nicht</strong> um die Einführung neuer Methoden mithilfe digitaler Programme, wie es die Umsetzung von statistischen Analysen der ersten Phase beispielsweise waren. Vielmehr werden <strong>traditionelle Arbeitsschritte einfach digitalisiert</strong>. Die Vorteile gegenüber den traditionellen Techniken wie Zeichnen mit Bleistift und Tusche oder Schreiben mit der Schreibmachine waren die Toleranz gegenüber Fehlern, Flexibilität der Arbeitsschritte, freie Gestaltung von Layouts und die Möglichkeit, “druckfertige” Ergebnisse ohne Handarbeit und effizient zu erstellen, ohne zusätzliche und zeitraubende Kommunikation mit Druckern, Zeichnern, Fotografen und anderen, die ursprünglich die archäologische Arbeit ergänzt und mit fachfremdem Expertenwissen abgeschlossen haben. Das Fehlen von Expertenwissen macht sich in manchen Arbeiten dieser Zeit durchaus mit schlechtem Layout oder intern schlecht aufgebauten Dateien bemerkbar. Gerade das Problem unprofessioneller Arbeit, die sich im abschließenden Druck nicht bemerkbar macht, war ein Charakteristikum dieser Zeit: Die tatsächlichen Vorteile, die die Arbeit mit dem Computer langfristig bietet, wurden hier konterkariert, da es oft nur darauf ankam, eine bisher analog erstellte Arbeit digital zu erstellen und dann analog zu archivieren; natürlich wurden auch die Dateien digital archiviert, an die weitere digitale Nutzung wurde dabei nicht gedacht, und für weitere Nutzung in anderen Projekten mit anderen Beteiligten waren diese Arbeiten nicht vorgesehen.</p>
+<p>Viele dieser Probleme bestehen nach wie vor, und die Grundlagen, die in den Arbeiten jener Zeit schon fehlten, müssen heute nach wie vor unterrichtet werden; vor allem <a href="teaching-applications.html"><span>Kapitel&nbsp;14</span></a> geht hierauf näher ein.</p>
+<p>Anders als in der ersten, von Fachleuten und Fachproblemen geprägten Zeit, waren in dieser Stufe junge Menschen meist ohne fachliche Expertise – weder in der Archäologie noch in Computeranwendungen – für die Popularisierung digitaler Techniken verantwortlich. Dies war in allen Bereichen des akademischen und nichtakademischen Alltags in dieser Zeit der Fall; in der Archäologie aber war diese Entwicklung wegen des Bedarfs über viele Anwendugngsbereiche und die dilettantische Umsetzung besonders auffällig. Diese Phase der Popularisierung soll aber deswegen nicht abgewertet werden; wahrscheinlich war es ein notwendiger Schritt hin zu breiter und besser fundierter Anwendung. Sie hat nach wie vor noch nicht das notwendige professionelle Level erreicht, und dieses Buch soll Schritte in diese Richtung weisen.</p>
 </section>
 <section id="professionelle-entwicklungen" class="level3" data-number="3.2.4">
 <h3 data-number="3.2.4" class="anchored" data-anchor-id="professionelle-entwicklungen"><span class="header-section-number">3.2.4</span> Professionelle Entwicklungen</h3>
-<p>Die Jahre zwischen 1990 und 2000 – man kann gerne 10 bis 15 Jahre früher beginnen und 10 Jahre später enden – waren in anderen Fächern von grundsätzlichen Entwicklungen geprägt in Bereichen, die heute die archäologischen Fächer und die Gesellschaft insgesamt prägen: Kartographie und Geographische Informationssysteme, LiDAR, vernetzte Datenbanken, 3D-Vermessung und Umsetzung in Computermodelle und maßstabsgetreue analoge Modelle, statistische Verfahren und Visualisierungen, … (TODO). Alle diese Bereiche sind heute aus der archäologischen Arbeit nicht mehr wegzudenken, sie waren in den genannten Jahren allerdings mehr vom Hörensagen als von tatsächlicher archäologischer Anwendung bekannt (TODO Ausnahmen).</p>
-<p>Ausnahmen sind die Entwicklung von Grabungsdokumentationsmodulen für CAD-Programme, die schon in den frühen 1990er Jahren begann; hier sehen wir früh die Verknüpfung nicht-archäologischer Technologie mit archäologischen Aufgaben wie die im deutschsprachigen Raum verbreitete Software “ArchäoCAD”. In diesen Bereich gehören auch 3D Entwicklungen in interdisziplinärem Zusammenhang <span class="citation" data-cites="ShinotoEtAl2002TopometricalmeasurementsTiryns">(<a href="references.html#ref-ShinotoEtAl2002TopometricalmeasurementsTiryns" role="doc-biblioref">Shinoto u.&nbsp;a. 2002</a>)</span> An dieser Stelle ist auch Baoquan Song zu erwähnen, der früh digitale Verfahren für die Kartierung von Luftbildern in seine Arbeit integriert hat; hierfür war in den ersten Jahren noch eine Workstation und das privat nicht erreichbare Programm ERDAS erforderlich; als Standardwerk hierfür ist der Band zur Luftbildarchäologie in China aus dem Jahr 2000 hervorgegangen <span class="citation" data-cites="LiPingel2000">(<a href="references.html#ref-LiPingel2000" role="doc-biblioref">Li und Pingel 2000</a>)</span>, neben zahlreichen anderen Arbeiten <span class="citation" data-cites="SongEtAl2019 SongLeidorf2020">(<a href="references.html#ref-SongEtAl2019" role="doc-biblioref">Song, Leidorf, und Heller 2019</a>; <a href="references.html#ref-SongLeidorf2020" role="doc-biblioref">Song und Leidorf 2020</a>)</span>. Es versteht sich von selbst, dass diese Anwendungen erhebliche Kosten verursachten, anders, als die im vorherigen Abschnitt besprochenen populären, nicht fachgebundenen Softwares, und somit zwar fachlich genutzt, über die direkten Anwender hinaus jedoch nicht verbreitet sind.</p>
+<p>Die Jahre zwischen 1990 und 2000 – man kann diese Phase auch 10 bis 15 Jahre früher beginnen und 10 Jahre später enden lassen – waren in anderen Fächern von grundsätzlichen Entwicklungen geprägt in Bereichen, die heute die archäologischen Fächer und die Gesellschaft insgesamt prägen: Kartographie und Geographische Informationssysteme, LiDAR, vernetzte Datenbanken, 3D-Vermessung und Umsetzung in Computermodelle und maßstabsgetreue analoge Modelle, statistische Verfahren und Visualisierungen, um nur einige zu nennen. Alle diese Bereiche sind heute aus der archäologischen Arbeit nicht mehr wegzudenken, sie waren damals allerdings mehr vom Hörensagen als von tatsächlicher archäologischer Anwendung bekannt.</p>
+<p>Ausnahmen hiervon sind die Entwicklung von Grabungsdokumentationsmodulen für CAD-Programme, die schon in den frühen 1990er Jahren begann; hier sehen wir früh die Verknüpfung nicht-archäologischer Technologie mit archäologischen Aufgaben wie die im deutschsprachigen Raum verbreitete Software “ArchäoCAD”. In diesen Bereich gehören auch 3D Entwicklungen in interdisziplinärem Zusammenhang <span class="citation" data-cites="ShinotoEtAl2002TopometricalmeasurementsTiryns">(<a href="references.html#ref-ShinotoEtAl2002TopometricalmeasurementsTiryns" role="doc-biblioref">Shinoto u.&nbsp;a. 2002</a>)</span>. An dieser Stelle ist auch Baoquan Song zu erwähnen, der früh digitale Verfahren für die Kartierung von Luftbildern in seine Arbeit integriert hat; hierfür war in den ersten Jahren noch eine Workstation und das privat nicht finanzierbare Programm ERDAS erforderlich; als Standardwerk hierfür ist der Band zur Luftbildarchäologie in China aus dem Jahr 2000 hervorgegangen <span class="citation" data-cites="LiPingel2000">(<a href="references.html#ref-LiPingel2000" role="doc-biblioref">Li und Pingel 2000</a>)</span>, neben zahlreichen anderen Arbeiten <span class="citation" data-cites="SongEtAl2019 SongLeidorf2020">(<a href="references.html#ref-SongEtAl2019" role="doc-biblioref">Song, Leidorf, und Heller 2019</a>; <a href="references.html#ref-SongLeidorf2020" role="doc-biblioref">Song und Leidorf 2020</a>)</span>. Es versteht sich von selbst, dass diese Anwendungen erhebliche Kosten verursachten, anders, als die im vorherigen Abschnitt besprochenen populären, nicht fachgebundenen Softwares, und somit zwar fachlich genutzt, über die direkten Anwender hinaus jedoch nicht verbreitet sind.</p>
 </section>
 <section id="sec-history-caa" class="level3" data-number="3.2.5">
 <h3 data-number="3.2.5" class="anchored" data-anchor-id="sec-history-caa"><span class="header-section-number">3.2.5</span> Die CAA (Computer Applications in Archaeology)</h3>
-<p>TODO ist oben schon erwähnt; der Abschnitt muss umformuliert werden.</p>
-<p>An dieser Stelle spätestens muss auch die “Computer Applications and Quantitative Methods in Archaeology Conference (CAA)” erwähnt werden, die 1973 in Großbritannien von Susan Laflin als Treffen von mathematisch und computertechnisch interessierten Archäolog:innen gegründet wurde und heute eine international agierende Gesellschaft mit verschiedenen Publiaktionen und jährlichen Konferenzen ist <span class="citation" data-cites="caa2023history">(<a href="references.html#ref-caa2023history" role="doc-biblioref"><span>„<span>CAA History</span> <span>CAA International</span>“</span> 2023</a>)</span>. Hier spiegeln sich die oben skizzierten Trends, wobei natürlich immer der Fokus auf archäologisch relevanten Anwendungen und Professionalität gelegen hat. Aber auch diese Entwicklungen sind heute, in den 2020er Jahren, vor dem Hintergrund der leichten Zugänglichkeit und Umsetzbarkeit zu sehen; denn, wie <a href="history-actualsituation.html"><span>Kapitel&nbsp;4</span></a> zeigen soll, ist das meiste dessen, was in diesen Jahren mit großem Aufwand entwickelt wurde, heute am PC mit OpenSource Software umsetzbar. Die fachlich solide Basis findet sich in den Publikationen der damaligen Zeit.</p>
+<p>Die “Computer Applications and Quantitative Methods in Archaeology Conference (CAA)” wurde schon 1973 in Großbritannien von Susan Laflin als Treffen von mathematisch und computertechnisch interessierten Archäolog:innen gegründet wurde und heute eine international agierende Gesellschaft mit verschiedenen Publiaktionen und jährlichen Konferenzen ist <span class="citation" data-cites="caa2023history">(<a href="references.html#ref-caa2023history" role="doc-biblioref"><span>„<span>CAA History</span> <span>CAA International</span>“</span> 2023</a>)</span>. In dieser zweiten Phase setzte sie sich international als die maßgebende Veranstaltung für digitale Anwendungen durch und vereinigte die Möglichkeiten der technischen Entwicklungen mit fachlich soliden Fragestellungen und ihrer digitalen Umsetzung.</p>
 </section>
 <section id="sec-historical-stages-ninetees-character-problems" class="level3" data-number="3.2.6">
 <h3 data-number="3.2.6" class="anchored" data-anchor-id="sec-historical-stages-ninetees-character-problems"><span class="header-section-number">3.2.6</span> Zusammenfassung</h3>
@@ -393,161 +428,239 @@ div.csl-indent {
 </section>
 </section>
 <section id="sec-historical-stages-2000s" class="level2" data-number="3.3">
-<h2 data-number="3.3" class="anchored" data-anchor-id="sec-historical-stages-2000s"><span class="header-section-number">3.3</span> 2000 - 2020</h2>
-<p>Die Zeitstufe zwischen der Jahrtausendwende und heute überschneidet sich mit der vorigen und mit der nächsten, die im folgenden <a href="history-actualsituation.html"><span>Kapitel&nbsp;4</span></a> als heutige Situation beschrieben werden soll. Diese 20 Jahre sind in vieler Hinsicht eine Übergangszeit; am Ende steht eine vollkommen gewandelte Situation, die ich im folgenden Kapitel (<a href="history-actualsituation.html"><span>Kapitel&nbsp;4</span></a>) beschreiben möchte.</p>
-<p>Die Übergangszeit durch einige wenige Ereignisse und Trends gekennzeichnet, die nicht unmittelbar Einfluss auf die Archäologie hatten, einige “early adaptors” in ihrer Arbeitsweise allerdings stark beeinflussen konnten und die Basis gelegt haben für eine Situation wie sie heute auch die Archäologie zu beeinflussen beginnt. Rückblickend sind dies mit Sicherheit die wichtigsten Punkte, die in einer Geschichte der Digitalisierung der Geisteswissenschaften und der archäologischen Fächer zu nennen sind.</p>
+<h2 data-number="3.3" class="anchored" data-anchor-id="sec-historical-stages-2000s"><span class="header-section-number">3.3</span> 2000 - 2015</h2>
+<p>Die gut 20 Jahre zwischen der Jahrtausendwende und heute sind in vieler Hinsicht eine Übergangszeit; am Ende steht eine vollkommen gewandelte Situation, die ich im folgenden Kapitel (<a href="history-actualsituation.html"><span>Kapitel&nbsp;4</span></a>) beschreiben möchte.</p>
+<p>Die Übergangszeit ist durch einige wenige Ereignisse und Trends gekennzeichnet, die damals noch nicht unmittelbar Einfluss auf die Archäologie hatten, einige “early adaptors” in ihrer Arbeitsweise allerdings schon beeinfluss habe. Sie haben die Basis gelegt haben für eine Situation wie sie heute auch die Archäologie zu beeinflussen beginnt. Rückblickend sind dies mit Sicherheit die wichtigsten Punkte, die in einer Geschichte der Digitalisierung der Geisteswissenschaften und der archäologischen Fächer zu nennen sind.</p>
 <section id="ereignisse" class="level3" data-number="3.3.1">
 <h3 data-number="3.3.1" class="anchored" data-anchor-id="ereignisse"><span class="header-section-number">3.3.1</span> Ereignisse</h3>
 <ul>
-<li>2005 wird das verteilte Versionskontrollsystem “Git” veröffentlicht und publiziert (Übersicht in <span class="citation" data-cites="wikipedia2023git"><span>„Git“</span> (<a href="references.html#ref-wikipedia2023git" role="doc-biblioref">2023a</a>)</span>; Homepage <span class="citation" data-cites="homepage2023git"><span>„Git“</span> (<a href="references.html#ref-homepage2023git" role="doc-biblioref">2023b</a>)</span>). Ursprünglich für die Entwicklung des Linux-Kernels gedacht, war das System durch die Lizensierung (GNU General Public License, jetzt Version 2) frei für andere Software-Entwicklungen zu nutzen. Es dauert nicht lange, bis die Möglichkeit, auch die Erstellung von Texten (Blogs, wissenschaftliche Texte) und das gemeinsame Arbeiten mit getrennten Repos der Versionskontrolle mit Git anzuvertrauen, genutzt wird.</li>
+<li>2005 wird das verteilte Versionskontrollsystem “Git” veröffentlicht und publiziert (Übersicht in <span class="citation" data-cites="wikipedia2023git"><span>„Git“</span> (<a href="references.html#ref-wikipedia2023git" role="doc-biblioref">2023a</a>)</span>; Homepage <span class="citation" data-cites="homepage2023git"><span>„Git“</span> (<a href="references.html#ref-homepage2023git" role="doc-biblioref">2023b</a>)</span>). Ursprünglich für die Entwicklung des Linux-Kernels gedacht, war das System durch die Lizensierung mit der GNU General Public License frei, auch für andere Software-Entwicklungen zu nutzen. Es dauert nicht lange, bis die Möglichkeit, auch die Erstellung von Texten (HTML-Seiten, wissenschaftliche Texte mit Latex) und das gemeinsame Arbeiten mit getrennten Repos der Versionskontrolle mit Git anzuvertrauen, erkannt und genutzt wurde.</li>
 <li>In der Folge entstehen zentrale Repo-Verwaltungen wie Bitbucket 2007 (Übersicht in <span class="citation" data-cites="wikipedia2023bitbucket"><span>„Bitbucket“</span> (<a href="references.html#ref-wikipedia2023bitbucket" role="doc-biblioref">2023</a>)</span>; Homepage <span class="citation" data-cites="homepage2023bitbucket">Atlassian (<a href="references.html#ref-homepage2023bitbucket" role="doc-biblioref">2023</a>)</span>), GitHub 2008 (Übersicht in <span class="citation" data-cites="wikipedia2023github"><span>„GitHub“</span> (<a href="references.html#ref-wikipedia2023github" role="doc-biblioref">2023</a>)</span>; Homepage <span class="citation" data-cites="homepage2023github"><span>„<span>GitHub</span>: <span>Let</span>’s Build from Here“</span> (<a href="references.html#ref-homepage2023github" role="doc-biblioref">2023</a>)</span>), GitLab 2011 (Übersicht in <span class="citation" data-cites="wikipedia2023gitlab"><span>„GitLab“</span> (<a href="references.html#ref-wikipedia2023gitlab" role="doc-biblioref">2023</a>)</span>; Homepage <span class="citation" data-cites="homepage2023gitlab"><span>„The <span>DevSecOps Platform</span>“</span> (<a href="references.html#ref-homepage2023gitlab" role="doc-biblioref">2023</a>)</span>). Zu Beginn ist das Ausmaß, in dem diese Plattformen wenige Jahre später den Austausch von Programmen, Patches, und Ideen befördern, noch nicht absehbar.</li>
 <li>2004 veröffentlicht John Gruber seine Syntax für eine reduzierte Markup-Sprache “Markdown” <span class="citation" data-cites="Gruber2004">(<a href="references.html#ref-Gruber2004" role="doc-biblioref">Gruber 2004</a>)</span>, <span class="citation" data-cites="wikipedia2023markdown">(Übersicht mit Weiterentwicklungen: <a href="references.html#ref-wikipedia2023markdown" role="doc-biblioref"><span>„Markdown“</span> 2023</a>)</span>. Ursprünglich als einfache Entwicklungssprache für HTML-Seiten gedacht, hat sie sich zu dem System entwickelt, in dem heutzutage Texte erstellt werden, die nachhaltig lesbar, grenzenlos austauschbar und vielseitig formatierbar sind. Markdown ist aus der digitalen Arbeit nicht mehr wegzudenken und wird in kurzer Zeit auch die wissenschaftliche Textverarbeitung bestimmen. Es ist auch in den genannten Git-Systemen die Sprache, in der kommuniziert wird, und die Sprache, in der die Inhalte in Versionskontrolle erfasst werden.
 <ul>
 <li>Hierzu entschieden beigetragen hat John McFarlane mit “Pandoc” <span class="citation" data-cites="homepage2022pandoc">(<a href="references.html#ref-homepage2022pandoc" role="doc-biblioref"><span>„Pandoc“</span> 2022</a>)</span>, einer zurückhaltenden und akademisch sinnvollen Erweiterung der Auszeichnungssprache Markdown mit der Möglichkeit, (a) aus etlichen anderen Formaten nach Pandoc und (b) von Pandoc in viele andere Formate zu konvertieren. Mehr dazu im nächsten Abschnitt und in <a href="basics-software.html#sec-software-fileformats"><span>Kapitel&nbsp;8.3</span></a>. – McFarlane konnte hierfür auf die Vorarbeiten mit LaTeX und BibTeX zurückgreifen, die dadurch erst ihre weite Verbreitung fanden – ohne dass man direkt mit diesen Systemen arbeiten muss.</li>
 </ul></li>
-<li>Von Markdown profitierte die Welt der “Notebooks” oder “Lab-Notebooks”, in denen Text, Beobachtungen und Programme zusammengefasst wurden – eine Idee, die auf dem Ideal des “Literate Programming” fußt. Fast gleichzeitig bewegte sich hier die Welt der beiden Programme, die oben schon als bedeutend für die digitale Archäologie genannt wurde – R und Python.
+<li>Von Markdown profitierte die Welt der “Notebooks” oder “Lab-Notebooks”, in denen Text, Beobachtungen und Programme zusammengefasst wurden – eine Idee, die auf dem Ideal des “Literate Programming” fußt. Für die beiden Programme, die oben schon als bedeutend für die digitale Archäologie genannt wurde – R und Python – sind die Notebooks ein grundsätzlicher Schritt hin zur weiten Verbreitung gewesen.
 <ul>
 <li>Das 2014 ins Leben gerufene Jupyter-Project greift zurück auf iPython-Notebooks, die erstmals 2011 veröffentlicht wurden <span class="citation" data-cites="wikipedia2023jupyterproject"><span>„Project <span>Jupyter</span> | <span>Home</span>“</span> (<a href="references.html#ref-homepage2023jupyterproject" role="doc-biblioref">o.&nbsp;J.</a>)</span>. Es kann auch mit den Sprachen R, Julia und Python arbeiten, ist aber besonders stark im Bereich Python.</li>
-<li>Gleichzeitig lief eine ähnliche Entwicklung in der R-Welt: Nach dem Vorbild von Sweave, einer in München entwickelten Lösung, die Statistik mit S – einem Vorläufer von R – und Textsatz mit TeX “verweben” konnte, hat Xie Yihui <code>knitr</code> entwickelt, ein System, das Markdown und R “zusammenstricken” konnte . Die erste Version dieser damals schon ausgezeichneten Software war auf Github mit dem Tag “0.1” am 17. Januar 2012 gespeichert worden (https://github.com/yihui/knitr/releases/tag/v0.1) und wird lebhaft weiter entwickelt <span class="citation" data-cites="Xie2001">(<a href="references.html#ref-Xie2001" role="doc-biblioref">Xie 2001–2023</a>)</span>. Dies ist der Ursprung und die Basis von <code>RMarkdown</code>, einer erweiterten Form von Markdown, das (a) Codeblocks enthalten kann, die ausgeführt werden können, und (b) mithilfe von Pandoc in unterschiedliche Formate exportiert werden kann; hier können dann die Codeblocks ausgewertet mit Diagrammen, Tabellen und anderen Formen der Ergebnisdarstellung gespeichert werden <span class="citation" data-cites="XieEtAl2019"><span>„R <span>Markdown</span>“</span> (<a href="references.html#ref-homepage2023rmarkdownrstudio" role="doc-biblioref">o.&nbsp;J.</a>)</span>.</li>
+<li>Gleichzeitig lief eine ähnliche Entwicklung in der R-Welt: Nach dem Vorbild von Sweave – einer vom österreichischen Statistiker Leisch entwickelten Lösung, die Statistik mit dem proprietären R-Vorbild S und Textsatz mit TeX “verweben” konnte <span class="citation" data-cites="sweave2020">(<a href="references.html#ref-sweave2020" role="doc-biblioref"><span>„Sweave“</span> 2020</a>)</span> – hat Xie Yihui <code>knitr</code> entwickelt, ein System, das Markdown und R “zusammenstricken” kann. Die erste Version dieser damals schon ausgezeichneten Software war auf Github mit dem Tag “0.1” am 17. Januar 2012 gespeichert worden (https://github.com/yihui/knitr/releases/tag/v0.1) und wird lebhaft weiter entwickelt <span class="citation" data-cites="Xie2001">(<a href="references.html#ref-Xie2001" role="doc-biblioref">Xie 2001–2023</a>)</span>. Dies ist der Ursprung und die Basis von <code>RMarkdown</code>, einer erweiterten Form von Markdown, das (a) Codeblocks enthalten kann, die ausgeführt werden können, und (b) mithilfe von Pandoc in unterschiedliche Formate exportiert werden kann; hier können dann die Codeblocks ausgewertet mit Diagrammen, Tabellen und anderen Formen der Ergebnisdarstellung gespeichert werden <span class="citation" data-cites="XieEtAl2019"><span>„R <span>Markdown</span>“</span> (<a href="references.html#ref-homepage2023rmarkdownrstudio" role="doc-biblioref">o.&nbsp;J.</a>)</span>.</li>
 </ul></li>
-<li>Die Entwicklungen von Xie führten zur Entwicklung von R Notebooks seit 2014/15, zu umfangreichen Möglichkeiten des Publizierens als Blog, Buch, etc., und seit 2022 liegt auf dieser Basis die Plattform “Quarto” vor, die nicht nur mit R, sondern auch mit Python sowie Julia und Observable arbeiten kann, zahlreiche flexible Formen des Publizierens und der Kooperation extrem vereinfacht, in einem logischen System zusammengeführt und bestens dokumentiert als Open Source zur Verfügung stellt (https://quarto.org).</li>
+<li>Die Entwicklungen von Xie führten zur Entwicklung von R Notebooks seit 2014/15, zu umfangreichen Möglichkeiten des Publizierens als Blog, Buch, etc., und seit 2022 liegt auf dieser Basis die Plattform “Quarto” vor, die nicht nur mit R, sondern auch mit Python sowie Julia und Observable arbeiten kann, zahlreiche flexible Formen des Publizierens und der Kooperation extrem vereinfacht, in einem logischen System zusammengeführt und bestens dokumentiert als Open Source zur Verfügung stellt (https://quarto.org). – Quarto führt schon in die gegenwärtige Situation über.</li>
 </ul>
 </section>
 <section id="tendenzen" class="level3" data-number="3.3.2">
 <h3 data-number="3.3.2" class="anchored" data-anchor-id="tendenzen"><span class="header-section-number">3.3.2</span> Tendenzen</h3>
-<p>Die vielen Ereignisse, die im letzten Abschnitt beschrieben werden, mögen auf den ersten Blick unübersichtlich wirken. Es sind Punkte in einer Entwicklung, die für uns in der Archäologie heute bedeutsam sind. Die Tendenzen, gefiltert für archäologische Umsetzung, stellen sich wie folgt dar:</p>
+<p>Die vielen Ereignisse, die im letzten Abschnitt beschrieben werden, mögen auf den ersten Blick unübersichtlich und unzusammenhängend wirken. Es sind Punkte in einer Entwicklung, die für uns in der Archäologie heute bedeutsam sind und durch ihr Zusammenwachsen zu einer neuen Qualität in der Arbeit führen, über das bloße Umsetzen analoger Arbeitsschritte in digitale Form hinaus. Die Tendenzen, gefiltert für archäologische Umsetzung, stellen sich wie folgt dar:</p>
 <ul>
-<li>Reinem Text wird der Vorrang vor proprietären Formaten gegeben. Die Entwicklung von Unicode und Markup-Sprachen hat diesen logisch sinvollen Trend ermöglicht (siehe <a href="history-actualsituation.html"><span>Kapitel&nbsp;4</span></a>, <a href="basics-software.html#sec-software-fileformats"><span>Kapitel&nbsp;8.3</span></a>).</li>
+<li>Reinem Text wird der Vorrang vor proprietären Formaten gegeben. Die Entwicklung von Unicode und Markup-Sprachen hat diesen logisch sinnvollen Trend ermöglicht (siehe <a href="history-actualsituation.html"><span>Kapitel&nbsp;4</span></a>, <a href="basics-software.html#sec-software-fileformats"><span>Kapitel&nbsp;8.3</span></a>).</li>
 <li>Inhalt und Form werden getrennt betrachtet, dadurch lässt sich derselbe Inhalt in andere Formate und in anderen Kontexten nutzen.</li>
 <li>Offenheit der Entwicklung und Austausch zwischen Interessierten weltweit auf Plattformen wie Github, Bitbucket, Gitlab hat der Vielfalt und Schnelligkeit von Entwicklungen, aber auch ihrer Zugänglichkeit einen Schub verliehen.</li>
-<li>Ehemals kommerzielle Lösungen werden von Open Source Lösungen abgelöst.</li>
-<li>Standards und Übereinkünften kommen in dieser Vielfalt eine zunehmende Bedeutung zu.</li>
+<li>Ehemals kommerzielle Lösungen werden von Open Source Lösungen abgelöst, die unabhängig vom Betriebssystem frei nutzbar sind und weiter entwickelt werden können.</li>
+<li>Standards und Übereinkünften kommen in dieser Vielfalt von Möglichkeiten eine zunehmende Bedeutung zu.</li>
 </ul>
-<p>Diese Entwicklungen haben in den 2010er Jahren zu einer Ausweitung der Möglichkeiten digitaler Anwendungen in der Archäologie geführt, die heute das Bild bestimmen. Daneben darf nicht vergessen, dass auch hardwareseitig, zum Beispiel in Bereich digitaler Fotografie, Bildbearbeitung, 3D-Render, Luftbildarchäologie mit UAV, Prospektionen mit LiDAR usw. erhebliche Fortschritte gemacht wurden, so dass sowohl preislich als auch in der Bedienung diese Expertenanwendungen einer breiteren Schicht erreichbarer wurden.</p>
-<p>Die größte Aufgabe, die in der aktuellen Situation besteht liegt darin, das Wichtige vom Unwichtigen, Fundamentales von individuellen Entwicklungen zu trennen, Anwendungsklassen und Muster zu erkennen, die sich wiederholen und sich in der Menge konkreter Angebote zu orientieren. Der nächste Abschnitt soll diese Situation näher beleuchten, bevor wir in Teil 2 (Computer) diese Konstanten genauer kennenlernen wollen.</p>
-<hr>
-<p>TODO tabellarische Aufstellung? TODO lit TODO Lit</p>
-<p>TODO Benennung von Apple, Macintosh, Mac und den Betriebssystemen</p>
-<p>TODO Definition von Begriffen wir “Betriebssystemplattform”, vielleicht jeweils in Fußnoten? Ebenso die verschiedenen Benennungen für macOS etc.?</p>
+<p>Diese Entwicklungen haben in den 2010er Jahren zu einer Ausweitung der Möglichkeiten digitaler Anwendungen in der Archäologie geführt, die heute das Bild bestimmen. Daneben darf nicht vergessen werden, dass auch hardwareseitig, zum Beispiel in Bereich digitaler Fotografie, Bildbearbeitung, 3D-Render, Luftbildarchäologie mit UAV, Prospektionen mit LiDAR usw. erhebliche Fortschritte gemacht wurden, so dass sowohl finanziell als auch in der Bedienung diese Expertenanwendungen einer breiteren Schicht erreichbarer wurden.</p>
+<p>Die aktuell größte Aufgabe liegt darin, in den verschiedenen Entwicklungen das Wichtige vom Unwichtigen, Fundamentales von Vereinzeltem zu trennen, Anwendungsklassen und Muster zu erkennen, die sich wiederholen und sich in der Menge konkreter Angebote zu orientieren.</p>
+</section>
+</section>
+<section id="tabellarische-übersicht" class="level2" data-number="3.4">
+<h2 data-number="3.4" class="anchored" data-anchor-id="tabellarische-übersicht"><span class="header-section-number">3.4</span> Tabellarische Übersicht</h2>
+<div id="tbl-stages" class="anchored">
+<table class="table">
+<caption>Tabelle&nbsp;3.1: Phasen in der Implementierung digitaler Werkzeuge in die Archäologie.</caption>
+<colgroup>
+<col style="width: 3%">
+<col style="width: 3%">
+<col style="width: 22%">
+<col style="width: 42%">
+<col style="width: 27%">
+</colgroup>
+<thead>
+<tr class="header">
+<th></th>
+<th>Zeit</th>
+<th>Charakterisierung</th>
+<th>Anmerkung</th>
+<th>Entwicklungen</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>1</td>
+<td><p>1960</p>
+<p>bis</p>
+<p>1980</p></td>
+<td>Isolierte Fachstudien mit Expertenwissen</td>
+<td><p>– Fachlich hervorragend</p>
+<p>– Wegweisend für die Zukunft</p>
+<p>– “Pilotstudien”</p>
+<p>– Heute problemlos mit OpenSource nachbaubar</p>
+<p>– Interdisziplinäre Kooperation bei gegenseitigem Verständnis</p>
+<p>– CAA</p>
+<p>.</p></td>
+<td><p>– 1970er Jahre: Mikroprozessor</p>
+<p>– Infragestellung der Vorteile der Expertenstudien innerhalb archäologischer Traditionen</p></td>
+</tr>
+<tr class="even">
+<td>2</td>
+<td><p>1980</p>
+<p>bis</p>
+<p>2000</p></td>
+<td>Popularisierung und Spezialanwendungen</td>
+<td><p>– PC</p>
+<p>– Populäre Office- und Zeichenprogramme</p>
+<p>– Professionelle, kostspielige Software für konkrete Anwendungen</p>
+<p>.</p></td>
+<td><p>– GNU-Project</p>
+<p>– OpenSource</p>
+<p>– Linux</p></td>
+</tr>
+<tr class="odd">
+<td>3</td>
+<td><p>2000</p>
+<p>bis</p>
+<p>2015</p></td>
+<td>Wechsel zu Offenheit für “Nerds”</td>
+<td>– Vordergründig weiter wie in Stufe 2</td>
+<td><p>– git</p>
+<p>– GitHub etc.),</p>
+<p>– Markdown, Pandoc</p>
+<p>– R, Python, QGIS, …</p>
+<p>– UAV, Luftbilder, LiDAR, …</p>
+<p>.</p></td>
+</tr>
+<tr class="even">
+<td>4</td>
+<td>seit 2015</td>
+<td>Zugänglichkeit, Offenheit, Professionalität, “unbegrenzte” Möglichkeiten</td>
+<td><p>– Entwicklungen der Vorjahre tragen Früchte (einfache Anwendbarkeit, zunehmende Popularisierung, tatsächliche Ablösung proprietärer Systeme)</p>
+<p>– Verwirrende Vielfalt von hervorragenden Möglichkeiten</p>
+<p>– Wildwuchs von Standards, Regeln, Qualifikationen</p></td>
+<td>– Auflösung der Vormachtstellung der proprietären Lösungen aus Stufe 2?</td>
+</tr>
+</tbody>
+</table>
+</div>
 
 
-<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography" style="display: none">
-<div id="ref-homepage2023bitbucket" class="csl-entry" role="doc-biblioentry">
+<div id="refs" class="references csl-bib-body hanging-indent" role="list" style="display: none">
+<div id="ref-homepage2023bitbucket" class="csl-entry" role="listitem">
 Atlassian. 2023. <span>„Bitbucket: <span>Git</span> Solution for Teams Using <span>Jira</span>“</span>. <span>Bitbucket</span>. 11. Oktober 2023. <a href="https://bitbucket.org/product">https://bitbucket.org/product</a>.
 </div>
-<div id="ref-wikipedia2023bibtex" class="csl-entry" role="doc-biblioentry">
+<div id="ref-wikipedia2023bibtex" class="csl-entry" role="listitem">
 <span>„BibTeX“</span>. 2023. In <em>Wikipedia</em>. <a href="https://de.wikipedia.org/w/index.php?title=BibTeX&amp;oldid=234371314">https://de.wikipedia.org/w/index.php?title=BibTeX&amp;oldid=234371314</a>.
 </div>
-<div id="ref-wikipedia2023bitbucket" class="csl-entry" role="doc-biblioentry">
+<div id="ref-wikipedia2023bitbucket" class="csl-entry" role="listitem">
 <span>„Bitbucket“</span>. 2023. In <em>Wikipedia</em>. <a href="https://de.wikipedia.org/w/index.php?title=Bitbucket&amp;oldid=234613390">https://de.wikipedia.org/w/index.php?title=Bitbucket&amp;oldid=234613390</a>.
 </div>
-<div id="ref-caa2023history" class="csl-entry" role="doc-biblioentry">
+<div id="ref-caa2023history" class="csl-entry" role="listitem">
 <span>„<span>CAA History</span> <span>CAA International</span>“</span>. 2023. <span>Welcome to CAA</span>. 10. Oktober 2023. <a href="https://caa-international.org/about/history/">https://caa-international.org/about/history/</a>.
 </div>
-<div id="ref-Clarke1962" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Clarke1962" class="csl-entry" role="listitem">
 Clarke, D. L. 1962. <span>„Matrix <span>Analysis</span> and <span>Archaeology</span> with Particular Reference to <span>British Beaker Pottery</span>“</span>. <em>Proceedings of the Prehistoric Society</em> 28 (Dezember): 371–82. <a href="https://doi.org/10.1017/S0079497X00015772">https://doi.org/10.1017/S0079497X00015772</a>.
 </div>
-<div id="ref-dohrn-ihmig1976" class="csl-entry" role="doc-biblioentry">
+<div id="ref-dohrn-ihmig1976" class="csl-entry" role="listitem">
 Dohrn-Ihmig, Margarete. 1976. <span>„Die Anwendung statistischer Verfahren bei der Stilanalyse und bei der Erkennung von Typen am Beispiel verzierter bandkeramischer Gefäße“</span>. <em>Praehistorische Zeitschrift</em> 51: 1–25.
 </div>
-<div id="ref-dunnell1971" class="csl-entry" role="doc-biblioentry">
+<div id="ref-dunnell1971" class="csl-entry" role="listitem">
 Dunnell, Robert C. 1971. <em>Systematics in Prehistory</em>. New York: The Free Press.
 </div>
-<div id="ref-wikipedia2023git" class="csl-entry" role="doc-biblioentry">
+<div id="ref-wikipedia2023git" class="csl-entry" role="listitem">
 <span>„Git“</span>. 2023a. In <em>Wikipedia</em>. <a href="https://de.wikipedia.org/w/index.php?title=Git&amp;oldid=237497185">https://de.wikipedia.org/w/index.php?title=Git&amp;oldid=237497185</a>.
 </div>
-<div id="ref-homepage2023git" class="csl-entry" role="doc-biblioentry">
+<div id="ref-homepage2023git" class="csl-entry" role="listitem">
 <span>„Git“</span>. 2023b. 11. Oktober 2023. <a href="https://git-scm.com/">https://git-scm.com/</a>.
 </div>
-<div id="ref-wikipedia2023github" class="csl-entry" role="doc-biblioentry">
+<div id="ref-wikipedia2023github" class="csl-entry" role="listitem">
 <span>„GitHub“</span>. 2023. In <em>Wikipedia</em>. <a href="https://de.wikipedia.org/w/index.php?title=GitHub&amp;oldid=235425545">https://de.wikipedia.org/w/index.php?title=GitHub&amp;oldid=235425545</a>.
 </div>
-<div id="ref-homepage2023github" class="csl-entry" role="doc-biblioentry">
+<div id="ref-homepage2023github" class="csl-entry" role="listitem">
 <span>„<span>GitHub</span>: <span>Let</span>’s Build from Here“</span>. 2023. <span>GitHub</span>. 11. Oktober 2023. <a href="https://github.com/">https://github.com/</a>.
 </div>
-<div id="ref-wikipedia2023gitlab" class="csl-entry" role="doc-biblioentry">
+<div id="ref-wikipedia2023gitlab" class="csl-entry" role="listitem">
 <span>„GitLab“</span>. 2023. In <em>Wikipedia</em>. <a href="https://de.wikipedia.org/w/index.php?title=GitLab&amp;oldid=237463922">https://de.wikipedia.org/w/index.php?title=GitLab&amp;oldid=237463922</a>.
 </div>
-<div id="ref-gnu-proj2020" class="csl-entry" role="doc-biblioentry">
+<div id="ref-gnu-proj2020" class="csl-entry" role="listitem">
 <span>„GNU-Projekt“</span>. 2020. <a href="https://de.wikipedia.org/w/index.php?title=GNU-Projekt&amp;oldid=205119299">https://de.wikipedia.org/w/index.php?title=GNU-Projekt&amp;oldid=205119299</a>.
 </div>
-<div id="ref-Gruber2004" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Gruber2004" class="csl-entry" role="listitem">
 Gruber, John. 2004. <span>„Markdown“</span>. <span>Daring Fireball</span>. 17. Dezember 2004. <a href="https://daringfireball.net/projects/markdown/">https://daringfireball.net/projects/markdown/</a>.
 </div>
-<div id="ref-HodsonEtAl1966" class="csl-entry" role="doc-biblioentry">
+<div id="ref-HodsonEtAl1966" class="csl-entry" role="listitem">
 Hodson, F. R., P. H. A. Sneath, und J. E. Doran. 1966. <span>„Some <span>Experiments</span> in the <span>Numerical Analysis</span> of <span>Archaeological Data</span>“</span>. <em>Biometrika</em> 53 (3/4): 311–24. <a href="https://doi.org/10.2307/2333638">https://doi.org/10.2307/2333638</a>.
 </div>
-<div id="ref-ihm1978" class="csl-entry" role="doc-biblioentry">
+<div id="ref-ihm1978" class="csl-entry" role="listitem">
 Ihm, Peter, Jens Lüning, und Andreas Zimmermann. 1978. <em>Statistik in der Archäologie: Probleme d. Anwendung, allg. Methoden, Seriation u. Klassifikation</em>. Archaeo-physika, Bd. 9. Köln : Bonn: Rheinland-Verlag ; Habelt [in Komm.].
 </div>
-<div id="ref-wikipedia2023latex" class="csl-entry" role="doc-biblioentry">
+<div id="ref-wikipedia2023latex" class="csl-entry" role="listitem">
 <span>„LaTeX“</span>. 2023. In <em>Wikipedia</em>. <a href="https://de.wikipedia.org/w/index.php?title=LaTeX&amp;oldid=235822427">https://de.wikipedia.org/w/index.php?title=LaTeX&amp;oldid=235822427</a>.
 </div>
-<div id="ref-LeBlanc1975a" class="csl-entry" role="doc-biblioentry">
+<div id="ref-LeBlanc1975a" class="csl-entry" role="listitem">
 LeBlanc, Steven A. 1975. <span>„Micro-<span>Seriation</span>: <span>A Method</span> for <span>Fine Chronologic Differentiation</span>“</span>. <em>American Antiquity</em> 40 (1): 22–38. <a href="https://doi.org/10.2307/279266">https://doi.org/10.2307/279266</a>.
 </div>
-<div id="ref-LiPingel2000" class="csl-entry" role="doc-biblioentry">
+<div id="ref-LiPingel2000" class="csl-entry" role="listitem">
 Li, Chuanrong, und Volker Pingel, Hrsg. 2000. <em>The archaeological aerial photo-atlas of Linzi, China</em>. <span>Jinan</span>: <span>Shandong Sheng di-tu chu-ban-she</span>.
 </div>
-<div id="ref-wikipedia2023markdown" class="csl-entry" role="doc-biblioentry">
+<div id="ref-wikipedia2023markdown" class="csl-entry" role="listitem">
 <span>„Markdown“</span>. 2023. In <em>Wikipedia</em>. <a href="https://de.wikipedia.org/w/index.php?title=Markdown&amp;oldid=237670781">https://de.wikipedia.org/w/index.php?title=Markdown&amp;oldid=237670781</a>.
 </div>
-<div id="ref-homepage2022pandoc" class="csl-entry" role="doc-biblioentry">
+<div id="ref-homepage2022pandoc" class="csl-entry" role="listitem">
 <span>„Pandoc“</span>. 2022. In <em>Wikipedia</em>. <a href="https://de.wikipedia.org/w/index.php?title=Pandoc&amp;oldid=220394507">https://de.wikipedia.org/w/index.php?title=Pandoc&amp;oldid=220394507</a>.
 </div>
-<div id="ref-wikipedia2023jupyterproject" class="csl-entry" role="doc-biblioentry">
+<div id="ref-wikipedia2023jupyterproject" class="csl-entry" role="listitem">
 <span>„Project <span>Jupyter</span>“</span>. 2023. In <em>Wikipedia</em>. <a href="https://en.wikipedia.org/w/index.php?title=Project_Jupyter&amp;oldid=1174822233">https://en.wikipedia.org/w/index.php?title=Project_Jupyter&amp;oldid=1174822233</a>.
 </div>
-<div id="ref-homepage2023jupyterproject" class="csl-entry" role="doc-biblioentry">
+<div id="ref-homepage2023jupyterproject" class="csl-entry" role="listitem">
 <span>„Project <span>Jupyter</span> | <span>Home</span>“</span>. o.&nbsp;J. Zugegriffen 20. Oktober 2023. <a href="https://jupyter.org/">https://jupyter.org/</a>.
 </div>
-<div id="ref-wikipedia2023python" class="csl-entry" role="doc-biblioentry">
+<div id="ref-wikipedia2023python" class="csl-entry" role="listitem">
 <span>„Python (Programmiersprache)“</span>. 2023. In <em>Wikipedia</em>. <a href="https://de.wikipedia.org/w/index.php?title=Python_(Programmiersprache)&amp;oldid=237866742">https://de.wikipedia.org/w/index.php?title=Python_(Programmiersprache)&amp;oldid=237866742</a>.
 </div>
-<div id="ref-homepage2023rmarkdownrstudio" class="csl-entry" role="doc-biblioentry">
+<div id="ref-homepage2023rmarkdownrstudio" class="csl-entry" role="listitem">
 <span>„R <span>Markdown</span>“</span>. o.&nbsp;J. <span>R Markdown from RStudio</span>. Zugegriffen 20. Oktober 2023. <a href="https://rmarkdown.rstudio.com/">https://rmarkdown.rstudio.com/</a>.
 </div>
-<div id="ref-wikipedia2023R" class="csl-entry" role="doc-biblioentry">
+<div id="ref-wikipedia2023R" class="csl-entry" role="listitem">
 <span>„R (Programmiersprache)“</span>. 2023. In <em>Wikipedia</em>. <a href="https://de.wikipedia.org/w/index.php?title=R_(Programmiersprache)&amp;oldid=237677667">https://de.wikipedia.org/w/index.php?title=R_(Programmiersprache)&amp;oldid=237677667</a>.
 </div>
-<div id="ref-ShinotoEtAl2002TopometricalmeasurementsTiryns" class="csl-entry" role="doc-biblioentry">
+<div id="ref-ShinotoEtAl2002TopometricalmeasurementsTiryns" class="csl-entry" role="listitem">
 Shinoto, Maria, Zoltán Böröcz, Carsten Thomas, Dieter Dirksen, Joseph Maran, Gert von Bally, Göran Burenhult, und Johan Arvidsson. 2002. <span>„Topometrical Measurements in <span>Tiryns</span>, <span>Greece</span>: Report on a Co-Operate Project Between Physics and Archaeology“</span>. In <em>Archaeological Informatics: Pushing the Envelope: <span>CAA</span> 2001: <span>Proceedings</span> of the 28th Conference, <span>Gotland</span>, <span>April</span> 2001</em>, 181–89. <span>BAR International Series</span> 1016. <span>BAR Publishing</span>.
 </div>
-<div id="ref-SongLeidorf2020" class="csl-entry" role="doc-biblioentry">
+<div id="ref-SongLeidorf2020" class="csl-entry" role="listitem">
 Song, Baoquan, und Klaus Leidorf. 2020. <em>Faszination Luftbildarchäologie: die Welt aus der Vogelperspektive</em>. Archäologie in Deutschland Sonderheft, 17 (2020). <span>Darmstadt</span>: <span>wbg Theiss</span>.
 </div>
-<div id="ref-SongEtAl2019" class="csl-entry" role="doc-biblioentry">
+<div id="ref-SongEtAl2019" class="csl-entry" role="listitem">
 Song, Baoquan, Klaus Leidorf, und Eckhard Heller. 2019. <em>Luftbildarchäologie: archäologische Spurensuche aus der Luft: Methoden und Techniken - klassisch und virtuell</em>. AiD, Archäologie in Deutschland. <span>Darmstadt</span>: <span>wbg Theiss</span>.
 </div>
-<div id="ref-stallman1985" class="csl-entry" role="doc-biblioentry">
+<div id="ref-stallman1985" class="csl-entry" role="listitem">
 Stallman, Richard. 1985. <span>„The GNU Manifesto“</span>. <a href="https://www.gnu.org/gnu/manifesto.en.html">https://www.gnu.org/gnu/manifesto.en.html</a>.
 </div>
-<div id="ref-homepage2023gitlab" class="csl-entry" role="doc-biblioentry">
+<div id="ref-sweave2020" class="csl-entry" role="listitem">
+<span>„Sweave“</span>. 2020. <a href="https://de.wikipedia.org/w/index.php?title=Sweave&amp;oldid=197231878">https://de.wikipedia.org/w/index.php?title=Sweave&amp;oldid=197231878</a>.
+</div>
+<div id="ref-homepage2023gitlab" class="csl-entry" role="listitem">
 <span>„The <span>DevSecOps Platform</span>“</span>. 2023. 11. Oktober 2023. <a href="https://about.gitlab.com/">https://about.gitlab.com/</a>.
 </div>
-<div id="ref-Vossen1970" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Vossen1970" class="csl-entry" role="listitem">
 Vossen, Rüdiger. 1970. <span>„Klassifikationsprobleme und Klassifikationssysteme in der Amerikanischen Archäologie“</span>. <em>Acta Praehistorica et Archaeologica</em> 1: 29–79. <a href="https://doi.org/10.11588/apa.1970.0.67961">https://doi.org/10.11588/apa.1970.0.67961</a>.
 </div>
-<div id="ref-weber2014" class="csl-entry" role="doc-biblioentry">
+<div id="ref-weber2014" class="csl-entry" role="listitem">
 Weber, Thomas, und Andreas Zimmermann. 2014. <span>„Nachruf auf Peter Ihm (29.12.1926 - 24.3.2014)“</span>. <em>Archäologische Informationen</em> 36 (Juni): 8–9. <a href="https://doi.org/10.11588/AI.2013.0.15376">https://doi.org/10.11588/AI.2013.0.15376</a>.
 </div>
-<div id="ref-Whallon1971" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Whallon1971" class="csl-entry" role="listitem">
 Whallon, Robert. 1971. <span>„A <span>Computer Program</span> for <span>Monothetic Subdivisive Classification</span> in <span>Archaeology</span>“</span>. <em>Contributions in Computer Applications to Archaeology. Ann Arbor, Museum of Anthropology, The University of Michigan</em> Technical Reports 1.
 </div>
-<div id="ref-Whallon1972" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Whallon1972" class="csl-entry" role="listitem">
 ———. 1972a. <span>„A <span>New Approach</span> to <span>Pottery Typology</span>“</span>. <em>American Antiquity</em> 37 (1): 13–33. <a href="https://doi.org/10.2307/278883">https://doi.org/10.2307/278883</a>.
 </div>
-<div id="ref-Whallon1972a" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Whallon1972a" class="csl-entry" role="listitem">
 ———. 1972b. <span>„The Computer in Archaeology: <span>A</span> Critical Survey“</span>. <em>Computers and the Humanities</em> 7 (1): 29–45. <a href="https://doi.org/10.1007/BF02403759">https://doi.org/10.1007/BF02403759</a>.
 </div>
-<div id="ref-Xie2001" class="csl-entry" role="doc-biblioentry">
+<div id="ref-Xie2001" class="csl-entry" role="listitem">
 Xie, Yihui. 2001–2023. <span>„Knitr - <span>Elegant</span>, Flexible, and Fast Dynamic Report Generation with <span>R</span>“</span>. 2001–2023. <a href="https://yihui.org/knitr/">https://yihui.org/knitr/</a>.
 </div>
-<div id="ref-XieEtAl2019" class="csl-entry" role="doc-biblioentry">
+<div id="ref-XieEtAl2019" class="csl-entry" role="listitem">
 Xie, Yihui, J. J. Allaire, und Garrett Grolemund. 2019 (2023). <em>R <span>Markdown</span>: <span>The Definitive Guide</span></em>. The <span>R Series</span> (<span>Https://Www.routledge.com/Chapman–HallCRC-The-R-Series/Book-Series/CRCTHERSER)</span>. <span>Chapman &amp; Hall/CRC</span>. <a href="https://bookdown.org/yihui/rmarkdown/">https://bookdown.org/yihui/rmarkdown/</a>.
 </div>
 </div>
-</section>
 </section>
 
 </main> <!-- /main -->
@@ -578,9 +691,23 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     icon: icon
   };
   anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
   const clipboard = new window.ClipboardJS('.code-copy-button', {
-    target: function(trigger) {
-      return trigger.previousElementSibling;
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
     }
   });
   clipboard.on('success', function(e) {
@@ -645,6 +772,92 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       return note.innerHTML;
     });
   }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
   const findCites = (el) => {
     const parentEl = el.parentElement;
     if (parentEl) {
@@ -697,6 +910,17 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   </div>
 </nav>
 </div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">Version 0.0.0.2, Creative Commons Attribution 4.0 International<br> <a href="https://doi.org/10.5281/zenodo.8342717)">DOI: https://doi.org/10.5281/zenodo.8342717</a></div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
 
 
 
